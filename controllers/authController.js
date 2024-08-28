@@ -34,6 +34,7 @@ const loginUser = (statusCode, curUser, req, res) => {
     token,
   });
 };
+// signup method
 exports.signup = catchAsync(async (req, res, next) => {
   const newUser = await User.create({
     name: req.body.name,
@@ -41,11 +42,6 @@ exports.signup = catchAsync(async (req, res, next) => {
     passwordConfirm: req.body.passwordConfirm,
     email: req.body.email,
   });
-  const url = `${req.protocol}://${req.get('host')}/me`;
-  // console.log(url);
-  await new Email(newUser, url).sendWelcome();
-  // console.log('finesh send');
-
   loginUser(201, newUser, req, res);
 });
 // login method
