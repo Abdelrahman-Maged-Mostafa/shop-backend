@@ -28,9 +28,9 @@ app.set('views', path.join(__dirname, 'views'));
 ///this helmet for more than 15 middle ware functions
 app.use(helmet());
 //this will make app work with post and get
-app.use(cors({ credentials: true }));
+app.use(cors());
 //this will open all methods
-app.options(`*`, cors({ credentials: true }));
+app.options(`*`, cors());
 //to know some info about your requestes in development
 if (process.env.NODE_ENV === 'development') app.use(morgan(`dev`));
 
