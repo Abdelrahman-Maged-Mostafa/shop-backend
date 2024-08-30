@@ -20,6 +20,7 @@ const {
   protect,
   restrictTo,
   logout,
+  valid,
 } = require('../controllers/authController');
 /// server router
 const router = express.Router();
@@ -34,6 +35,7 @@ router.patch('/resetPassword/:token', resetPassword);
 //protected routers should login to do this method
 router.use(protect);
 //meddle ware work in place before it not work with them after it will work with them
+router.get('/valid', valid);
 router.get('/me', getMe, getOneuser);
 router.delete('/deleteMe', deleteMe);
 router.patch('/updateMe', uploadUserPhoto, resizeUserPhoto, updateMe);
