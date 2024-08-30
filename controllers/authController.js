@@ -79,9 +79,10 @@ exports.protect = catchAsync(async (req, res, next) => {
   if (!token) {
     return next(new AppError('You are not logged in please login to get access.', 401));
   }
-
+  console.log(token);
   const decoded = await promisify(jwt.verify)(token, process.env.JWT_SECRET);
   //we handel 2 error in appError expaired token and not valid token
+  console.log(decoded);
   const freshUser = await User.findById(decoded.id);
 
   //Check if user still have account or deleted it
