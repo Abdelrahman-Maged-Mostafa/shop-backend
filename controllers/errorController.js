@@ -84,7 +84,6 @@ exports.middlewareError = (err, req, res, next) => {
     if (error._message === 'Tour validation failed') error = handlValidationErrorDB(error);
     if (error.name === 'JsonWebTokenError') error = handleJWTErrorDB();
     if (error.name === 'TokenExpiredError') error = handleJWTExpiredErrorDB();
-    console.log(error);
     sendErrProd(error, res);
   }
 };
