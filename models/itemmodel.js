@@ -55,7 +55,7 @@ const itemSchema = new mongoose.Schema(
 itemSchema.index({ price: 1, ratingsAverage: -1 });
 
 // this for get all reviewss from reviews in data base this will combare the tour id vs the id in every review in tour field becouse that we write tour in foreignField and in localField write _id
-itemSchema.virtual('reviews', { ref: 'Review', foreignField: 'tour', localField: '_id' });
+itemSchema.virtual('reviews', { ref: 'Review', foreignField: 'item', localField: '_id' });
 
 const Item = mongoose.model('Item', itemSchema);
 module.exports = Item;
