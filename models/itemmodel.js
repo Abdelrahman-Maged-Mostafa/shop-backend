@@ -12,8 +12,8 @@ const itemSchema = new mongoose.Schema(
     },
     ratingsAverage: {
       type: Number,
-      default: 4.5,
-      min: [1, 'Rating should be above 1.0'],
+      default: 0,
+      min: [0, 'Rating should be above 0'],
       max: [5, 'Rating should be below 5.0'],
       set: (val) => Math.round(val * 10) / 10,
     },
