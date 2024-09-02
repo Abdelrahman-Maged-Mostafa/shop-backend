@@ -15,7 +15,6 @@ const userRouter = require('./routes/userRouter');
 const AppError = require('./utils/appError');
 const { middlewareError } = require('./controllers/errorController');
 const reviewRouter = require('./routes/reviewRouter');
-const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRouters');
 
 const app = express();
@@ -96,9 +95,6 @@ app.use(usersURL, userRouter);
 
 const reviewURL = '/api/v1/reviews';
 app.use(reviewURL, reviewRouter);
-
-const bookingURL = '/api/v1/bookings';
-app.use(bookingURL, bookingRouter);
 
 app.all('*', (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
