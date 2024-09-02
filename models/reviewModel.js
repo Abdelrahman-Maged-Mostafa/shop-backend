@@ -29,20 +29,20 @@ reviewSchema.pre(/^find/, function (next) {
 });
 // last thing in any folder after all meddle ware
 
-reviewSchema.statics.calcAvrageRatings = async function (tourId) {
+reviewSchema.statics.calcAvrageRatings = async function (itemId) {
   const stats = await this.aggregate([
-    { $match: { tour: tourId } },
-    { $group: { _id: '$tour', nRatings: { $sum: 1 }, avgRating: { $avg: '$rating' } } },
+    { $match: { item: itemId } },
+    { $group: { _id: '$item', nRatings: { $sum: 1 }, avgRating: { $avg: '$rating' } } },
   ]);
   if (stats.length > 0) {
-    await Item.findByIdAndUpdate(tourId, {
+    await Item.findByIdAndUpdate(itemId, {
       ratingsQuantity: stats[0].nRatings,
       ratingsAverage: stats[0].avgRating,
     });
   } else {
-    await Item.findByIdAndUpdate(tourId, {
+    await Item.findByIdAndUpdate(itemId, {
       ratingsQuantity: 0,
-      ratingsAverage: 4.5,
+      ratingsAverage: 0,
     });
   }
 };
