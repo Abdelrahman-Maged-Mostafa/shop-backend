@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Tour = require('./itemmodel');
+const Item = require('./itemmodel');
 
 const reviewSchema = new mongoose.Schema(
   {
@@ -11,20 +11,20 @@ const reviewSchema = new mongoose.Schema(
       ref: 'User',
       require: [true, 'Review must belong to a user'],
     },
-    tour: {
+    item: {
       type: mongoose.Schema.ObjectId,
-      ref: 'Tour',
-      require: [true, 'Review must belong to a tour'],
+      ref: 'Item',
+      require: [true, 'Review must belong to a item'],
     },
   },
   { toJSON: { virtuals: true }, toObject: { virtuals: true } },
 );
 // we write this line of code to no one write over than 1 review in every tour that easy way to do it :)
-reviewSchema.index({ tour: 1, user: 1 }, { unique: true });
+reviewSchema.index({ item: 1, user: 1 }, { unique: true });
 
 reviewSchema.pre(/^find/, function (next) {
-  this.populate({ path: 'user', select: 'name photo' });
-  //   this.populate({ path: 'tour', select: 'name' });
+  this.populate({ path: 'user', select: 'name' });
+  //   this.populate({ path: 'item', select: 'name' });
   next();
 });
 // last thing in any folder after all meddle ware
@@ -35,12 +35,12 @@ reviewSchema.statics.calcAvrageRatings = async function (tourId) {
     { $group: { _id: '$tour', nRatings: { $sum: 1 }, avgRating: { $avg: '$rating' } } },
   ]);
   if (stats.length > 0) {
-    await Tour.findByIdAndUpdate(tourId, {
+    await Item.findByIdAndUpdate(tourId, {
       ratingsQuantity: stats[0].nRatings,
       ratingsAverage: stats[0].avgRating,
     });
   } else {
-    await Tour.findByIdAndUpdate(tourId, {
+    await Item.findByIdAndUpdate(tourId, {
       ratingsQuantity: 0,
       ratingsAverage: 4.5,
     });
@@ -48,7 +48,7 @@ reviewSchema.statics.calcAvrageRatings = async function (tourId) {
 };
 
 reviewSchema.post('save', function () {
-  this.constructor.calcAvrageRatings(this.tour);
+  this.constructor.calcAvrageRatings(this.item);
 });
 
 reviewSchema.pre(/^findOneAnd/, async function () {
@@ -56,7 +56,7 @@ reviewSchema.pre(/^findOneAnd/, async function () {
 });
 
 reviewSchema.post(/^findOneAnd/, async function () {
-  await this.r.constructor.calcAvrageRatings(this.r.tour);
+  await this.r.constructor.calcAvrageRatings(this.r.item);
 });
 
 const Review = mongoose.model('Review', reviewSchema);
