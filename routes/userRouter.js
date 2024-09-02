@@ -1,5 +1,6 @@
 const express = require('express');
 const {
+  addToCart,
   uploadUserPhoto,
   resizeUserPhoto,
   getAllusers,
@@ -36,6 +37,8 @@ router.patch('/resetPassword/:token', resetPassword);
 router.use(protect);
 //meddle ware work in place before it not work with them after it will work with them
 router.get('/valid', valid);
+router.patch('/addToCart/:itemId', addToCart);
+
 router.get('/me', getMe, getOneuser);
 router.delete('/deleteMe', deleteMe);
 router.patch('/updateMe', uploadUserPhoto, resizeUserPhoto, updateMe);

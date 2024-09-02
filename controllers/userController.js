@@ -136,7 +136,24 @@ const updateuser = updateOne(User);
 //this not make user inactive only nooooooo this will delete user from database
 const deleteuser = deleteOne(User);
 
+const addToCart = catchAsync(async (req, res, next) => {
+  const user = await User.updateOne(
+    { _id: req.user._id },
+    { $addToSet: { cartItems: req.params.itemId } },
+  );
+
+  if (!user) {
+    return next(new AppError('Update faild', 404));
+  }
+
+  res.status(204).json({
+    status: 'success',
+    data: null,
+  });
+});
+
 module.exports = {
+  addToCart,
   uploadUserPhoto,
   resizeUserPhoto,
   getAllusers,

@@ -30,6 +30,20 @@ const userSchema = new mongoose.Schema({
       message: 'passwords are not the same',
     },
   },
+  cartItems: [
+    {
+      type: mongoose.Schema.ObjectId,
+      ref: 'Item',
+      unique: true, // Ensure unique strings in the array
+    },
+  ],
+  wishList: [
+    {
+      type: mongoose.Schema.ObjectId,
+      ref: 'Item',
+      unique: true,
+    },
+  ],
   passwordChangedAt: { type: Date },
   passwordResetToken: { type: String },
   passwordResetExpires: { type: Date },
