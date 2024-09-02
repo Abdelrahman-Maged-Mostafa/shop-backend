@@ -10,7 +10,7 @@ const cookieParser = require('cookie-parser');
 const compression = require('compression');
 const cors = require('cors');
 
-const tourRouter = require('./routes/tourRouter');
+const itemRouter = require('./routes/itemRouter');
 const userRouter = require('./routes/userRouter');
 const AppError = require('./utils/appError');
 const { middlewareError } = require('./controllers/errorController');
@@ -88,8 +88,8 @@ app.use((req, res, next) => {
 const viewURL = '/';
 app.use(viewURL, viewRouter);
 
-const toursURL = '/api/v1/tours';
-app.use(toursURL, tourRouter);
+const toursURL = '/api/v1/items';
+app.use(toursURL, itemRouter);
 
 const usersURL = '/api/v1/users';
 app.use(usersURL, userRouter);

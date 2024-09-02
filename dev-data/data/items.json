@@ -1,0 +1,344 @@
+[
+  {
+    "name": "Man T-shirt",
+    "price": 30,
+    "imageCover": "/images/tshirt-img2.png",
+    "images": [
+      "/images/tshirt-img2.png",
+      "/images/download-removebg-preview.png",
+      "/images/png-clipart-printed-t-shirt-polo-shirt-clothing-t-shirt-tshirt-fashion-thumbnail-removebg-preview.png"
+    ],
+    "ratingsAverage": 2.5,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 13,
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "Man drees",
+    "price": 80,
+    "imageCover": "/images/dress-shirt-img.png",
+    "images": ["/images/dress-shirt-img.png", "/images/2.png", "/images/3.png"],
+    "ratingsAverage": 2.1,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 115,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "computer core-i9",
+    "price": 180,
+
+    "imageCover": "/images/computer-img.png",
+    "images": ["/images/computer-img.png", "/images/4.png", "/images/5.png"],
+    "ratingsAverage": 3.1,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 62,
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "mobile galaxy",
+    "price": 70,
+
+    "imageCover": "/images/mobile-img2.png",
+    "images": ["/images/mobile-img2.png", "/images/6.png", "/images/7.png"],
+    "ratingsAverage": 1.9,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 97,
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "laptop-img.png",
+    "price": 90,
+
+    "imageCover": "/images/laptop-img.png",
+    "images": ["/images/laptop-img.png", "/images/11.png", "/images/22.png"],
+    "ratingsAverage": 4.1,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 188,
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "necklace",
+    "price": 90,
+
+    "imageCover": "/images/neklesh-img2.png",
+    "images": ["/images/neklesh-img2.png", "/images/33.png", "/images/44.png"],
+    "ratingsAverage": 2.9,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 186,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "kangan",
+    "price": 90,
+
+    "imageCover": "/images/kangan-img2.png",
+    "images": ["/images/kangan-img2.png", "/images/88.png", "/images/99.png"],
+    "ratingsAverage": 1.3,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 254,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "Man T-shirt",
+    "price": 30,
+
+    "imageCover": "/images/tshirt-img2.png",
+    "images": [
+      "/images/tshirt-img2.png",
+      "/images/download-removebg-preview.png",
+      "/images/png-clipart-printed-t-shirt-polo-shirt-clothing-t-shirt-tshirt-fashion-thumbnail-removebg-preview.png"
+    ],
+    "ratingsAverage": 2,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 169,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "Man drees",
+    "price": 80,
+
+    "imageCover": "/images/dress-shirt-img.png",
+    "images": ["/images/dress-shirt-img.png", "/images/2.png", "/images/3.png"],
+    "ratingsAverage": 3.3,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 19,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "computer core-i9",
+    "price": 180,
+
+    "imageCover": "/images/computer-img.png",
+    "images": ["/images/computer-img.png", "/images/4.png", "/images/5.png"],
+    "ratingsAverage": 4.9,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 18,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "mobile galaxy",
+    "price": 70,
+
+    "imageCover": "/images/mobile-img2.png",
+    "images": ["/images/mobile-img2.png", "/images/6.png", "/images/7.png"],
+    "ratingsAverage": 4.6,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 205,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "laptop-img.png",
+    "price": 90,
+
+    "imageCover": "/images/laptop-img.png",
+    "images": ["/images/laptop-img.png", "/images/11.png", "/images/22.png"],
+    "ratingsAverage": 3.2,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 111,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "necklace",
+    "price": 90,
+
+    "imageCover": "/images/neklesh-img2.png",
+    "images": ["/images/neklesh-img2.png", "/images/33.png", "/images/44.png"],
+    "ratingsAverage": 1.8,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 121,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "kangan",
+    "price": 90,
+
+    "imageCover": "/images/kangan-img2.png",
+    "images": ["/images/kangan-img2.png", "/images/88.png", "/images/99.png"],
+    "ratingsAverage": 3.9,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 28,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "Man T-shirt",
+    "price": 30,
+
+    "imageCover": "/images/tshirt-img2.png",
+    "images": [
+      "/images/tshirt-img2.png",
+      "/images/download-removebg-preview.png",
+      "/images/png-clipart-printed-t-shirt-polo-shirt-clothing-t-shirt-tshirt-fashion-thumbnail-removebg-preview.png"
+    ],
+    "ratingsAverage": 3.1,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 128,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "Man drees",
+    "price": 80,
+
+    "imageCover": "/images/dress-shirt-img.png",
+    "images": ["/images/dress-shirt-img.png", "/images/2.png", "/images/3.png"],
+    "ratingsAverage": 1.8,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 201,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "computer core-i9",
+    "price": 180,
+
+    "imageCover": "/images/computer-img.png",
+    "images": ["/images/computer-img.png", "/images/4.png", "/images/5.png"],
+    "ratingsAverage": 1.3,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 213,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "mobile galaxy",
+    "price": 70,
+
+    "imageCover": "/images/mobile-img2.png",
+    "images": ["/images/mobile-img2.png", "/images/6.png", "/images/7.png"],
+    "ratingsAverage": 3.6,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 115,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "laptop-img.png",
+    "price": 90,
+
+    "imageCover": "/images/laptop-img.png",
+    "images": ["/images/laptop-img.png", "/images/11.png", "/images/22.png"],
+    "ratingsAverage": 2,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 57,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "necklace",
+    "price": 90,
+
+    "imageCover": "/images/neklesh-img2.png",
+    "images": ["/images/neklesh-img2.png", "/images/33.png", "/images/44.png"],
+    "ratingsAverage": 3.2,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 183,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "kangan",
+    "price": 90,
+
+    "imageCover": "/images/kangan-img2.png",
+    "images": ["/images/kangan-img2.png", "/images/88.png", "/images/99.png"],
+    "ratingsAverage": 4.4,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 183,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "Man T-shirt",
+    "price": 30,
+
+    "imageCover": "/images/tshirt-img2.png",
+    "images": [
+      "/images/tshirt-img2.png",
+      "/images/download-removebg-preview.png",
+      "/images/png-clipart-printed-t-shirt-polo-shirt-clothing-t-shirt-tshirt-fashion-thumbnail-removebg-preview.png"
+    ],
+    "ratingsAverage": 3.4,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 69,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "Man drees",
+    "price": 80,
+
+    "imageCover": "/images/dress-shirt-img.png",
+    "images": ["/images/dress-shirt-img.png", "/images/2.png", "/images/3.png"],
+    "ratingsAverage": 4.7,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 151,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "computer core-i9",
+    "price": 180,
+
+    "imageCover": "/images/computer-img.png",
+    "images": ["/images/computer-img.png", "/images/4.png", "/images/5.png"],
+    "ratingsAverage": 4,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 124,
+
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "mobile galaxy",
+    "price": 70,
+
+    "imageCover": "/images/mobile-img2.png",
+    "images": ["/images/mobile-img2.png", "/images/6.png", "/images/7.png"],
+    "ratingsAverage": 2.9,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 77,
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "laptop-img.png",
+    "price": 90,
+
+    "imageCover": "/images/laptop-img.png",
+    "images": ["/images/laptop-img.png", "/images/11.png", "/images/22.png"],
+    "ratingsAverage": 1,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 226,
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "necklace",
+    "price": 90,
+
+    "imageCover": "/images/neklesh-img2.png",
+    "images": ["/images/neklesh-img2.png", "/images/33.png", "/images/44.png"],
+    "ratingsAverage": 4.1,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 55,
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  },
+  {
+    "name": "kangan",
+    "price": 90,
+
+    "imageCover": "/images/kangan-img2.png",
+    "images": ["/images/kangan-img2.png", "/images/88.png", "/images/99.png"],
+    "ratingsAverage": 3.1,
+    "shortDescription": "This is a short description of the product.",
+    "stock": 56,
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+  }
+]

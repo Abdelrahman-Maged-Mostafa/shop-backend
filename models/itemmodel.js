@@ -7,7 +7,7 @@ const itemSchema = new mongoose.Schema(
       required: [true, 'A item must have a name'],
       trim: true,
       maxlength: [40, 'A item name must have less than 41 characters'],
-      minlength: [10, 'A item name must have more than 9 characters'],
+      minlength: [3, 'A item name must have more than 9 characters'],
       // validate: [validator.isAlpha, 'Tour name must only contains characters'],
     },
     ratingsAverage: {
