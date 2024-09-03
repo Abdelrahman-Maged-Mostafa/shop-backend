@@ -146,13 +146,30 @@ const addToCart = catchAsync(async (req, res, next) => {
     return next(new AppError('Update faild', 404));
   }
 
-  res.status(204).json({
+  res.status(200).json({
+    status: 'success',
+    data: null,
+  });
+});
+
+const removeFromCart = catchAsync(async (req, res, next) => {
+  const user = await User.updateOne(
+    { _id: req.user._id },
+    { $pull: { cartItems: req.params.itemId } },
+  );
+
+  if (!user) {
+    return next(new AppError('Update faild', 404));
+  }
+
+  res.status(200).json({
     status: 'success',
     data: null,
   });
 });
 
 module.exports = {
+  removeFromCart,
   addToCart,
   uploadUserPhoto,
   resizeUserPhoto,

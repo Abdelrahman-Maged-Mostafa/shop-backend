@@ -11,6 +11,7 @@ const {
   updateMe,
   deleteMe,
   getMe,
+  removeFromCart,
 } = require('../controllers/userController');
 const {
   signup,
@@ -38,6 +39,7 @@ router.use(protect);
 //meddle ware work in place before it not work with them after it will work with them
 router.get('/valid', valid);
 router.patch('/addToCart/:itemId', addToCart);
+router.patch('/removeFromCart/:itemId', removeFromCart);
 
 router.get('/me', getMe, getOneuser);
 router.delete('/deleteMe', deleteMe);
