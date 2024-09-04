@@ -1,8 +1,6 @@
 const express = require('express');
 const {
   addToCart,
-  uploadUserPhoto,
-  resizeUserPhoto,
   getAllusers,
   createNewuser,
   getOneuser,
@@ -43,7 +41,7 @@ router.patch('/removeFromCart/:itemId', removeFromCart);
 
 router.get('/me', getMe, getOneuser);
 router.delete('/deleteMe', deleteMe);
-router.patch('/updateMe', uploadUserPhoto, resizeUserPhoto, updateMe);
+router.patch('/updateMe', updateMe);
 router.patch('/updateMyPassword', updatePassword);
 
 //should be only admin do this method only createNewuser will be free
