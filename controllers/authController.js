@@ -32,7 +32,6 @@ const loginUser = (statusCode, curUser, req, res) => {
   res.status(statusCode).json({
     status: 'success',
     token,
-    curUser,
   });
 };
 // signup method
