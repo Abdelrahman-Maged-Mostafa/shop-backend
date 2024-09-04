@@ -30,6 +30,8 @@ const userSchema = new mongoose.Schema({
       message: 'passwords are not the same',
     },
   },
+  phone: { type: String },
+  address: { type: String },
   cartItems: [
     {
       type: mongoose.Schema.ObjectId,
@@ -83,7 +85,7 @@ userSchema.methods.createPasswordResetToken = async function () {
   const resetToken = crypto.randomBytes(32).toString('hex');
   this.passwordResetToken = crypto.createHash('sha256').update(resetToken).digest('hex');
 
-  this.passwordResetExpires = Date.now() + 10 * 60 * 1000;
+  this.passwordResetExpires = Date.now() + 60 * 60 * 1000;
 
   return resetToken;
 };

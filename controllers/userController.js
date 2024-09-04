@@ -83,16 +83,14 @@ const getMe = (req, res, next) => {
 };
 
 const updateMe = catchAsync(async (req, res, next) => {
-  //create error if user try to update password or other rule
-  // const user = await User.findById(req.user.id).select('+password');
-  // if (!(await req.user.correctPassword(req.body.password, user.password))) {
-  //   return next(new AppError('Wrong old password', 400));
-  // }
-  //update Password
-  // console.log(req.body.newName);
-  const body = { name: req.body.newName, email: req.body.newEmail };
+  const body = {
+    name: req.body.name,
+    email: req.body.email,
+    phone: req.body.phone,
+    address: req.body.address,
+  };
   // console.log(req.body);
-  if (req.file) body.photo = req.file.filename;
+  // if (req.file) body.photo = req.file.filename;
   const updatedUser = await User.findByIdAndUpdate(req.user.id, body, {
     new: true,
     runValidators: true,
