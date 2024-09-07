@@ -25,7 +25,7 @@ upload.array('image', 5);
 ///////
 const resizeUserPhoto = catchAsync(async (req, res, next) => {
   // console.log(req.file);
-  if (!req.files.images) return next();
+  if (!req.files.images[0] || !req.files.images[1] || !req.files.images[2]) return next();
 
   //cover image
   req.body.images = [];
