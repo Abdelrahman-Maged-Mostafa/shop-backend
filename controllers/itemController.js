@@ -27,25 +27,17 @@ upload.array('image', 5);
 ///////
 const resizeUserPhoto = catchAsync(async (req, res, next) => {
   // console.log(req.file);
-  if (!req.files.imageCover || !req.files.images) return next();
+  if (!req.files.images) return next();
 
   //cover image
-  req.body.imageCover = `tour-${req.params.id}-${Date.now()}-cover.jpeg`;
-
-  await sharp(req.file.imageCover[0].buffer)
-    .resize(2000, 1333)
-    .toFormat('jpeg')
-    .jpeg({ quality: 90 })
-    .toFile(`public/img/tours/${req.body.imageCover}`);
-  ///2)images
   req.body.images = [];
   const images = req.files.images.map(async (file, i) => {
-    const fileName = `tour-${req.params.id}-${Date.now()}-${i + 1}.jpeg`;
+    const fileName = `public/img/items/item-${req.params.id}-${Date.now()}-${i + 1}.jpeg`;
     await sharp(file.buffer)
-      .resize(2000, 1333)
+      .resize(500, 500)
       .toFormat('jpeg')
       .jpeg({ quality: 90 })
-      .toFile(`public/img/tours/${fileName}`);
+      .toFile(`${fileName}`);
     req.body.images.push(fileName);
   });
   await Promise.all(images);
