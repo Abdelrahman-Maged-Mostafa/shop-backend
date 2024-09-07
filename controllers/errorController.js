@@ -9,7 +9,7 @@ const sendErrDev = (err, res) => {
       error: err,
     });
   } else {
-    res.status(err.statusCode).render('error', { title: 'Something went wrong!' });
+    res.status(err.statusCode).json('error', { status: err.status, message: err.message });
   }
 };
 
@@ -28,9 +28,10 @@ const sendErrProd = (err, res) => {
       });
     }
   } else {
-    res
-      .status(err.statusCode)
-      .render('error', { title: 'Something went wrong!', msg: err.message || 'not found message' });
+    res.status(err.statusCode).json({
+      status: err.status,
+      message: err.message || 'not found message',
+    });
   }
 };
 

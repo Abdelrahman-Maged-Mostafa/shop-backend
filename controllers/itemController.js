@@ -20,36 +20,43 @@ const multerFilter = (req, file, cb) => {
 ///////
 const upload = multer({ storage: multerStorage, fileFilter: multerFilter });
 //////
-const uploadItemImages = upload.fields({ name: 'images', maxCount: 3 });
-upload.array('image', 5);
-///////
+const uploadItemImages = upload.fields([
+  { name: 'imagesType0' },
+  { name: 'imagesType1' },
+  { name: 'imagesType2' },
+]);
 const resizeUserPhoto = catchAsync(async (req, res, next) => {
-  // console.log(req.file);
-  if (!req.files.images[0].length || !req.files.images[1].length || !req.files.images[2].length)
-    return next();
-
-  //cover image
+  console.log(req.files);
+  if (!req.files) return next();
   req.body.images = [];
-  const images = req.files.images.map(async (file, i) => {
-    const fileName = `public/img/items/item-${req.params.id}-${Date.now()}-${i + 1}.jpeg`;
-    const newImage = await sharp(file.buffer)
+  async function resizingPhotos(fieldName, i) {
+    //remove black px
+
+    //remove black px
+    const fileName = `public/img/items/item-${req.params.id}-${Date.now()}-0.jpeg`;
+    const newImage = await sharp(req.files[fieldName][0].buffer)
       .resize(500, 500)
       .toFormat('jpeg')
-      .jpeg({ quality: 90 });
+      .png({ quality: 90 });
     if (process.env.BLOB_READ_WRITE_TOKEN) {
       const { url } = await put(`${fileName}`, newImage, {
         access: 'public',
         token: process.env.BLOB_READ_WRITE_TOKEN,
       });
-      req.body.images.push(url);
+      req.files[fieldName][0].filename = url;
     } else {
       await newImage.toFile(`${fileName}`);
-      req.body.images.push(fileName);
+      req.files[fieldName][0].filename = fileName;
     }
-  });
-  await Promise.all(images);
+    req.body.images[i] = req.files[fieldName][0].filename;
+    if (i === 0) req.body.imageCover = req.files[fieldName][0].filename;
+  }
+  if (req.files.imagesType0) await resizingPhotos('imagesType0', 0);
+  if (req.files.imagesType1) await resizingPhotos('imagesType1', 1);
+  if (req.files.imagesType2) await resizingPhotos('imagesType2', 2);
   next();
 });
+// await Promise.all(images);
 
 /////////////////////////////// handle Get method
 
