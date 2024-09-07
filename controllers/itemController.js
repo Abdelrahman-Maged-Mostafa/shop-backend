@@ -1,5 +1,6 @@
 const multer = require('multer');
 const sharp = require('sharp');
+const { put } = require('@vercel/blob');
 const Item = require('../models/itemmodel');
 const AppError = require('../utils/appError');
 const catchAsync = require('../utils/catchAsync');
@@ -19,10 +20,7 @@ const multerFilter = (req, file, cb) => {
 ///////
 const upload = multer({ storage: multerStorage, fileFilter: multerFilter });
 //////
-const uploadItemImages = upload.fields(
-  { name: 'imageCover', maxCount: 1 },
-  { name: 'images', maxCount: 3 },
-);
+const uploadItemImages = upload.fields({ name: 'images', maxCount: 3 });
 upload.array('image', 5);
 ///////
 const resizeUserPhoto = catchAsync(async (req, res, next) => {
@@ -33,12 +31,20 @@ const resizeUserPhoto = catchAsync(async (req, res, next) => {
   req.body.images = [];
   const images = req.files.images.map(async (file, i) => {
     const fileName = `public/img/items/item-${req.params.id}-${Date.now()}-${i + 1}.jpeg`;
-    await sharp(file.buffer)
+    const newImage = await sharp(file.buffer)
       .resize(500, 500)
       .toFormat('jpeg')
-      .jpeg({ quality: 90 })
-      .toFile(`${fileName}`);
-    req.body.images.push(fileName);
+      .jpeg({ quality: 90 });
+    if (process.env.BLOB_READ_WRITE_TOKEN) {
+      const { url } = await put(`${fileName}`, newImage, {
+        access: 'public',
+        token: process.env.BLOB_READ_WRITE_TOKEN,
+      });
+      req.body.images.push(url);
+    } else {
+      await newImage.toFile(`${fileName}`);
+      req.body.images.push(fileName);
+    }
   });
   await Promise.all(images);
   next();
