@@ -26,9 +26,8 @@ const uploadItemImages = upload.fields([
   { name: 'imagesType2' },
 ]);
 const resizeUserPhoto = catchAsync(async (req, res, next) => {
-  console.log(req.files);
-  if (!req.files) return next();
-  req.body.images = [];
+  if (!Object.keys(req.files).length) return next();
+  req.body.images = [...req.body.images];
   async function resizingPhotos(fieldName, i) {
     //remove black px
 
