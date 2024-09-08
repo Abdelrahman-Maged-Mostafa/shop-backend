@@ -45,7 +45,8 @@ const resizeUserPhoto = catchAsync(async (req, res, next) => {
       req.files[fieldName][0].filename = url;
     } else {
       await newImage.toFile(`${fileName}`);
-      req.files[fieldName][0].filename = fileName;
+      req.files[fieldName][0].filename =
+        `${req.protocol}://${req.get('host')}/${fileName.split('/').slice(1).join('/')}`;
     }
     req.body.images[i] = req.files[fieldName][0].filename;
     if (i === 0) req.body.imageCover = req.files[fieldName][0].filename;

@@ -83,6 +83,8 @@ app.use((req, res, next) => {
 // app.patch(`${toursURL}/:id`, updateTour);
 // app.post(`${toursURL}`, createNewTour);
 // app.delete(`${toursURL}/:id`, deleteTour);
+//for read all img in vps server to your front end
+app.use('/img/items', express.static(path.join(__dirname, 'public', 'img', 'items')));
 //render some html in pug
 const viewURL = '/';
 app.use(viewURL, viewRouter);
@@ -95,7 +97,7 @@ app.use(usersURL, userRouter);
 
 const reviewURL = '/api/v1/reviews';
 app.use(reviewURL, reviewRouter);
-
+//for error
 app.all('*', (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
 });
