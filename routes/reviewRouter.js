@@ -23,7 +23,7 @@ router
 router
   .route(`/:id`)
   .get(getReview)
-  .delete(authController.restrictTo('user', 'admin'), deleteReview)
+  .delete(authController.restrictTo('admin'), deleteReview)
   .patch(authController.restrictTo('user', 'admin'), updateReview);
 
 module.exports = router;
