@@ -34,7 +34,13 @@ router.use('/:tourId/reviews', reviewRouter);
 router
   .route('/')
   .get(getAllItems)
-  .post(authController.protect, authController.restrictTo('admin'), createNewItem);
+  .post(
+    authController.protect,
+    authController.restrictTo('admin'),
+    uploadItemImages,
+    resizeUserPhoto,
+    createNewItem,
+  );
 router
   .route(`/:id`)
   .get(getOneItem)
