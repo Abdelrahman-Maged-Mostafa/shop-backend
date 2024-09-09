@@ -45,8 +45,25 @@ const itemSchema = new mongoose.Schema(
       type: Number,
       required: [true, 'A item must have a stock'],
     },
-    // reviews: [{ type: mongoose.Schema.ObjectId, ref: 'Reviews' }],
-    //   rating: { type: Number, default: 4.5 },
+    color: [
+      {
+        color: { type: String },
+        size: [
+          {
+            size: { type: String },
+            price: { type: Number },
+            stock: { type: Number },
+          },
+        ],
+      },
+    ],
+    size: [
+      {
+        size: { type: String },
+        price: { type: Number },
+        stock: { type: Number },
+      },
+    ],
   },
   { toJSON: { virtuals: true }, toObject: { virtuals: true } },
 );
