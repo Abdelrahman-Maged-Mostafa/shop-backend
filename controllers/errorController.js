@@ -82,7 +82,7 @@ exports.middlewareError = (err, req, res, next) => {
     // console.log('poda');
     if (error.name === 'CastError') error = handleCastErrorDB(error);
     if (error.code === 11000) error = handlecodeErrorDB(error);
-    if (error._message === 'Tour validation failed') error = handlValidationErrorDB(error);
+    if (error._message === 'Item validation failed') error = handlValidationErrorDB(error);
     if (error.name === 'JsonWebTokenError') error = handleJWTErrorDB();
     if (error.name === 'TokenExpiredError') error = handleJWTExpiredErrorDB();
     sendErrProd(error, res);
