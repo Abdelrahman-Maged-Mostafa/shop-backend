@@ -32,18 +32,16 @@ const userSchema = new mongoose.Schema({
   },
   phone: { type: String },
   address: { type: String },
-  cartItems: {
-    type: [
-      {
-        item: {
-          type: mongoose.Schema.ObjectId,
-          ref: 'Item',
-        },
-        properties: { color: String, size: String, price: Number },
+  cartItems: [
+    {
+      item: {
+        type: mongoose.Schema.ObjectId,
+        ref: 'Item',
       },
-    ],
-    unique: true,
-  },
+      properties: { color: String, size: String, price: Number },
+    },
+  ],
+
   wishList: [
     {
       type: mongoose.Schema.ObjectId,
