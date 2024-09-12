@@ -46,10 +46,10 @@ const itemSchema = new mongoose.Schema(
       required: [true, 'A item must have a stock'],
     },
     properties: {
-      colorAndSize: [
+      colorsAndSize: [
         {
           name: { type: String },
-          size: [
+          sizes: [
             {
               name: { type: String },
               price: { type: Number },
@@ -58,14 +58,14 @@ const itemSchema = new mongoose.Schema(
           ],
         },
       ],
-      size: [
+      sizes: [
         {
           name: { type: String },
           price: { type: Number },
           stock: { type: Number },
         },
       ],
-      color: [
+      colors: [
         {
           name: { type: String },
           price: { type: Number },
