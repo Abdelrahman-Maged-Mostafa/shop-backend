@@ -36,7 +36,7 @@ router.patch('/resetPassword/:token', resetPassword);
 router.use(protect);
 //meddle ware work in place before it not work with them after it will work with them
 router.get('/valid', valid);
-router.patch('/addToCart/:itemId', addToCart);
+router.patch('/addToCart', addToCart);
 router.patch('/removeFromCart/:itemId', removeFromCart);
 
 router.get('/me', getMe, getOneuser);
