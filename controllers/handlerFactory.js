@@ -30,6 +30,7 @@ exports.updateOne = (Model) =>
 
 exports.createOne = (Model) =>
   catchAsync(async (req, res, next) => {
+    if (req.body.properties) req.body.properties = JSON.parse(req.body.properties);
     // const testTour = new Tour({ name: 'The Park Camper', price: 997 });
     const newOne = await Model.create(req.body);
     await res.status(201).json({
