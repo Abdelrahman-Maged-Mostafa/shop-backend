@@ -45,25 +45,34 @@ const itemSchema = new mongoose.Schema(
       type: Number,
       required: [true, 'A item must have a stock'],
     },
-    color: [
-      {
-        color: { type: String },
-        size: [
-          {
-            size: { type: String },
-            price: { type: Number },
-            stock: { type: Number },
-          },
-        ],
-      },
-    ],
-    size: [
-      {
-        size: { type: String },
-        price: { type: Number },
-        stock: { type: Number },
-      },
-    ],
+    properties: {
+      colorAndSize: [
+        {
+          name: { type: String },
+          size: [
+            {
+              name: { type: String },
+              price: { type: Number },
+              stock: { type: Number },
+            },
+          ],
+        },
+      ],
+      size: [
+        {
+          name: { type: String },
+          price: { type: Number },
+          stock: { type: Number },
+        },
+      ],
+      color: [
+        {
+          name: { type: String },
+          price: { type: Number },
+          stock: { type: Number },
+        },
+      ],
+    },
   },
   { toJSON: { virtuals: true }, toObject: { virtuals: true } },
 );
