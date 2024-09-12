@@ -34,9 +34,12 @@ const userSchema = new mongoose.Schema({
   address: { type: String },
   cartItems: [
     {
-      type: mongoose.Schema.ObjectId,
-      ref: 'Item',
-      unique: true, // Ensure unique strings in the array
+      item: {
+        type: mongoose.Schema.ObjectId,
+        ref: 'Item',
+        unique: true, // Ensure unique strings in the array
+      },
+      properties: { color: String, size: String, price: Number },
     },
   ],
   wishList: [

@@ -135,10 +135,7 @@ const updateuser = updateOne(User);
 const deleteuser = deleteOne(User);
 
 const addToCart = catchAsync(async (req, res, next) => {
-  const user = await User.updateOne(
-    { _id: req.user._id },
-    { $addToSet: { cartItems: req.params.itemId } },
-  );
+  const user = await User.updateOne({ _id: req.user._id }, { $addToSet: { cartItems: req.body } });
 
   if (!user) {
     return next(new AppError('Update faild', 404));
