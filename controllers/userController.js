@@ -135,7 +135,7 @@ const updateuser = updateOne(User);
 const deleteuser = deleteOne(User);
 
 const addToCart = catchAsync(async (req, res, next) => {
-  const cartItemsUnique = new Set([...req.user.cartItems, req.body]);
+  const cartItemsUnique = new Set(...req.user.cartItems, req.body);
   const user = await User.updateOne({ _id: req.user._id }, { cartItems: cartItemsUnique });
 
   if (!user) {
