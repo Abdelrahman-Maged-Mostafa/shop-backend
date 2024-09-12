@@ -135,11 +135,30 @@ const updateuser = updateOne(User);
 const deleteuser = deleteOne(User);
 
 const addToCart = catchAsync(async (req, res, next) => {
-  const cartItemsUnique = new Set(...req.user.cartItems, req.body);
-  const user = await User.updateOne({ _id: req.user._id }, { cartItems: cartItemsUnique });
+  // Create a new array with the existing cart items and the new item
+  const cartItems = [...req.user.cartItems, req.body];
+
+  // Filter out duplicates based on the 'item' property
+  const cartItemsUnique = cartItems.filter(
+    (item, index, self) =>
+      index ===
+      self.findIndex(
+        (t) =>
+          t.item.toString() === item.item.toString() &&
+          t.properties.color === item.properties.color &&
+          t.properties.size === item.properties.size,
+      ),
+  );
+
+  // Update the user's cartItems in the database
+  const user = await User.findByIdAndUpdate(
+    req.user._id,
+    { cartItems: cartItemsUnique },
+    { new: true },
+  );
 
   if (!user) {
-    return next(new AppError('Update faild', 404));
+    return next(new AppError('Update failed', 404));
   }
 
   res.status(200).json({
@@ -151,7 +170,7 @@ const addToCart = catchAsync(async (req, res, next) => {
 const removeFromCart = catchAsync(async (req, res, next) => {
   const user = await User.updateOne(
     { _id: req.user._id },
-    { $pull: { cartItems: req.params.itemId } },
+    { $pull: { cartItems: { _id: req.params.itemId } } },
   );
 
   if (!user) {
