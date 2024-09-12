@@ -37,9 +37,9 @@ const userSchema = new mongoose.Schema({
       item: {
         type: mongoose.Schema.ObjectId,
         ref: 'Item',
-        unique: true, // Ensure unique strings in the array
       },
       properties: { color: String, size: String, price: Number },
+      unique: true, // Ensure unique strings in the array
     },
   ],
   wishList: [
