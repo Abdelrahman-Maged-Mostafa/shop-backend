@@ -183,7 +183,21 @@ const removeFromCart = catchAsync(async (req, res, next) => {
   });
 });
 
+const removeAllCart = catchAsync(async (req, res, next) => {
+  const user = await User.updateOne({ _id: req.user._id }, { cartItems: [] });
+
+  if (!user) {
+    return next(new AppError('Update faild', 404));
+  }
+
+  res.status(200).json({
+    status: 'success',
+    data: null,
+  });
+});
+
 module.exports = {
+  removeAllCart,
   removeFromCart,
   addToCart,
   uploadUserPhoto,

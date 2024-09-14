@@ -10,6 +10,7 @@ const {
   deleteMe,
   getMe,
   removeFromCart,
+  removeAllCart,
 } = require('../controllers/userController');
 const {
   signup,
@@ -38,6 +39,7 @@ router.use(protect);
 router.get('/valid', valid);
 router.patch('/addToCart', addToCart);
 router.patch('/removeFromCart/:itemId', removeFromCart);
+router.patch('/removeFromCart', removeAllCart);
 
 router.get('/me', getMe, getOneuser);
 router.delete('/deleteMe', deleteMe);
