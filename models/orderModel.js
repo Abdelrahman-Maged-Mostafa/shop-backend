@@ -19,6 +19,7 @@ const OrderSchema = new mongoose.Schema({
   address: { type: String, required: true },
   phone: { type: String, required: true },
   transactionID: { type: String, required: true },
+  createdAt: { type: Date, default: Date.now() },
   items: [ItemSchema],
   user: { type: mongoose.Schema.ObjectId, ref: 'User', required: true },
   status: {
