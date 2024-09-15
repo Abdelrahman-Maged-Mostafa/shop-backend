@@ -19,3 +19,15 @@ exports.getAllOrders = catchAsync(async (req, res, next) => {
     data: { data: orders },
   });
 });
+exports.getOrder = catchAsync(async (req, res, next) => {
+  //   const orders = await Order.find({ user: req.user.id }).populate('user').exec();
+  const order = await Order.findById(req.params.id)
+    .populate('user') // Populate the user reference
+    .populate('items.item') // Populate the item reference within items
+    .exec();
+
+  await res.status(201).json({
+    status: 'success',
+    data: { data: order },
+  });
+});
