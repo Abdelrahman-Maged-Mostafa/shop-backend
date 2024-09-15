@@ -15,6 +15,7 @@ exports.createNewOrder = catchAsync(async (req, res, next) => {
 exports.getAllOrders = catchAsync(async (req, res, next) => {
   //   const orders = await Order.find({ user: req.user.id }).populate('user').exec();
   const orders = await Order.find().populate('user').exec();
+  if (!orders) return next(new AppError('No orders found with that ID', 404));
   await res.status(201).json({
     status: 'success',
     data: { data: orders },
@@ -23,6 +24,7 @@ exports.getAllOrders = catchAsync(async (req, res, next) => {
 
 exports.getAllUserOrders = catchAsync(async (req, res, next) => {
   const orders = await Order.find({ user: req.user.id }).populate('user').exec();
+  if (!orders) return next(new AppError('No orders found with that ID', 404));
   await res.status(201).json({
     status: 'success',
     data: { data: orders },
@@ -35,7 +37,8 @@ exports.getUserOrder = catchAsync(async (req, res, next) => {
     .populate('user') // Populate the user reference
     .populate('items.item') // Populate the item reference within items
     .exec();
-  if (order.user._id !== req.user.id) return new AppError('This is not your order', 403);
+  if (order.user._id !== req.user.id) return next(new AppError('This is not your order', 403));
+  if (!order) return next(new AppError('No order found with that ID', 404));
   await res.status(201).json({
     status: 'success',
     data: { data: order },
@@ -47,6 +50,7 @@ exports.getOrder = catchAsync(async (req, res, next) => {
     .populate('user') // Populate the user reference
     .populate('items.item') // Populate the item reference within items
     .exec();
+  if (!order) return next(new AppError('No order found with that ID', 404));
 
   await res.status(201).json({
     status: 'success',
