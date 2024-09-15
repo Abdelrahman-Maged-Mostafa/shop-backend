@@ -37,7 +37,8 @@ exports.getUserOrder = catchAsync(async (req, res, next) => {
     .populate('user') // Populate the user reference
     .populate('items.item') // Populate the item reference within items
     .exec();
-  if (order.user._id !== req.user.id) return next(new AppError('This is not your order', 403));
+  if (`${order.user._id}` !== `${req.user._id}`)
+    return next(new AppError('This is not your order', 403));
   if (!order) return next(new AppError('No order found with that ID', 404));
   await res.status(201).json({
     status: 'success',
