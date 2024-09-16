@@ -1,7 +1,6 @@
 const express = require('express');
 const {
   getAllItems,
-  getOneItem,
   createNewItem,
   updateItem,
   deleteItem,
@@ -43,7 +42,6 @@ router
   );
 router
   .route(`/:id`)
-  .get(getOneItem)
   .patch(
     authController.protect,
     authController.restrictTo('admin'),
