@@ -66,3 +66,16 @@ exports.deleteOrder = catchAsync(async (req, res, next) => {
     data: null,
   });
 });
+
+exports.updateOrder = catchAsync(async (req, res, next) => {
+  const order = await Order.findById(req.params.id);
+  if (!order) return next(new AppError('No order with this id', 404));
+  const status = order.status === 'underReview' ? 'completedPayment' : 'completedOrder';
+  const newOrder = await Order.findByIdAndUpdate(req.params.id, { status }, { new: true });
+  if (!newOrder) return next(new AppError('Something went wrong. Please try again ', 404));
+
+  await res.status(201).json({
+    status: 'success',
+    data: { newOrder },
+  });
+});
