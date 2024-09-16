@@ -4,7 +4,8 @@ const { put } = require('@vercel/blob');
 const Item = require('../models/itemmodel');
 const AppError = require('../utils/appError');
 const catchAsync = require('../utils/catchAsync');
-const { deleteOne, updateOne, createOne, getOne, getAll } = require('./handlerFactory');
+const { updateOne, createOne, getOne, getAll } = require('./handlerFactory');
+const User = require('../models/userModel');
 ///middel ware
 
 //////////////handle images upload
@@ -68,7 +69,18 @@ const createNewItem = createOne(Item);
 /////////////////////////////// handle PATCH method
 const updateItem = updateOne(Item);
 ///////////////////////////////handle delete method
-const deleteItem = deleteOne(Item);
+const deleteItem = catchAsync(async (req, res, next) => {
+  //delet item
+  const doc = await Item.findByIdAndDelete(req.params.id);
+  if (!doc) return next(new AppError('No item found with that ID', 404));
+  //for delet this item from all cartItems in users.
+  await User.updateMany({}, { $pull: { cartItems: { _id: req.params.id } } });
+  //res
+  await res.status(204).json({
+    status: 'success',
+    data: null,
+  });
+});
 
 // const getMonthlyPlan = catchAsync(async (req, res, next) => {
 //   const { year } = req.params;
