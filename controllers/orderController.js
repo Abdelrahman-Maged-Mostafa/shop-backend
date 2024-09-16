@@ -4,6 +4,7 @@ const catchAsync = require('../utils/catchAsync');
 
 exports.createNewOrder = catchAsync(async (req, res, next) => {
   req.body.user = req.user._id;
+  req.body.createdAt = new Date();
   if (req.body.status) delete req.body.status;
   const newOne = await Order.create(req.body);
   await res.status(201).json({
