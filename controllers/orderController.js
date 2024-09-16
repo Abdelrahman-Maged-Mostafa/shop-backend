@@ -32,7 +32,6 @@ exports.getAllUserOrders = catchAsync(async (req, res, next) => {
 });
 
 exports.getUserOrder = catchAsync(async (req, res, next) => {
-  //   const orders = await Order.find({ user: req.user.id }).populate('user').exec();
   const order = await Order.findById(req.params.id)
     .populate('user') // Populate the user reference
     .populate('items.item') // Populate the item reference within items
@@ -45,8 +44,8 @@ exports.getUserOrder = catchAsync(async (req, res, next) => {
     data: { data: order },
   });
 });
+
 exports.getOrder = catchAsync(async (req, res, next) => {
-  //   const orders = await Order.find({ user: req.user.id }).populate('user').exec();
   const order = await Order.findById(req.params.id)
     .populate('user') // Populate the user reference
     .populate('items.item') // Populate the item reference within items
@@ -56,5 +55,14 @@ exports.getOrder = catchAsync(async (req, res, next) => {
   await res.status(201).json({
     status: 'success',
     data: { data: order },
+  });
+});
+
+exports.deleteOrder = catchAsync(async (req, res, next) => {
+  await Order.findByIdAndDelete(req.params.id);
+
+  await res.status(201).json({
+    status: 'success',
+    data: null,
   });
 });
