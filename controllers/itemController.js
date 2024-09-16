@@ -4,7 +4,7 @@ const { put } = require('@vercel/blob');
 const Item = require('../models/itemmodel');
 const AppError = require('../utils/appError');
 const catchAsync = require('../utils/catchAsync');
-const { updateOne, createOne, getOne, getAll } = require('./handlerFactory');
+const { updateOne, createOne } = require('./handlerFactory');
 const User = require('../models/userModel');
 ///middel ware
 
@@ -61,9 +61,16 @@ const resizeUserPhoto = catchAsync(async (req, res, next) => {
 
 /////////////////////////////// handle Get method
 
-const getAllItems = getAll(Item);
-/////////////////////////////// handle Get method by id
-const getOneItem = getOne(Item, { path: 'reviews' });
+const getAllItems = catchAsync(async (req, res, next) => {
+  //to allow nested router
+  const data = await Item.find().populate({ path: 'reviews' });
+
+  res.status(200).json({
+    status: 'success',
+    results: data.length,
+    data,
+  });
+});
 /////////////////////////////// handle Post method
 const createNewItem = createOne(Item);
 /////////////////////////////// handle PATCH method
@@ -111,7 +118,6 @@ const deleteItem = catchAsync(async (req, res, next) => {
 
 module.exports = {
   getAllItems,
-  getOneItem,
   createNewItem,
   updateItem,
   deleteItem,
