@@ -2,15 +2,13 @@ const mongoose = require('mongoose');
 
 // Define the Item schema
 const ItemSchema = new mongoose.Schema({
-  properties: {
-    color: String,
-    size: String,
-    price: Number,
-    quantity: Number,
-    imageCover: String,
-    name: String,
-    itemId: String,
-  },
+  color: String,
+  size: String,
+  price: Number,
+  quantity: Number,
+  imageCover: String,
+  name: String,
+  itemId: String,
 });
 
 // Define the Order schema
