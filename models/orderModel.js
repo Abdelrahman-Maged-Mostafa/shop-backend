@@ -9,7 +9,7 @@ const ItemSchema = new mongoose.Schema({
     quantity: Number,
     imageCover: String,
     name: String,
-    id: String,
+    itemId: String,
   },
 });
 
