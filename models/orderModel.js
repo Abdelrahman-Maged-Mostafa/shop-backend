@@ -7,8 +7,10 @@ const ItemSchema = new mongoose.Schema({
     size: String,
     price: Number,
     quantity: Number,
+    imageCover: String,
+    name: String,
+    id: String,
   },
-  item: { type: mongoose.Schema.ObjectId, ref: 'Item' },
 });
 
 // Define the Order schema
