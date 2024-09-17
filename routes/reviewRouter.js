@@ -1,6 +1,5 @@
 const express = require('express');
 const {
-  getReview,
   getAllReviews,
   deleteReview,
   updateReview,
@@ -16,10 +15,6 @@ router.use(authController.protect);
 
 router.route('/').get(getAllReviews).post(authController.restrictTo('user'), createReview);
 
-router
-  .route(`/:id`)
-  .get(getReview)
-  .delete(deleteReview)
-  .patch(authController.restrictTo('user', 'admin'), updateReview);
+router.route(`/:id`).delete(deleteReview).patch(updateReview);
 
 module.exports = router;

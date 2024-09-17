@@ -2,11 +2,26 @@ const Order = require('../models/orderModel');
 const Review = require('../models/reviewModel');
 const AppError = require('../utils/appError');
 const catchAsync = require('../utils/catchAsync');
-const { updateOne, getOne, getAll } = require('./handlerFactory');
+const { getAll } = require('./handlerFactory');
 
 exports.getAllReviews = getAll(Review);
-exports.getReview = getOne(Review);
-exports.updateReview = updateOne(Review);
+
+exports.updateReview = catchAsync(async (req, res, next) => {
+  const review = await Review.findById(req.params.id);
+  if (!review) return next(new AppError('No document found with that ID', 404));
+  if (`${req.user._id}` !== `${review.user._id}`)
+    return next(new AppError('You do not have access to perform this action.', 403));
+
+  const newOne = await Review.findByIdAndUpdate(req.params.id, req.body, {
+    new: true,
+    runValidators: true,
+  });
+
+  await res.status(201).json({
+    status: 'success',
+    data: newOne,
+  });
+});
 
 exports.deleteReview = catchAsync(async (req, res, next) => {
   const review = await Review.findById(req.params.id);
