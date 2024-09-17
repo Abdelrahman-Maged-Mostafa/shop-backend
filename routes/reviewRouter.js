@@ -19,7 +19,7 @@ router.route('/').get(getAllReviews).post(authController.restrictTo('user'), cre
 router
   .route(`/:id`)
   .get(getReview)
-  .delete(authController.restrictTo('admin'), deleteReview)
+  .delete(deleteReview)
   .patch(authController.restrictTo('user', 'admin'), updateReview);
 
 module.exports = router;

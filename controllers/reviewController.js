@@ -11,7 +11,7 @@ exports.updateReview = updateOne(Review);
 exports.deleteReview = catchAsync(async (req, res, next) => {
   const review = await Review.findById(req.params.id);
   if (!review) return next(new AppError('No document found with that ID', 404));
-  if (req.user.role !== 'admin' && `${req.user._id}` !== `${review.user}`)
+  if (req.user.role !== 'admin' && `${req.user._id}` !== `${review.user._id}`)
     return next(new AppError('You do not have access to perform this action.', 403));
   await Review.findByIdAndDelete(req.params.id);
 
