@@ -2,12 +2,9 @@ const express = require('express');
 const {
   addToCart,
   getAllusers,
-  createNewuser,
   getOneuser,
   updateuser,
-  deleteuser,
   updateMe,
-  deleteMe,
   getMe,
   removeFromCart,
   removeAllCart,
@@ -42,14 +39,13 @@ router.patch('/removeFromCart/:itemId', removeFromCart);
 router.patch('/removeFromCart', removeAllCart);
 
 router.get('/me', getMe, getOneuser);
-router.delete('/deleteMe', deleteMe);
 router.patch('/updateMe', updateMe);
 router.patch('/updateMyPassword', updatePassword);
 
 //should be only admin do this method only createNewuser will be free
 router.use(restrictTo('admin'));
 //meddle ware work in place before it not work with them after it will work with them
-router.route('/').get(getAllusers).post(createNewuser);
-router.route(`/:id`).get(getOneuser).patch(updateuser).delete(deleteuser);
+router.route('/').get(getAllusers);
+router.route(`/:id`).patch(updateuser);
 
 module.exports = router;
