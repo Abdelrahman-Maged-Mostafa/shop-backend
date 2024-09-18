@@ -69,7 +69,7 @@ exports.updateOrder = catchAsync(async (req, res, next) => {
       order.items.map(async (item) => {
         const product = await Item.findById(item.itemId);
         if (product) {
-          if (product.properties.colorsAndSize) {
+          if (product.properties.colorsAndSize.length > 0) {
             product.properties.colorsAndSize.forEach((color) => {
               if (color.name === item.color) {
                 color.sizes.forEach((size) => {
@@ -79,13 +79,13 @@ exports.updateOrder = catchAsync(async (req, res, next) => {
                 });
               }
             });
-          } else if (product.properties.sizes) {
+          } else if (product.properties.sizes.length > 0) {
             product.properties.sizes.forEach((size) => {
               if (size.name === item.size) {
                 size.stock -= item.quantity;
               }
             });
-          } else if (product.properties.colors) {
+          } else if (product.properties.colors.length > 0) {
             product.properties.colors.forEach((color) => {
               if (color.name === item.color) {
                 color.stock -= item.quantity;
