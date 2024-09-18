@@ -55,7 +55,7 @@ exports.login = catchAsync(async (req, res, next) => {
   if (!curUser || !(await curUser.correctPassword(password, curUser.password))) {
     return next(new AppError('Incorrect email or password', 401));
   }
-
+  if (!curUser.active) return next(new AppError(curUser.notActiveMessage, 401));
   loginUser(200, curUser, req, res);
 });
 
@@ -66,7 +66,6 @@ exports.logout = (req, res) => {
 };
 // protect my routes to only some user get access
 exports.protect = catchAsync(async (req, res, next) => {
-  // console.log(req.body, '55555555555555555555555555555555555555555555');
   let token;
   if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
     token = req.headers.authorization.split(' ')[1];
@@ -81,7 +80,6 @@ exports.protect = catchAsync(async (req, res, next) => {
   const decoded = await promisify(jwt.verify)(token, process.env.JWT_SECRET);
   //we handel 2 error in appError expaired token and not valid token
   const freshUser = await User.findById(decoded.id);
-
   //Check if user still have account or deleted it
   if (!freshUser) {
     return next(new AppError('The token belonging to this user does no longer exist.', 401));
@@ -91,6 +89,7 @@ exports.protect = catchAsync(async (req, res, next) => {
   if (freshUser.changedPasswordAfter(decoded.iat)) {
     return next(new AppError('User recently changed password! please login again', 401));
   }
+  if (!freshUser.active) return next(new AppError(freshUser.notActiveMessage, 401));
 
   req.user = freshUser;
   res.locals.user = freshUser;
