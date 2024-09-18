@@ -53,6 +53,7 @@ const userSchema = new mongoose.Schema({
   passwordResetToken: { type: String },
   passwordResetExpires: { type: Date },
   active: { type: Boolean, default: true, select: false },
+  notActiveMessage: { type: String },
 });
 
 userSchema.pre(/^find/, async function (next) {

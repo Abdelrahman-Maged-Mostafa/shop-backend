@@ -3,11 +3,12 @@ const {
   addToCart,
   getAllusers,
   getOneuser,
-  updateuser,
   updateMe,
   getMe,
   removeFromCart,
   removeAllCart,
+  bannedUser,
+  unBannedUser,
 } = require('../controllers/userController');
 const {
   signup,
@@ -46,6 +47,7 @@ router.patch('/updateMyPassword', updatePassword);
 router.use(restrictTo('admin'));
 //meddle ware work in place before it not work with them after it will work with them
 router.route('/').get(getAllusers);
-router.route(`/:id`).patch(updateuser);
+router.route(`/ban/:id`).patch(bannedUser);
+router.route(`/unBan/:id`).patch(unBannedUser);
 
 module.exports = router;

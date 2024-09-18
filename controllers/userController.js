@@ -3,7 +3,7 @@ const User = require('../models/userModel');
 // const APIFeatures = require('../utils/APIFeatures');
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
-const { updateOne, getOne, getAll } = require('./handlerFactory');
+const { getOne, getAll } = require('./handlerFactory');
 
 const getMe = (req, res, next) => {
   req.params.id = req.user._id;
@@ -31,7 +31,6 @@ const updateMe = catchAsync(async (req, res, next) => {
 
 const getAllusers = getAll(User);
 const getOneuser = getOne(User);
-const updateuser = updateOne(User);
 
 const addToCart = catchAsync(async (req, res, next) => {
   const cartItems = [...req.user.cartItems, req.body];
@@ -91,13 +90,47 @@ const removeAllCart = catchAsync(async (req, res, next) => {
   });
 });
 
+const bannedUser = catchAsync(async (req, res, next) => {
+  const newOne = await User.findByIdAndUpdate(
+    req.params.id,
+    { active: false, notActiveMessage: req.body.message },
+    {
+      new: true,
+      runValidators: true,
+    },
+  );
+  if (!newOne) return next(new AppError('No document found with that ID', 404));
+
+  await res.status(201).json({
+    status: 'success',
+    data: newOne,
+  });
+});
+const unBannedUser = catchAsync(async (req, res, next) => {
+  const newOne = await User.findByIdAndUpdate(
+    req.params.id,
+    { active: true, notActiveMessage: '' },
+    {
+      new: true,
+      runValidators: true,
+    },
+  );
+  if (!newOne) return next(new AppError('No document found with that ID', 404));
+
+  await res.status(201).json({
+    status: 'success',
+    data: newOne,
+  });
+});
+
 module.exports = {
   removeAllCart,
   removeFromCart,
   addToCart,
   getAllusers,
+  unBannedUser,
   getOneuser,
-  updateuser,
+  bannedUser,
   updateMe,
   getMe,
 };
