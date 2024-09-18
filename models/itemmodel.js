@@ -8,7 +8,6 @@ const itemSchema = new mongoose.Schema(
       trim: true,
       maxlength: [40, 'A item name must have less than 41 characters'],
       minlength: [3, 'A item name must have more than 9 characters'],
-      // validate: [validator.isAlpha, 'Tour name must only contains characters'],
     },
     ratingsAverage: {
       type: Number,
@@ -18,16 +17,7 @@ const itemSchema = new mongoose.Schema(
       set: (val) => Math.round(val * 10) / 10,
     },
     ratingsQuantity: { type: Number, default: 0 },
-    price: { type: Number, required: [true, 'A item must have a price'] },
-    // priceDescount: {
-    //   type: Number,
-    //   validate: {
-    //     validator: function (val) {
-    //       return val < this.price;
-    //     },
-    //     message: 'Discount price ({VALUE}) should be below regular price',
-    //   },
-    // },
+    price: { type: Number },
     shortDescription: {
       type: String,
       trim: true,
@@ -43,7 +33,6 @@ const itemSchema = new mongoose.Schema(
     createdAt: { type: Date, default: Date.now(), select: false },
     stock: {
       type: Number,
-      required: [true, 'A item must have a stock'],
     },
     properties: {
       colorsAndSize: [
@@ -79,9 +68,6 @@ const itemSchema = new mongoose.Schema(
 
 // tourSchema.index({ price: 1 });
 itemSchema.index({ price: 1, ratingsAverage: -1 });
-
-// this for get all reviewss from reviews in data base this will combare the tour id vs the id in every review in tour field becouse that we write tour in foreignField and in localField write _id
-itemSchema.virtual('reviews', { ref: 'Review', foreignField: 'item', localField: '_id' });
 
 const Item = mongoose.model('Item', itemSchema);
 module.exports = Item;

@@ -1,3 +1,4 @@
+const Item = require('../models/itemmodel');
 const Order = require('../models/orderModel');
 const AppError = require('../utils/appError');
 const catchAsync = require('../utils/catchAsync');
@@ -41,14 +42,68 @@ exports.deleteOrder = catchAsync(async (req, res, next) => {
   });
 });
 
+// exports.updateOrder = catchAsync(async (req, res, next) => {
+//   const order = await Order.findById(req.params.id);
+//   if (!order) return next(new AppError('No order with this id', 404));
+//   const status = order.status === 'underReview' ? 'completedPayment' : 'completedOrder';
+//   if (status === 'completedPayment') {
+//     //i want descrease my stock here
+//   }
+//   const newOrder = await Order.findByIdAndUpdate(req.params.id, { status }, { new: true });
+//   if (!newOrder) return next(new AppError('Something went wrong. Please try again ', 404));
+
+//   await res.status(201).json({
+//     status: 'success',
+//     data: { newOrder },
+//   });
+// });
 exports.updateOrder = catchAsync(async (req, res, next) => {
   const order = await Order.findById(req.params.id);
   if (!order) return next(new AppError('No order with this id', 404));
-  const status = order.status === 'underReview' ? 'completedPayment' : 'completedOrder';
-  const newOrder = await Order.findByIdAndUpdate(req.params.id, { status }, { new: true });
-  if (!newOrder) return next(new AppError('Something went wrong. Please try again ', 404));
 
-  await res.status(201).json({
+  const status = order.status === 'underReview' ? 'completedPayment' : 'completedOrder';
+
+  if (status === 'completedPayment') {
+    // Decrease stock for each item in the order
+    await Promise.all(
+      order.items.map(async (item) => {
+        const product = await Item.findById(item.itemId);
+        if (product) {
+          if (product.properties.colorsAndSize) {
+            product.properties.colorsAndSize.forEach((color) => {
+              if (color.name === item.color) {
+                color.sizes.forEach((size) => {
+                  if (size.name === item.size) {
+                    size.stock -= item.quantity;
+                  }
+                });
+              }
+            });
+          } else if (product.properties.sizes) {
+            product.properties.sizes.forEach((size) => {
+              if (size.name === item.size) {
+                size.stock -= item.quantity;
+              }
+            });
+          } else if (product.properties.colors) {
+            product.properties.colors.forEach((color) => {
+              if (color.name === item.color) {
+                color.stock -= item.quantity;
+              }
+            });
+          } else {
+            product.stock -= item.quantity;
+          }
+          await product.save();
+        }
+      }),
+    );
+  }
+
+  const newOrder = await Order.findByIdAndUpdate(req.params.id, { status }, { new: true });
+  if (!newOrder) return next(new AppError('Something went wrong. Please try again', 404));
+
+  res.status(201).json({
     status: 'success',
     data: { newOrder },
   });

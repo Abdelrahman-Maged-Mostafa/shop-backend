@@ -30,9 +30,7 @@ const resizeUserPhoto = catchAsync(async (req, res, next) => {
   if (!Object.keys(req.files).length) return next();
   req.body.images = req.body.images ? [...req.body.images] : [];
   async function resizingPhotos(fieldName, i) {
-    //remove black px
-
-    //remove black px
+    //remove bg px put png
     const fileName = `public/img/items/item-${req.params.id}-${Date.now()}-0.jpeg`;
     const newImage = await sharp(req.files[fieldName][0].buffer)
       .resize(500, 500)
@@ -88,33 +86,6 @@ const deleteItem = catchAsync(async (req, res, next) => {
     data: null,
   });
 });
-
-// const getMonthlyPlan = catchAsync(async (req, res, next) => {
-//   const { year } = req.params;
-//   const plan = await Item.aggregate([
-//     { $unwind: '$startDates' }, //to flat arr
-//     {
-//       $match: {
-//         startDates: { $gte: new Date(`${year}-01-01`), $lte: new Date(`${year}-12-31`) },
-//       },
-//     },
-//     {
-//       $group: {
-//         _id: { $month: '$startDates' },
-//         numItems: { $sum: 1 },
-//         tours: { $push: '$name' },
-//       },
-//     },
-//     { $addFields: { month: '$_id' } },
-//     { $project: { _id: 0 } },
-//     { $sort: { numItems: -1 } },
-//     // { $limit: 6 },
-//   ]);
-//   await res.status(200).json({
-//     status: 'success',
-//     data: { plan },
-//   });
-// });
 
 module.exports = {
   getAllItems,
