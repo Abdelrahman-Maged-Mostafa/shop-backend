@@ -56,10 +56,6 @@ const userSchema = new mongoose.Schema({
   notActiveMessage: { type: String },
 });
 
-userSchema.pre(/^find/, async function (next) {
-  this.find({ active: { $ne: false } });
-  next();
-});
 // to maked hashed password
 userSchema.pre(`save`, async function (next) {
   if (!this.isModified('password')) return next();
