@@ -1,5 +1,5 @@
 exports.defaultOption = {
-  paymentMethode: [
+  paymentMethod: [
     {
       name: 'Vodafone cash',
       photo: '/images/v-cash.jpg',
