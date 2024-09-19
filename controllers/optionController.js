@@ -27,7 +27,7 @@ exports.resizePaymentPhotos = catchAsync(async (req, res, next) => {
   // Ensure req.body is an array
   const bodyArray = Array.isArray(req.body) ? req.body : Object.values(req.body);
 
-  const promises = req.files.map(async (file, index) => {
+  const promises = req.files.map(async (file) => {
     const fileName = `public/img/items/item-${Math.random()}-${Date.now()}.png`;
     const newImage = await sharp(file.buffer)
       .resize(1000, 500)
@@ -56,7 +56,6 @@ exports.resizePaymentPhotos = catchAsync(async (req, res, next) => {
 /////end
 /////
 exports.updatePaymentMethod = catchAsync(async (req, res, next) => {
-  console.log(req.body);
   const options = await Option.find();
   if (!options || options.length === 0) {
     return next(new AppError('Please try again later.', 400));
