@@ -62,7 +62,7 @@ exports.updatePaymentMethod = catchAsync(async (req, res, next) => {
   }
 
   // Update the paymentMethod of the first option in the array
-  options[0].paymentMethod = req.body;
+  options[0].paymentMethod = Object.values(req.body);
 
   await options[0].save();
   res.status(200).json({
