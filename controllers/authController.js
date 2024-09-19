@@ -55,7 +55,7 @@ exports.login = catchAsync(async (req, res, next) => {
   if (!curUser || !(await curUser.correctPassword(password, curUser.password))) {
     return next(new AppError('Incorrect email or password', 401));
   }
-  if (!curUser.active) return next(new AppError(curUser.notActiveMessage, 401));
+  if (!curUser.active) return next(new AppError(curUser.notActiveMessage || 'you are banned', 401));
   loginUser(200, curUser, req, res);
 });
 
@@ -89,7 +89,8 @@ exports.protect = catchAsync(async (req, res, next) => {
   if (freshUser.changedPasswordAfter(decoded.iat)) {
     return next(new AppError('User recently changed password! please login again', 401));
   }
-  if (!freshUser.active) return next(new AppError(freshUser.notActiveMessage, 401));
+  if (!freshUser.active)
+    return next(new AppError(freshUser.notActiveMessage || 'you are banned', 401));
 
   req.user = freshUser;
   res.locals.user = freshUser;
