@@ -68,7 +68,7 @@ const itemSchema = new mongoose.Schema(
 
 // tourSchema.index({ price: 1 });
 itemSchema.index({ price: 1, ratingsAverage: -1 });
-tourSchema.virtual('reviews', { ref: 'Review', foreignField: 'tour', localField: '_id' });
+itemSchema.virtual('reviews', { ref: 'Review', foreignField: 'tour', localField: '_id' });
 
 const Item = mongoose.model('Item', itemSchema);
 module.exports = Item;
