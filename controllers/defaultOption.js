@@ -69,7 +69,6 @@ exports.defaultOption = {
       brand700: '#4338ca',
       brand800: '#3730a3',
       brand900: '#312e81',
-
       grey0: '#18212f',
       grey50: '#111827',
       grey100: '#1f2937',
