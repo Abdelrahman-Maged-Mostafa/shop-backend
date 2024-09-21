@@ -4,6 +4,7 @@ const {
   uploadPaymentPhotos,
   resizePaymentPhotos,
   updatePaymentMethod,
+  updateCashOnDelivery,
 } = require('../controllers/optionController');
 const { protect, restrictTo } = require('../controllers/authController');
 
@@ -19,5 +20,6 @@ router
     resizePaymentPhotos,
     updatePaymentMethod,
   );
+router.route('/cash').patch(protect, restrictTo('admin'), updateCashOnDelivery);
 
 module.exports = router;

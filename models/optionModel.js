@@ -11,6 +11,7 @@ const paymentMethodSchema = new mongoose.Schema({
 
 const optionSchema = new mongoose.Schema({
   paymentMethod: { type: [paymentMethodSchema], required: true },
+  cashOnDelivery: { type: Boolean, default: true },
   logo: String,
   colors: String,
   headerStyle: String,
