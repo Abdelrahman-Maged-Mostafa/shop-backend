@@ -1,15 +1,15 @@
 const mongoose = require('mongoose');
 
 const colorSchema = new mongoose.Schema({
-  brand50: String,
-  brand100: String,
-  brand200: String,
-  brand500: String,
-  brand600: String,
-  brand700: String,
-  brand800: String,
-  brand900: String,
   light: {
+    brand50: String,
+    brand100: String,
+    brand200: String,
+    brand500: String,
+    brand600: String,
+    brand700: String,
+    brand800: String,
+    brand900: String,
     grey0: String,
     grey50: String,
     grey100: String,
@@ -36,6 +36,14 @@ const colorSchema = new mongoose.Schema({
     red800: String,
   },
   dark: {
+    brand50: String,
+    brand100: String,
+    brand200: String,
+    brand500: String,
+    brand600: String,
+    brand700: String,
+    brand800: String,
+    brand900: String,
     grey0: String,
     grey50: String,
     grey100: String,
