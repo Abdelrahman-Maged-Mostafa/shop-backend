@@ -31,6 +31,7 @@ const itemSchema = new mongoose.Schema(
     imageCover: { type: String, required: [true, 'A item must have a cover image'] },
     images: { type: [String] },
     createdAt: { type: Date, default: Date.now() },
+    category: { type: String },
     stock: {
       type: Number,
     },
