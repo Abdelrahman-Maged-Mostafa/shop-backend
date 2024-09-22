@@ -1,4 +1,4 @@
-const Item = require('../models/itemModel');
+const Item = require('../models/itemmodel');
 const Option = require('../models/optionModel');
 const catchAsync = require('../utils/catchAsync');
 
