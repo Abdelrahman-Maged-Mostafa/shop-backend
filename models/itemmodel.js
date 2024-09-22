@@ -31,7 +31,7 @@ const itemSchema = new mongoose.Schema(
     imageCover: { type: String, required: [true, 'A item must have a cover image'] },
     images: { type: [String] },
     createdAt: { type: Date, default: Date.now() },
-    category: { type: String },
+    category: { type: [String] }, // Allow multiple categories
     stock: {
       type: Number,
     },
@@ -67,7 +67,7 @@ const itemSchema = new mongoose.Schema(
   { toJSON: { virtuals: true }, toObject: { virtuals: true } },
 );
 
-// tourSchema.index({ price: 1 });
+itemSchema.index({ price: 1 });
 itemSchema.index({ price: 1, ratingsAverage: -1 });
 itemSchema.virtual('reviews', { ref: 'Review', foreignField: 'item', localField: '_id' });
 

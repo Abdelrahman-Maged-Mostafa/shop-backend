@@ -1,6 +1,7 @@
 const APIFeatures = require('../utils/APIFeatures');
 const AppError = require('../utils/appError');
 const catchAsync = require('../utils/catchAsync');
+const { updateCategories } = require('./categoryController');
 // this catchAsync should be this return function to work please be carfull
 exports.deleteOne = (Model) =>
   catchAsync(async (req, res, next) => {
@@ -13,7 +14,7 @@ exports.deleteOne = (Model) =>
     });
   });
 
-exports.updateOne = (Model) =>
+exports.updateOne = (Model, update = false) =>
   catchAsync(async (req, res, next) => {
     if (req.body.properties) req.body.properties = JSON.parse(req.body.properties);
     const newOne = await Model.findByIdAndUpdate(req.params.id, req.body, {
@@ -21,6 +22,7 @@ exports.updateOne = (Model) =>
       runValidators: true,
     });
     if (!newOne) return next(new AppError('No document found with that ID', 404));
+    if (update) await updateCategories();
 
     await res.status(201).json({
       status: 'success',
@@ -28,11 +30,12 @@ exports.updateOne = (Model) =>
     });
   });
 
-exports.createOne = (Model) =>
+exports.createOne = (Model, update = false) =>
   catchAsync(async (req, res, next) => {
     if (req.body.properties) req.body.properties = JSON.parse(req.body.properties);
     // const testTour = new Tour({ name: 'The Park Camper', price: 997 });
     const newOne = await Model.create(req.body);
+    if (update) await updateCategories();
     await res.status(201).json({
       status: 'success',
       data: { data: newOne },

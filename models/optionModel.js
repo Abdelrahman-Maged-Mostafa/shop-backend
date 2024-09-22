@@ -84,6 +84,7 @@ const optionSchema = new mongoose.Schema({
   paymentMethod: { type: [paymentMethodSchema], required: true },
   cashOnDelivery: { type: Boolean, default: true },
   logo: String,
+  category: [{ name: String, photo: String }],
   colors: colorSchema,
   headerStyle: String,
   footerStyle: String,

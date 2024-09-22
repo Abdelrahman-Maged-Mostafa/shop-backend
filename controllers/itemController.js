@@ -6,6 +6,7 @@ const AppError = require('../utils/appError');
 const catchAsync = require('../utils/catchAsync');
 const { updateOne, createOne } = require('./handlerFactory');
 const User = require('../models/userModel');
+const { updateCategories } = require('./categoryController');
 ///middel ware
 
 //////////////handle images upload
@@ -70,14 +71,15 @@ const getAllItems = catchAsync(async (req, res, next) => {
   });
 });
 /////////////////////////////// handle Post method
-const createNewItem = createOne(Item);
+const createNewItem = createOne(Item, true);
 /////////////////////////////// handle PATCH method
-const updateItem = updateOne(Item);
+const updateItem = updateOne(Item, true);
 ///////////////////////////////handle delete method
 const deleteItem = catchAsync(async (req, res, next) => {
   //delet item
   const doc = await Item.findByIdAndDelete(req.params.id);
   if (!doc) return next(new AppError('No item found with that ID', 404));
+  await updateCategories();
   //for delet this item from all cartItems in users.
   await User.updateMany({}, { $pull: { cartItems: { item: req.params.id } } });
   //res
