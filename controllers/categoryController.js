@@ -1,9 +1,11 @@
-const Item = require('../models/itemmodel');
+const Item = require('../models/itemModel');
 const Option = require('../models/optionModel');
 const catchAsync = require('../utils/catchAsync');
 
 exports.updateCategories = catchAsync(async () => {
-  const uniqueCategories = await Item.distinct('category');
+  const categories = await Item.distinct('category');
+  const lowerCaseCategories = categories.map((category) => category.toLowerCase());
+  const uniqueCategories = [...new Set(lowerCaseCategories)];
   const option = await Option.findOne(); // Assuming there's only one options document
 
   if (option) {
