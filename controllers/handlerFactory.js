@@ -17,6 +17,8 @@ exports.deleteOne = (Model) =>
 exports.updateOne = (Model, update = false) =>
   catchAsync(async (req, res, next) => {
     if (req.body.properties) req.body.properties = JSON.parse(req.body.properties);
+    if (req.body.category) req.body.category = JSON.parse(req.body.category);
+
     const newOne = await Model.findByIdAndUpdate(req.params.id, req.body, {
       new: true,
       runValidators: true,
@@ -33,6 +35,7 @@ exports.updateOne = (Model, update = false) =>
 exports.createOne = (Model, update = false) =>
   catchAsync(async (req, res, next) => {
     if (req.body.properties) req.body.properties = JSON.parse(req.body.properties);
+    if (req.body.category) req.body.category = JSON.parse(req.body.category);
     // const testTour = new Tour({ name: 'The Park Camper', price: 997 });
     const newOne = await Model.create(req.body);
     if (update) await updateCategories();
