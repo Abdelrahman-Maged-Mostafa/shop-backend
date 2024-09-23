@@ -170,3 +170,18 @@ exports.getAllOptions = catchAsync(async (req, res, next) => {
     data,
   });
 });
+
+exports.updateOffersPhoto = catchAsync(async (req, res, next) => {
+  const options = await Option.find();
+  if (!options || options.length === 0) {
+    return next(new AppError('Please try again later.', 400));
+  }
+
+  options[0].offers = Object.values(req.body);
+
+  await options[0].save();
+  res.status(200).json({
+    status: 'success',
+    option: options[0],
+  });
+});
