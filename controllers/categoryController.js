@@ -74,6 +74,36 @@ exports.resizeCategoryPhotos = catchAsync(async (req, res, next) => {
   next();
 });
 
+exports.resizeOffersPhotos = catchAsync(async (req, res, next) => {
+  if (!req.files || req.files.length === 0) return next();
+
+  // Ensure req.body is an array
+
+  const promises = req.files.map(async (file) => {
+    const fileName = `public/img/items/item-${Math.random()}-${Date.now()}.png`;
+    const newImage = await sharp(file.buffer)
+      .resize(1200, 600)
+      .toFormat('png')
+      .png({ quality: 90 });
+
+    if (process.env.BLOB_READ_WRITE_TOKEN) {
+      const { url } = await put(`${fileName}`, newImage, {
+        access: 'public',
+        token: process.env.BLOB_READ_WRITE_TOKEN,
+      });
+      file.filename = url;
+    } else {
+      await newImage.toFile(`${fileName}`);
+      file.filename = `${req.protocol}://${req.get('host')}/${fileName.split('/').slice(1).join('/')}`;
+    }
+    req.body[file.fieldname] = file.filename;
+  });
+
+  await Promise.all(promises);
+
+  next();
+});
+
 exports.updateCategoryPhoto = catchAsync(async (req, res, next) => {
   const categories = Object.keys(req.body).reduce((acc, key) => {
     const index = key.match(/\d+/)[0];

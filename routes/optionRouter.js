@@ -17,6 +17,7 @@ const {
   resizeCategoryPhotos,
   uploadCategoryPhotos,
   updateCategoryPhoto,
+  resizeOffersPhotos,
 } = require('../controllers/categoryController');
 
 const router = express.Router();
@@ -48,12 +49,6 @@ router
   );
 router
   .route('/changeOffersPhoto')
-  .patch(
-    protect,
-    restrictTo('admin'),
-    uploadCategoryPhotos,
-    resizeCategoryPhotos,
-    updateOffersPhoto,
-  );
+  .patch(protect, restrictTo('admin'), uploadCategoryPhotos, resizeOffersPhotos, updateOffersPhoto);
 
 module.exports = router;
