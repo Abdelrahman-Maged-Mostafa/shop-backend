@@ -12,6 +12,11 @@ const {
   updateChangeLogo,
 } = require('../controllers/optionController');
 const { protect, restrictTo } = require('../controllers/authController');
+const {
+  resizeCategoryPhotos,
+  uploadCategoryPhotos,
+  updateCategoryPhoto,
+} = require('../controllers/categoryController');
 
 const router = express.Router();
 
@@ -31,5 +36,14 @@ router.route('/changeColors').patch(protect, restrictTo('admin'), updateChangeCo
 router
   .route('/changeLogo')
   .patch(protect, restrictTo('admin'), uploadLogoPhotos, resizeLogoPhoto, updateChangeLogo);
+router
+  .route('/changeCategoryPhoto')
+  .patch(
+    protect,
+    restrictTo('admin'),
+    uploadCategoryPhotos,
+    resizeCategoryPhotos,
+    updateCategoryPhoto,
+  );
 
 module.exports = router;
