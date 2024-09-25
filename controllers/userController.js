@@ -122,15 +122,12 @@ const unBannedUser = catchAsync(async (req, res, next) => {
     data: newOne,
   });
 });
-exports.addAndRemoveToWishList = catchAsync(async (req, res, next) => {
+const addAndRemoveToWishList = catchAsync(async (req, res, next) => {
   // Find the user by ID
   const user = await User.findById(req.user._id);
-
   if (!user) return next(new AppError('User not found', 404));
-
   // Check if the product is already in the wishlist
   const index = user.wishList.indexOf(req.params.id);
-
   if (index > -1) {
     // If the product is in the wishlist, remove it
     user.wishList.splice(index, 1);
@@ -138,10 +135,8 @@ exports.addAndRemoveToWishList = catchAsync(async (req, res, next) => {
     // If the product is not in the wishlist, add it
     user.wishList.push(req.params.id);
   }
-
   // Save the updated user
   await user.save();
-
   res.status(200).json({
     status: 'success',
     data: {
@@ -151,6 +146,7 @@ exports.addAndRemoveToWishList = catchAsync(async (req, res, next) => {
 });
 
 module.exports = {
+  addAndRemoveToWishList,
   removeAllCart,
   removeFromCart,
   addToCart,
