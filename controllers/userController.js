@@ -136,7 +136,7 @@ const addAndRemoveToWishList = catchAsync(async (req, res, next) => {
     user.wishList.push(req.params.id);
   }
   // Save the updated user
-  await user.save();
+  await User.findByIdAndUpdate(req.user._id, { wishList: user.wishList }, { new: true });
   res.status(200).json({
     status: 'success',
     data: {
