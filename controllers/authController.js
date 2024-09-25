@@ -141,7 +141,8 @@ exports.forgetPassword = catchAsync(async (req, res, next) => {
   }
   const resetToken = await user.createPasswordResetToken();
   await user.save({ validateBeforeSave: false });
-  const resetURL = `https://shopy-gooal.netlify.app/writeNewPasword/${resetToken}`;
+  const baseURL = `${req.protocol}://${req.get('host')}`;
+  const resetURL = `${baseURL}/writeNewPasword/${resetToken}`;
   try {
     await new Email(user, resetURL).sendPasswordReset();
     res.status(200).json({
