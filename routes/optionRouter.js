@@ -12,6 +12,7 @@ const {
   updateChangeLogo,
   updateOffersPhoto,
   updateFooterBody,
+  updateAboutUsBody,
 } = require('../controllers/optionController');
 const { protect, restrictTo } = require('../controllers/authController');
 const {
@@ -53,5 +54,6 @@ router
   .patch(protect, restrictTo('admin'), uploadCategoryPhotos, resizeOffersPhotos, updateOffersPhoto);
 
 router.route('/updateFooterBody').patch(protect, restrictTo('admin'), updateFooterBody);
+router.route('/updateAboutUs').patch(protect, restrictTo('admin'), updateAboutUsBody);
 
 module.exports = router;

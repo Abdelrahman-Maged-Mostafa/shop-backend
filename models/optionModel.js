@@ -88,6 +88,7 @@ const optionSchema = new mongoose.Schema({
   offers: [String],
   colors: colorSchema,
   footerBody: { email: String, phone: String },
+  aboutUs: { p: String, pp: String, ppp: String },
   headerStyle: String,
   footerStyle: String,
   dashboardStyle: String,

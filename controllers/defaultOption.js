@@ -97,6 +97,16 @@ exports.defaultOption = {
   },
   footerBody: { email: 'podapoda_poda@yahoo.com', phone: '+20 102 0198 197' },
   logo: 'https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/logo-0.5080131496954754-1726929075403-ZhPT5q3L1f0Ymfe0ygGp5zlNoYDV2k.png',
+  aboutUs: {
+    p: `Welcome to our company! We are dedicated to providing the best services
+        to our customers, ensuring satisfaction and excellence in every project
+        we undertake.`,
+    pp: `Our team is composed of highly skilled professionals who are passionate
+        about their work. We believe in continuous improvement and innovation to
+        stay ahead in the industry.`,
+    ppp: ` Thank you for choosing us. We look forward to collaborating with you and
+        achieving great success together. Let's make something amazing!`,
+  },
   headerStyle: 'String',
   footerStyle: 'String',
   dashboardStyle: 'String',
