@@ -107,6 +107,16 @@ exports.defaultOption = {
     ppp: ` Thank you for choosing us. We look forward to collaborating with you and
         achieving great success together. Let's make something amazing!`,
   },
+  numItems: {
+    numItemsInHomePage: 10,
+    numItemsInCategoryPage: 10,
+    numItemsInManageItemsPage: 5,
+    numItemsInManageReviewsPage: 5,
+    numItemsInWishListPage: 10,
+    numReviewInPage: 6,
+    numOrderInManageOrdersPage: 5,
+    numUsersInManageUsersPage: 6,
+  },
   headerStyle: 'String',
   footerStyle: 'String',
   dashboardStyle: 'String',
