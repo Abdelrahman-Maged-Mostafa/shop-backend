@@ -99,6 +99,7 @@ const optionSchema = new mongoose.Schema({
     numOrderInManageOrdersPage: Number,
     numUsersInManageUsersPage: Number,
   },
+  offersLine: [String],
   headerStyle: String,
   footerStyle: String,
   dashboardStyle: String,

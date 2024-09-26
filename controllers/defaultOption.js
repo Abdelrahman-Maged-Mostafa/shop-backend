@@ -117,6 +117,12 @@ exports.defaultOption = {
     numOrderInManageOrdersPage: 5,
     numUsersInManageUsersPage: 6,
   },
+  offersLine: [
+    'Limited Time Offer: Grab Your Favorites Now!',
+    'Exclusive Deals Just for You: Shop and Save!',
+    'Hurry! Special Discounts Ending Soon!',
+    'Unlock Amazing Savings on Top Products Today!',
+  ],
   headerStyle: 'String',
   footerStyle: 'String',
   dashboardStyle: 'String',
