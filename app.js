@@ -49,12 +49,6 @@ app.use(cookieParser());
 
 //Data sanitization against NoSQL query injection
 app.use(mongoSanitize());
-app.use((req, res, next) => {
-  if (req.body && req.body.ANALYTICSGOOGLE) {
-    req.body.ANALYTICSGOOGLE = req.body.ANALYTICSGOOGLE.replace(/&lt;/g, '<').replace(/&gt;/g, '>');
-  }
-  next();
-});
 //Data sanitization against XSS
 app.use(xss());
 //Prevent parameters pullution
@@ -109,6 +103,14 @@ app.use(reviewURL, reviewRouter);
 const orderURL = '/api/v1/orders';
 app.use(orderURL, orderRouter);
 
+app.use((req, res, next) => {
+  console.log(req.body.ANALYTICSGOOGLE);
+  if (req.body && req.body.ANALYTICSGOOGLE) {
+    req.body.ANALYTICSGOOGLE = req.body.ANALYTICSGOOGLE.replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+  }
+  console.log(req.body.ANALYTICSGOOGLE);
+  next();
+});
 const optionURL = '/api/v1/option';
 app.use(optionURL, optionRouter);
 //for error
