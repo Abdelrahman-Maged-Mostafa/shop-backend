@@ -62,6 +62,6 @@ router.route('/updateAboutUs').patch(protect, restrictTo('admin'), updateAboutUs
 router.route('/updateNumItemsBody').patch(protect, restrictTo('admin'), updateNumItemsBody);
 router.route('/updateOffersLine').patch(protect, restrictTo('admin'), updateOffersLine);
 router.route('/updateSEO').patch(protect, restrictTo('admin'), updateSEO);
-router.route('/UpdateANALYTICSGOOGLE').patch(protect, restrictTo('admin'), UpdateANALYTICSGOOGLE);
+router.route('/updateANALYTICSGOOGLE').patch(protect, restrictTo('admin'), UpdateANALYTICSGOOGLE);
 
 module.exports = router;

@@ -266,7 +266,7 @@ exports.UpdateANALYTICSGOOGLE = catchAsync(async (req, res, next) => {
     return next(new AppError('Please try again later.', 400));
   }
 
-  options[0].ANALYTICSGOOGLE = req.body;
+  options[0].ANALYTICSGOOGLE = req.body.ANALYTICSGOOGLE;
 
   await options[0].save();
   res.status(200).json({
