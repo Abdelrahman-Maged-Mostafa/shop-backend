@@ -35,6 +35,7 @@ const itemSchema = new mongoose.Schema(
     stock: {
       type: Number,
     },
+    SEO: { title: String, description: String, keywords: String },
     properties: {
       colorsAndSize: [
         {
