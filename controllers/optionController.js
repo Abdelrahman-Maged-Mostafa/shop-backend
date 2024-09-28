@@ -159,6 +159,21 @@ exports.updateChangeLogo = catchAsync(async (req, res, next) => {
   });
 });
 
+exports.updateChangeIcon = catchAsync(async (req, res, next) => {
+  const options = await Option.find();
+  if (!options || options.length === 0) {
+    return next(new AppError('Please try again later.', 400));
+  }
+  // Update the paymentMethod of the first option in the array
+  options[0].Icon = req.body.photo;
+
+  await options[0].save();
+  res.status(200).json({
+    status: 'success',
+    option: options[0],
+  });
+});
+
 exports.getAllOptions = catchAsync(async (req, res, next) => {
   let data = await Option.find();
   if (data.length === 0) {

@@ -17,6 +17,7 @@ const {
   updateOffersLine,
   updateSEO,
   UpdateANALYTICSGOOGLE,
+  updateChangeIcon,
 } = require('../controllers/optionController');
 const { protect, restrictTo } = require('../controllers/authController');
 const {
@@ -44,6 +45,9 @@ router.route('/changeColors').patch(protect, restrictTo('admin'), updateChangeCo
 router
   .route('/changeLogo')
   .patch(protect, restrictTo('admin'), uploadLogoPhotos, resizeLogoPhoto, updateChangeLogo);
+router
+  .route('/changeLogo')
+  .patch(protect, restrictTo('admin'), uploadLogoPhotos, resizeLogoPhoto, updateChangeIcon);
 router
   .route('/changeCategoryPhoto')
   .patch(
