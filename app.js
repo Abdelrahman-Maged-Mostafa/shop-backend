@@ -104,11 +104,9 @@ const orderURL = '/api/v1/orders';
 app.use(orderURL, orderRouter);
 
 app.use((req, res, next) => {
-  console.log(req.body.ANALYTICSGOOGLE);
   if (req.body && req.body.ANALYTICSGOOGLE) {
     req.body.ANALYTICSGOOGLE = req.body.ANALYTICSGOOGLE.replace(/&lt;/g, '<').replace(/&gt;/g, '>');
   }
-  console.log(req.body.ANALYTICSGOOGLE);
   next();
 });
 const optionURL = '/api/v1/option';

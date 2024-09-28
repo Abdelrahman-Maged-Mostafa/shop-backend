@@ -261,7 +261,6 @@ exports.updateSEO = catchAsync(async (req, res, next) => {
 });
 
 exports.UpdateANALYTICSGOOGLE = catchAsync(async (req, res, next) => {
-  console.log(req.body.ANALYTICSGOOGLE);
   const options = await Option.find();
   if (!options || options.length === 0) {
     return next(new AppError('Please try again later.', 400));
