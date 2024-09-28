@@ -46,7 +46,7 @@ router
   .route('/changeLogo')
   .patch(protect, restrictTo('admin'), uploadLogoPhotos, resizeLogoPhoto, updateChangeLogo);
 router
-  .route('/changeLogo')
+  .route('/changeIcon')
   .patch(protect, restrictTo('admin'), uploadLogoPhotos, resizeLogoPhoto, updateChangeIcon);
 router
   .route('/changeCategoryPhoto')
