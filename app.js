@@ -49,6 +49,12 @@ app.use(cookieParser());
 
 //Data sanitization against NoSQL query injection
 app.use(mongoSanitize());
+app.use((req, res, next) => {
+  if (req.body && req.body.ANALYTICSGOOGLE) {
+    req.body.ANALYTICSGOOGLE = req.body.ANALYTICSGOOGLE.replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+  }
+  next();
+});
 //Data sanitization against XSS
 app.use(xss());
 //Prevent parameters pullution
