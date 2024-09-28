@@ -138,6 +138,7 @@ const optionSchema = new mongoose.Schema({
     forgetPasswordDescription: String,
     forgetPasswordKeywords: String,
   },
+  ANALYTICSGOOGLE: String,
   headerStyle: String,
   footerStyle: String,
   dashboardStyle: String,
