@@ -6,6 +6,7 @@ const User = require('../models/userModel');
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
 const Email = require('../utils/email');
+const Option = require('../models/optionModel');
 
 const signToken = (id) =>
   jwt.sign({ id }, process.env.JWT_SECRET, {
@@ -139,12 +140,17 @@ exports.forgetPassword = catchAsync(async (req, res, next) => {
   if (!user) {
     return next(new AppError('There is no user with this email address.', 404));
   }
-
+  const options = await Option.find();
   const resetToken = await user.createPasswordResetToken();
   await user.save({ validateBeforeSave: false });
   const resetURL = `${req.body.link}/writeNewPasword/${resetToken}`;
   try {
-    await new Email(user, resetURL).sendPasswordReset();
+    await new Email(
+      user,
+      resetURL,
+      options[0].forgetMessage.address,
+      options[0].forgetMessage.shopName,
+    ).sendPasswordReset();
     res.status(200).json({
       status: 'success',
       message: 'Your reset password link send to your email address please check it!',

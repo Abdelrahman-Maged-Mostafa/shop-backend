@@ -3,11 +3,13 @@ const pug = require('pug');
 const { htmlToText } = require('html-to-text');
 
 module.exports = class Email {
-  constructor(user, url) {
+  constructor(user, url, address, shopName) {
     this.to = user.email;
     this.firstName = user.name.split(' ')[0];
     this.url = url;
-    this.from = `Abdelrahman Shop <${process.env.EMAIL_FROM}>`;
+    this.address = address;
+    this.shopName = shopName;
+    this.from = `${shopName} <${process.env.EMAIL_FROM}>`;
   }
 
   newTransport() {
@@ -27,6 +29,7 @@ module.exports = class Email {
     const html = pug.renderFile(`${__dirname}/../views/emails/${template}.pug`, {
       firstName: this.firstName,
       url: this.url,
+      address: this.address,
       subject,
     });
     const mailOptions = {
@@ -46,6 +49,6 @@ module.exports = class Email {
   }
 
   async sendPasswordReset() {
-    await this.send('passwordReset', 'Your password reset token (valid for only 10 minutes)');
+    await this.send('passwordReset', 'Your password reset token (valid for only 1 hour)');
   }
 };
