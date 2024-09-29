@@ -19,6 +19,7 @@ const {
   UpdateANALYTICSGOOGLE,
   updateChangeIcon,
   UpdateForgetMessage,
+  UpdateSomeStyle,
 } = require('../controllers/optionController');
 const { protect, restrictTo } = require('../controllers/authController');
 const {
@@ -69,5 +70,6 @@ router.route('/updateOffersLine').patch(protect, restrictTo('admin'), updateOffe
 router.route('/updateSEO').patch(protect, restrictTo('admin'), updateSEO);
 router.route('/updateANALYTICSGOOGLE').patch(protect, restrictTo('admin'), UpdateANALYTICSGOOGLE);
 router.route('/UpdateForgetMessage').patch(protect, restrictTo('admin'), UpdateForgetMessage);
+router.route('/updateSomeStyle').patch(protect, restrictTo('admin'), UpdateSomeStyle);
 
 module.exports = router;

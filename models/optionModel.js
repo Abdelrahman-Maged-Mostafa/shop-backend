@@ -142,7 +142,6 @@ const optionSchema = new mongoose.Schema({
   forgetMessage: { address: String, shopName: String },
   ANALYTICSGOOGLE: String,
   headerStyle: String,
-  footerStyle: String,
   dashboardStyle: String,
 });
 

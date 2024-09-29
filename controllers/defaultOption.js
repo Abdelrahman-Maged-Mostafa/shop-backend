@@ -162,6 +162,5 @@ exports.defaultOption = {
   },
   forgetMessage: { address: 'Shop Inc, elsa3d coffe, Alamyrya CA 99999', shopName: 'Easy shop' },
   headerStyle: 'String',
-  footerStyle: 'String',
   dashboardStyle: 'String',
 };

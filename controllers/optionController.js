@@ -304,3 +304,19 @@ exports.UpdateForgetMessage = catchAsync(async (req, res, next) => {
     option: options[0],
   });
 });
+
+exports.UpdateSomeStyle = catchAsync(async (req, res, next) => {
+  const options = await Option.find();
+  if (!options || options.length === 0) {
+    return next(new AppError('Please try again later.', 400));
+  }
+
+  options[0].headerStyle = req.body.headerStyle;
+  options[0].dashboardStyle = req.body.dashboardStyle;
+
+  await options[0].save();
+  res.status(200).json({
+    status: 'success',
+    option: options[0],
+  });
+});
