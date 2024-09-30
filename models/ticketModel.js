@@ -4,6 +4,7 @@ const ticketSchema = new mongoose.Schema({
   user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
   title: { type: String, required: true },
   createdAt: { type: Date, default: Date.now },
+  replay: { type: String, default: 'false' },
   messages: [
     {
       sendEmail: { type: String, required: true },

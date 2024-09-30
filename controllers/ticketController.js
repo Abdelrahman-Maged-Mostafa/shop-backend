@@ -1,9 +1,15 @@
 const Ticket = require('../models/ticketModel');
 const AppError = require('../utils/appError');
 const catchAsync = require('../utils/catchAsync');
-const { getAll } = require('./handlerFactory');
 
-exports.getAllTickets = getAll(Ticket);
+exports.getAllTickets = catchAsync(async (req, res, next) => {
+  const userTickets = await Ticket.find({ user: req.user._id }).populate('user').exec();
+  if (!userTickets) next(new AppError('Failed to retrieve tickets', 400));
+  res.status(200).json({
+    status: 'success',
+    data: userTickets,
+  });
+});
 
 exports.updateTicket = catchAsync(async (req, res, next) => {
   const curTicket = await Ticket.findById(req.params.id);
@@ -15,7 +21,16 @@ exports.updateTicket = catchAsync(async (req, res, next) => {
 
   const newOne = await Ticket.findByIdAndUpdate(
     req.params.id,
-    { $push: { messages: req.body } },
+    {
+      replay: req.user.role === 'admin' ? 'true' : 'false',
+      $push: {
+        messages: {
+          sendEmail: req.user.role === 'admin' ? 'Admin' : req.user.name,
+          message: req.body.message,
+          createdAt: new Date(Date.now()),
+        },
+      },
+    },
     {
       new: true,
       runValidators: true,
@@ -32,8 +47,10 @@ exports.createTicket = catchAsync(async (req, res, next) => {
   const newTicket = new Ticket({
     user: req.user._id,
     title: req.body.title,
-    createdAt: Date.now,
-    messages: [{ sendEmail: req.user.name, message: req.body.message, createdAt: Date.now }],
+    createdAt: new Date(Date.now()),
+    messages: [
+      { sendEmail: req.user.name, message: req.body.message, createdAt: new Date(Date.now()) },
+    ],
   });
   if (!newTicket) next(new AppError('Failed to create ticket', 400));
 

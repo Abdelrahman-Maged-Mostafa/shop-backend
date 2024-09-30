@@ -99,6 +99,7 @@ const optionSchema = new mongoose.Schema({
     numReviewInPage: Number,
     numOrderInManageOrdersPage: Number,
     numUsersInManageUsersPage: Number,
+    numTicketsInPage: Number,
   },
   offersLine: [String],
   initialSEOData: {

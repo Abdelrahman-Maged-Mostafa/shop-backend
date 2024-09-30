@@ -116,6 +116,7 @@ exports.defaultOption = {
     numReviewInPage: 6,
     numOrderInManageOrdersPage: 5,
     numUsersInManageUsersPage: 6,
+    numTicketsInPage: 5,
   },
   offersLine: [
     'Limited Time Offer: Grab Your Favorites Now!',
