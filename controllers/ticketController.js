@@ -3,7 +3,7 @@ const AppError = require('../utils/appError');
 const catchAsync = require('../utils/catchAsync');
 
 exports.getAllTickets = catchAsync(async (req, res, next) => {
-  const userTickets = await Ticket.find({ user: req.user._id }).populate('user').exec();
+  const userTickets = await Ticket.find().populate('user').exec();
   if (!userTickets) next(new AppError('Failed to retrieve tickets', 400));
   res.status(200).json({
     status: 'success',
