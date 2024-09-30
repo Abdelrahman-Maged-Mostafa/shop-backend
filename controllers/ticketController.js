@@ -34,7 +34,7 @@ exports.createTicket = catchAsync(async (req, res, next) => {
       user: req.user._id,
       title: req.body.title,
       createdAt: Date.now,
-      messages: req.body.messages,
+      messages: [{ sendEmail: req.user.name, message: req.body.message, createdAt: Date.now }],
     });
 
     await newTicket.save();
