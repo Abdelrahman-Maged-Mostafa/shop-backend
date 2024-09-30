@@ -18,6 +18,7 @@ const reviewRouter = require('./routes/reviewRouter');
 const viewRouter = require('./routes/viewRouters');
 const orderRouter = require('./routes/orderRouter');
 const optionRouter = require('./routes/optionRouter');
+const ticketRouter = require('./routes/ticketRouter');
 
 const app = express();
 /////
@@ -111,6 +112,9 @@ app.use((req, res, next) => {
 });
 const optionURL = '/api/v1/option';
 app.use(optionURL, optionRouter);
+
+const ticketURL = '/api/v1/tickets';
+app.use(ticketURL, ticketRouter);
 //for error
 app.all('*', (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));

@@ -161,6 +161,6 @@ exports.defaultOption = {
     forgetPasswordKeywords: 'forgot password, reset password, recover account',
   },
   forgetMessage: { address: 'Shop Inc, elsa3d coffe, Alamyrya CA 99999', shopName: 'Easy shop' },
-  headerStyle: 'String',
-  dashboardStyle: 'String',
+  headerStyle: 'style2',
+  dashboardStyle: 'style4',
 };
