@@ -29,23 +29,20 @@ exports.updateTicket = catchAsync(async (req, res, next) => {
 });
 
 exports.createTicket = catchAsync(async (req, res, next) => {
-  try {
-    const newTicket = new Ticket({
-      user: req.user._id,
-      title: req.body.title,
-      createdAt: Date.now,
-      messages: [{ sendEmail: req.user.name, message: req.body.message, createdAt: Date.now }],
-    });
+  const newTicket = new Ticket({
+    user: req.user._id,
+    title: req.body.title,
+    createdAt: Date.now,
+    messages: [{ sendEmail: req.user.name, message: req.body.message, createdAt: Date.now }],
+  });
+  if (!newTicket) next(new AppError('Failed to create ticket', 400));
 
-    await newTicket.save();
+  await newTicket.save();
 
-    res.status(201).json({
-      status: 'success',
-      data: newTicket,
-    });
-  } catch (error) {
-    next(new AppError('Failed to create ticket', 400));
-  }
+  res.status(201).json({
+    status: 'success',
+    data: newTicket,
+  });
 });
 
 exports.getAllUserTickets = catchAsync(async (req, res, next) => {
