@@ -81,7 +81,10 @@ const deleteItem = catchAsync(async (req, res, next) => {
   if (!doc) return next(new AppError('No item found with that ID', 404));
   await updateCategories();
   //for delet this item from all cartItems in users.
-  await User.updateMany({}, { $pull: { cartItems: { item: req.params.id } } });
+  await User.updateMany(
+    {},
+    { $pull: { cartItems: { item: req.params.id }, wishList: req.params.id } },
+  );
   //res
   await res.status(204).json({
     status: 'success',
