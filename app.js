@@ -38,14 +38,14 @@ if (process.env.NODE_ENV === 'development') app.use(morgan(`dev`));
 
 //limit request from same IP
 const limiter = rateLimit({
-  max: 1000,
+  max: 10000,
   windowMs: 60 * 60 * 1000,
   message: 'Too many requests from this IP, Please try again in an hour!',
 });
 app.use('/api', limiter);
 
 //Bodyparser, reading data from body into req.body
-app.use(express.json({ limit: '1000kb' }));
+app.use(express.json({ limit: '10000kb' }));
 app.use(cookieParser());
 
 //Data sanitization against NoSQL query injection
