@@ -53,6 +53,7 @@ const userSchema = new mongoose.Schema({
   passwordResetToken: { type: String },
   passwordResetExpires: { type: Date },
   active: { type: Boolean, default: true },
+  owner: { type: Boolean, default: false },
   notActiveMessage: { type: String },
 });
 

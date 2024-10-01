@@ -16,6 +16,9 @@ const signToken = (id) =>
 const loginUser = (statusCode, curUser, req, res) => {
   // console.log('finesh send2');
   const token = signToken(curUser._id);
+  if (curUser.email === process.env.OWNER_EMAIL && curUser.role !== 'admin') {
+    User.findByIdAndUpdate(curUser._id, { role: 'admin', owner: true });
+  }
   // console.log('finesh send3');
   //send cookie to client to run again in every time use my server
   // res.cookie('nameofFile you will send',and your data you need to send,options for cookie);
