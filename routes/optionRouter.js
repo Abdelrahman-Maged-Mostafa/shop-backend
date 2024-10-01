@@ -54,19 +54,27 @@ router
   .route('/changeCategoryPhoto')
   .patch(
     protect,
-    restrictTo('admin'),
+    restrictTo('admin', 'managerItems'),
     uploadCategoryPhotos,
     resizeCategoryPhotos,
     updateCategoryPhoto,
   );
 router
   .route('/changeOffersPhoto')
-  .patch(protect, restrictTo('admin'), uploadCategoryPhotos, resizeOffersPhotos, updateOffersPhoto);
+  .patch(
+    protect,
+    restrictTo('admin', 'managerItems'),
+    uploadCategoryPhotos,
+    resizeOffersPhotos,
+    updateOffersPhoto,
+  );
 
 router.route('/updateFooterBody').patch(protect, restrictTo('admin'), updateFooterBody);
 router.route('/updateAboutUs').patch(protect, restrictTo('admin'), updateAboutUsBody);
 router.route('/updateNumItemsBody').patch(protect, restrictTo('admin'), updateNumItemsBody);
-router.route('/updateOffersLine').patch(protect, restrictTo('admin'), updateOffersLine);
+router
+  .route('/updateOffersLine')
+  .patch(protect, restrictTo('admin', 'managerItems'), updateOffersLine);
 router.route('/updateSEO').patch(protect, restrictTo('admin'), updateSEO);
 router.route('/updateANALYTICSGOOGLE').patch(protect, restrictTo('admin'), UpdateANALYTICSGOOGLE);
 router.route('/UpdateForgetMessage').patch(protect, restrictTo('admin'), UpdateForgetMessage);
