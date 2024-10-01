@@ -54,7 +54,10 @@ exports.resizeCategoryPhotos = catchAsync(async (req, res, next) => {
 
   const promises = req.files.map(async (file) => {
     const fileName = `public/img/items/item-${Math.random()}-${Date.now()}.png`;
-    const newImage = await sharp(file.buffer).resize(300, 200).toFormat('png').png({ quality: 90 });
+    const newImage = await sharp(file.buffer)
+      .resize(1200, 800)
+      .toFormat('png')
+      .png({ quality: 90 });
 
     if (process.env.BLOB_READ_WRITE_TOKEN) {
       const { url } = await put(`${fileName}`, newImage, {
