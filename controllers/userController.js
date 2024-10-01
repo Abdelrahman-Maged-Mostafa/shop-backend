@@ -145,7 +145,27 @@ const addAndRemoveToWishList = catchAsync(async (req, res, next) => {
   });
 });
 
+const changeRole = catchAsync(async (req, res, next) => {
+  if (req.user.email !== process.env.OWNER_EMAIL)
+    return next(new AppError('You not have access to do that', 404));
+  const newOne = await User.findByIdAndUpdate(
+    req.params.id,
+    { role: req.body.role },
+    {
+      new: true,
+      runValidators: true,
+    },
+  );
+  if (!newOne) return next(new AppError('No document found with that ID', 404));
+
+  await res.status(201).json({
+    status: 'success',
+    data: newOne,
+  });
+});
+
 module.exports = {
+  changeRole,
   addAndRemoveToWishList,
   removeAllCart,
   removeFromCart,
