@@ -16,9 +16,7 @@ const signToken = (id) =>
 const loginUser = (statusCode, curUser, req, res) => {
   // console.log('finesh send2');
   const token = signToken(curUser._id);
-  if (curUser.email === process.env.OWNER_EMAIL && curUser.role !== 'admin') {
-    User.findByIdAndUpdate(curUser._id, { role: 'admin', owner: true });
-  }
+
   // console.log('finesh send3');
   //send cookie to client to run again in every time use my server
   // res.cookie('nameofFile you will send',and your data you need to send,options for cookie);
@@ -29,9 +27,9 @@ const loginUser = (statusCode, curUser, req, res) => {
   };
   // console.log('finesh send4');
   // in prod only do this cookies
-  // if (process.env.NODE_ENV === 'production') res.cookie('jwt', token, cookieOptions);
-  if (req.secure || req.headers(`x-forwarded-proto`) === 'https')
-    res.cookie('jwt', token, cookieOptions);
+  if (process.env.NODE_ENV === 'production') res.cookie('jwt', token, cookieOptions);
+  // if (req.secure || req.headers(`x-forwarded-proto`) === 'https')
+  //   res.cookie('jwt', token, cookieOptions);
 
   res.status(statusCode).json({
     status: 'success',
@@ -46,6 +44,9 @@ exports.signup = catchAsync(async (req, res, next) => {
     passwordConfirm: req.body.passwordConfirm,
     email: req.body.email,
   });
+  if (newUser.email === process.env.OWNER_EMAIL && newUser.role !== 'admin') {
+    await User.findByIdAndUpdate(newUser._id, { role: 'admin', owner: true });
+  }
   loginUser(201, newUser, req, res);
 });
 // login method
@@ -60,6 +61,9 @@ exports.login = catchAsync(async (req, res, next) => {
     return next(new AppError('Incorrect email or password', 401));
   }
   if (!curUser.active) return next(new AppError(curUser.notActiveMessage || 'you are banned', 401));
+  if (curUser.email === process.env.OWNER_EMAIL && curUser.role !== 'admin') {
+    await User.findByIdAndUpdate(curUser._id, { role: 'admin', owner: true });
+  }
   loginUser(200, curUser, req, res);
 });
 
