@@ -52,6 +52,6 @@ router.use(restrictTo('admin'));
 router.route('/').get(getAllusers);
 router.route(`/ban/:id`).patch(bannedUser);
 router.route(`/unBan/:id`).patch(unBannedUser);
-router.patch('/rol', changeRole);
+router.patch('/rol/:id', changeRole);
 
 module.exports = router;
