@@ -25,7 +25,7 @@ const reviews = JSON.parse(fs.readFileSync(`${__dirname}/reviews.json`, 'utf-8')
 /////////////fake data
 
 //////////////////////
-exports.importData = async () => {
+const importData = async () => {
   try {
     await Item.create(items);
     // fs.writeFileSync(`${__dirname}/reviews.json`, JSON.stringify(reviews), 'utf-8');
@@ -40,7 +40,7 @@ exports.importData = async () => {
   // process.exit();
 };
 
-exports.deletData = async () => {
+const deletData = async () => {
   try {
     await Item.deleteMany();
     await Option.deleteMany();
@@ -54,10 +54,10 @@ exports.deletData = async () => {
 };
 
 if (process.argv[2] === '--import') {
-  // importData();
+  importData();
   //node .\dev-data\data\import-Dev-Data.js --import
 } else if (process.argv[2] === '--delete') {
-  // deletData();
+  deletData();
   //node .\dev-data\data\import-Dev-Data.js --delete
 }
 console.log(process.argv);

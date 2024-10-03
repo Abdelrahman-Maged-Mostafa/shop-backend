@@ -9,7 +9,11 @@ const hpp = require('hpp');
 const cookieParser = require('cookie-parser');
 const compression = require('compression');
 const cors = require('cors');
+const fs = require('fs');
 
+const Item = require('./models/itemmodel');
+const Review = require('./models/reviewModel');
+const Option = require('./models/optionModel');
 const itemRouter = require('./routes/itemRouter');
 const userRouter = require('./routes/userRouter');
 const AppError = require('./utils/appError');
@@ -19,7 +23,6 @@ const viewRouter = require('./routes/viewRouters');
 const orderRouter = require('./routes/orderRouter');
 const optionRouter = require('./routes/optionRouter');
 const ticketRouter = require('./routes/ticketRouter');
-const { deleteData, importData } = require('./dev-data/data/import-Dev-Data');
 
 const app = express();
 /////
@@ -124,8 +127,20 @@ app.all('*', (req, res, next) => {
 app.use(middlewareError);
 //Function Set data
 const refreshData = async () => {
-  await deleteData();
-  await importData();
+  console.log(`${__dirname}`);
+  const items = JSON.parse(fs.readFileSync(`${__dirname}/dev-data/data/items.json`, 'utf-8'));
+  const options = JSON.parse(fs.readFileSync(`${__dirname}/dev-data/data/options.json`, 'utf-8'));
+  // const users = JSON.parse(fs.readFileSync(`${__dirname}/users.json`, 'utf-8'));
+  const reviews = JSON.parse(fs.readFileSync(`${__dirname}/dev-data/data/reviews.json`, 'utf-8'));
+
+  await Item.deleteMany();
+  await Option.deleteMany();
+  await Review.deleteMany();
+
+  await Item.create(items);
+  await Option.create(options);
+  await Option.deleteMany({ _id: { $ne: options[0]._id } });
+  await Review.create(reviews);
 };
 setInterval(refreshData, 3 * 60 * 1000); // 3 minutes in milliseconds
 
