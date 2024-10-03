@@ -130,19 +130,39 @@ const itemsPath = path.resolve(__dirname, 'dev-data/data/items.json');
 const optionsPath = path.resolve(__dirname, 'dev-data/data/options.json');
 const reviewsPath = path.resolve(__dirname, 'dev-data/data/reviews.json');
 const refreshData = async () => {
-  const items = JSON.parse(fs.readFileSync(itemsPath, 'utf-8'));
-  const options = JSON.parse(fs.readFileSync(optionsPath, 'utf-8'));
-  const reviews = JSON.parse(fs.readFileSync(reviewsPath, 'utf-8'));
+  try {
+    const items = JSON.parse(fs.readFileSync(itemsPath, 'utf-8'));
+    const options = JSON.parse(fs.readFileSync(optionsPath, 'utf-8'));
+    const reviews = JSON.parse(fs.readFileSync(reviewsPath, 'utf-8'));
 
-  await Item.deleteMany();
-  await Option.deleteMany();
-  await Review.deleteMany();
+    await Item.deleteMany();
+    await Option.deleteMany();
+    await Review.deleteMany();
 
-  await Item.create(items);
-  await Option.create(options);
-  await Option.deleteMany({ _id: { $ne: options[0]._id } });
-  await Review.create(reviews);
+    // Insert items in batches using Promise.all()
+    const itemChunks = [];
+    const chunkSize = 1000;
+    for (let i = 0; i < items.length; i += chunkSize) {
+      itemChunks.push(items.slice(i, i + chunkSize));
+    }
+    await Promise.all(itemChunks.map((chunk) => Item.create(chunk)));
+
+    await Option.create(options);
+    await Option.deleteMany({ _id: { $ne: options[0]._id } });
+
+    // Insert reviews in batches using Promise.all()
+    const reviewChunks = [];
+    for (let i = 0; i < reviews.length; i += chunkSize) {
+      reviewChunks.push(reviews.slice(i, i + chunkSize));
+    }
+    await Promise.all(reviewChunks.map((chunk) => Review.create(chunk)));
+
+    console.log('Data refreshed');
+  } catch (err) {
+    console.log(err);
+  }
 };
+
 setInterval(refreshData, 3 * 60 * 1000); // 3 minutes in milliseconds
 
 module.exports = app;
