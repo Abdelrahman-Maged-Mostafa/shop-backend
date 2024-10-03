@@ -39,12 +39,13 @@ reviewSchema.statics.calcAvrageRatings = async function (itemId) {
       ratingsQuantity: stats[0].nRatings,
       ratingsAverage: stats[0].avgRating,
     });
-  } else {
-    await Item.findByIdAndUpdate(itemId, {
-      ratingsQuantity: 0,
-      ratingsAverage: 0,
-    });
   }
+  // else {
+  //   await Item.findByIdAndUpdate(itemId, {
+  //     ratingsQuantity: 0,
+  //     ratingsAverage: 0,
+  //   });
+  // }
 };
 
 reviewSchema.post('save', function () {
