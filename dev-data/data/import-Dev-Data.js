@@ -29,7 +29,7 @@ exports.importData = async () => {
   try {
     await Item.create(items);
     // fs.writeFileSync(`${__dirname}/reviews.json`, JSON.stringify(reviews), 'utf-8');
-    await Option.updateOne({ _id: options[0]._id }, options[0]);
+    await Option.create(options);
     await Option.deleteMany({ _id: { $ne: options[0]._id } });
     // await User.create(users, { validateBeforeSave: true });
     await Review.create(reviews);
@@ -37,7 +37,7 @@ exports.importData = async () => {
   } catch (err) {
     console.log(err);
   }
-  process.exit();
+  // process.exit();
 };
 
 exports.deletData = async () => {
@@ -50,7 +50,7 @@ exports.deletData = async () => {
   } catch (err) {
     console.log(err);
   }
-  process.exit();
+  // process.exit();
 };
 
 if (process.argv[2] === '--import') {
