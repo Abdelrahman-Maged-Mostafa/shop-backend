@@ -33,7 +33,7 @@ exports.updateItems = catchAsync(async (req, res, next) => {
 exports.updateReviews = catchAsync(async (req, res, next) => {
   await Review.deleteMany();
 
-  await Review.create(reviewsData);
+  Review.create(reviewsData);
 
   res.status(200).json({
     status: 'success',
