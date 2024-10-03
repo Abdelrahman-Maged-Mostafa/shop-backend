@@ -33,7 +33,24 @@ exports.updateItems = catchAsync(async (req, res, next) => {
 exports.updateReviews = catchAsync(async (req, res, next) => {
   await Review.deleteMany();
 
-  Review.create(reviewsData);
+  await Review.create(reviewsData.slice(0, 500));
+
+  res.status(200).json({
+    status: 'success',
+    option: optionsData[0],
+  });
+});
+
+exports.updateReviews2 = catchAsync(async (req, res, next) => {
+  await Review.create(reviewsData.slice(501, 1150));
+
+  res.status(200).json({
+    status: 'success',
+    option: optionsData[0],
+  });
+});
+exports.updateReviews3 = catchAsync(async (req, res, next) => {
+  await Review.create(reviewsData.slice(1151, 1850));
 
   res.status(200).json({
     status: 'success',
