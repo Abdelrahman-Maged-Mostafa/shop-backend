@@ -1,301 +1,2210 @@
 [
   {
-    "_id": "66d5fbfe2ee0970dd4a5a836",
-    "name": "Man T-shirt",
-    "price": 30,
-    "imageCover": "/images/tshirt-img2.png",
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
     "images": [
-      "/images/tshirt-img2.png",
-      "/images/download-removebg-preview.png",
-      "/images/png-clipart-printed-t-shirt-polo-shirt-clothing-t-shirt-tshirt-fashion-thumbnail-removebg-preview.png"
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727907617176-0-vvO9VQt0iWb6YnywRWSqoRBanYFwtC.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727907621069-0-OQ57yodLC8dbvuts9pTcIWrRoYaNOl.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727907625272-0-r6SITWndH3IYrnNkgAIVCWJZU1reaL.jpeg"
     ],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 13,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a837",
-    "name": "Man drees",
-    "price": 80,
-    "imageCover": "/images/dress-shirt-img.png",
-    "images": ["/images/dress-shirt-img.png", "/images/2.png", "/images/3.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 115,
-
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a838",
-    "name": "computer core-i9",
-    "price": 180,
-    "imageCover": "/images/computer-img.png",
-    "images": ["/images/computer-img.png", "/images/4.png", "/images/5.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 62,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a839",
-    "name": "mobile galaxy",
-    "price": 70,
-    "imageCover": "/images/mobile-img2.png",
-    "images": ["/images/mobile-img2.png", "/images/6.png", "/images/7.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 97,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a840",
-    "name": "laptop-img.png",
-    "price": 90,
-    "imageCover": "/images/laptop-img.png",
-    "images": ["/images/laptop-img.png", "/images/11.png", "/images/22.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 188,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a841",
-    "name": "necklace",
-    "price": 90,
-    "imageCover": "/images/neklesh-img2.png",
-    "images": ["/images/neklesh-img2.png", "/images/33.png", "/images/44.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 186,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a842",
-    "name": "kangan",
-    "price": 90,
-    "imageCover": "/images/kangan-img2.png",
-    "images": ["/images/kangan-img2.png", "/images/88.png", "/images/99.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 254,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a843",
-    "name": "Man T-shirt",
-    "price": 30,
-    "imageCover": "/images/tshirt-img2.png",
-    "images": [
-      "/images/tshirt-img2.png",
-      "/images/download-removebg-preview.png",
-      "/images/png-clipart-printed-t-shirt-polo-shirt-clothing-t-shirt-tshirt-fashion-thumbnail-removebg-preview.png"
-    ],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 169,
-
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a844",
-    "name": "Man drees",
-    "price": 80,
-    "imageCover": "/images/dress-shirt-img.png",
-    "images": ["/images/dress-shirt-img.png", "/images/2.png", "/images/3.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 19,
-
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a845",
-    "name": "computer core-i9",
-    "price": 180,
-    "imageCover": "/images/computer-img.png",
-    "images": ["/images/computer-img.png", "/images/4.png", "/images/5.png"],
-    "shortDescription": "This is a short description of the product.",
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["handbags"],
+    "_id": "66fdc72c8d42172f24174037",
+    "name": "Product 71",
+    "price": 95,
+    "shortDescription": "Short description for Product 71",
     "stock": 18,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+    "longDescription": "Long description for Product 71. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 71",
+    "SEOdescription": "SEO description for Product 71",
+    "SEOkeywords": "keyword12, example, product, 71",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727907617176-0-vvO9VQt0iWb6YnywRWSqoRBanYFwtC.jpeg",
+    "__v": 0,
+
+    "id": "66fdc72c8d42172f24174037"
   },
   {
-    "_id": "66d5fbfe2ee0970dd4a5a846",
-    "name": "mobile galaxy",
-    "price": 70,
-    "imageCover": "/images/mobile-img2.png",
-    "images": ["/images/mobile-img2.png", "/images/6.png", "/images/7.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 205,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a847",
-    "name": "laptop-img.png",
-    "price": 90,
-    "imageCover": "/images/laptop-img.png",
-    "images": ["/images/laptop-img.png", "/images/11.png", "/images/22.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 111,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a848",
-    "name": "necklace",
-    "price": 90,
-    "imageCover": "/images/neklesh-img2.png",
-    "images": ["/images/neklesh-img2.png", "/images/33.png", "/images/44.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 121,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a849",
-    "name": "kangan",
-    "price": 90,
-    "imageCover": "/images/kangan-img2.png",
-    "images": ["/images/kangan-img2.png", "/images/88.png", "/images/99.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 28,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a850",
-    "name": "Man T-shirt",
-    "price": 30,
-    "imageCover": "/images/tshirt-img2.png",
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
     "images": [
-      "/images/tshirt-img2.png",
-      "/images/download-removebg-preview.png",
-      "/images/png-clipart-printed-t-shirt-polo-shirt-clothing-t-shirt-tshirt-fashion-thumbnail-removebg-preview.png"
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908014469-0-9XSdPSPxXBsLh3OvYsmy8n1eZT4UKb.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908019466-0-idecg9hADaMfXXLUAPVlB7Hi7CCbtd.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908023561-0-VaLAR00ER70zPAuVENQEAzWrMu3PPA.jpeg"
     ],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 128,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["handbags"],
+    "_id": "66fdc8ba8d42172f24174070",
+    "name": "Product 72",
+    "price": 480,
+    "shortDescription": "Short description for Product 70",
+    "stock": 18,
+    "longDescription": "Long description for Product 70. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 70",
+    "SEOdescription": "SEO description for Product 70",
+    "SEOkeywords": "keyword12, example, product, 70",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908014469-0-9XSdPSPxXBsLh3OvYsmy8n1eZT4UKb.jpeg",
+    "__v": 0,
+
+    "id": "66fdc8ba8d42172f24174070"
   },
   {
-    "_id": "66d5fbfe2ee0970dd4a5a851",
-    "name": "Man drees",
-    "price": 80,
-    "imageCover": "/images/dress-shirt-img.png",
-    "images": ["/images/dress-shirt-img.png", "/images/2.png", "/images/3.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 201,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a852",
-    "name": "computer core-i9",
-    "price": 180,
-    "imageCover": "/images/computer-img.png",
-    "images": ["/images/computer-img.png", "/images/4.png", "/images/5.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 213,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a853",
-    "name": "mobile galaxy",
-    "price": 70,
-    "imageCover": "/images/mobile-img2.png",
-    "images": ["/images/mobile-img2.png", "/images/6.png", "/images/7.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 115,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a854",
-    "name": "laptop-img.png",
-    "price": 90,
-    "imageCover": "/images/laptop-img.png",
-    "images": ["/images/laptop-img.png", "/images/11.png", "/images/22.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 57,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a855",
-    "name": "necklace",
-    "price": 90,
-    "imageCover": "/images/neklesh-img2.png",
-    "images": ["/images/neklesh-img2.png", "/images/33.png", "/images/44.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 183,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a856",
-    "name": "kangan",
-    "price": 90,
-    "imageCover": "/images/kangan-img2.png",
-    "images": ["/images/kangan-img2.png", "/images/88.png", "/images/99.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 183,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
-  },
-  {
-    "_id": "66d5fbfe2ee0970dd4a5a857",
-    "name": "Man T-shirt",
-    "price": 30,
-    "imageCover": "/images/tshirt-img2.png",
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
     "images": [
-      "/images/tshirt-img2.png",
-      "/images/download-removebg-preview.png",
-      "/images/png-clipart-printed-t-shirt-polo-shirt-clothing-t-shirt-tshirt-fashion-thumbnail-removebg-preview.png"
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908194603-0-LmkL2NvPkhPHz93RVLEnlUZdBmWhFO.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908198223-0-hdRm8cndBckixw11fqlbGaRdlcq3Qw.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908202700-0-3LMG45Spf1pNfSeDr2wvzL71RfyV3z.jpeg"
     ],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 69,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["handbags", "popular"],
+    "_id": "66fdc96d8d42172f241740a5",
+    "name": "Product 73",
+    "price": 150,
+    "shortDescription": "Short description for Product 73",
+    "stock": 18,
+    "longDescription": "Long description for Product 73. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 73",
+    "SEOdescription": "SEO description for Product 73",
+    "SEOkeywords": "keyword12, example, product, 73",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908194603-0-LmkL2NvPkhPHz93RVLEnlUZdBmWhFO.jpeg",
+    "__v": 0,
+
+    "id": "66fdc96d8d42172f241740a5"
   },
   {
-    "_id": "66d5fbfe2ee0970dd4a5a858",
-    "name": "Man drees",
-    "price": 80,
-    "imageCover": "/images/dress-shirt-img.png",
-    "images": ["/images/dress-shirt-img.png", "/images/2.png", "/images/3.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 151,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908368300-0-Rujrx6wRBLCf7JWqcYBKQUgspgYW3C.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908371796-0-idzFd51zvRNjkp7p9Oc9qrv1P8QX7X.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908375818-0-a2VNJImLW0p4Rs9UPNhT91CBwz8mcg.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["handbags", "popular"],
+    "_id": "66fdca198d42172f241740c8",
+    "name": "Product 74",
+    "price": 312,
+    "shortDescription": "Short description for Product 74",
+    "stock": 18,
+    "longDescription": "Long description for Product 74. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 74",
+    "SEOdescription": "SEO description for Product 74",
+    "SEOkeywords": "keyword12, example, product, 74",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908368300-0-Rujrx6wRBLCf7JWqcYBKQUgspgYW3C.jpeg",
+    "__v": 0,
+
+    "id": "66fdca198d42172f241740c8"
   },
   {
-    "_id": "66d5fbfe2ee0970dd4a5a859",
-    "name": "computer core-i9",
-    "price": 180,
-    "imageCover": "/images/computer-img.png",
-    "images": ["/images/computer-img.png", "/images/4.png", "/images/5.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 124,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908464979-0-4oDQP7Wzj9RJJABYlq4EHg5xtgqv5m.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908469326-0-LhOQ4K1PBirNVc7CTavS5cIWdirv4X.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908474827-0-26qGpzQmAylsfkYYmKbWEdFjbxzgR5.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["handbags"],
+    "_id": "66fdca828d42172f241740df",
+    "name": "Product 75",
+    "price": 150,
+    "shortDescription": "Short description for Product 75",
+    "stock": 18,
+    "longDescription": "Long description for Product 75. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 75",
+    "SEOdescription": "SEO description for Product 75",
+    "SEOkeywords": "keyword12, example, product, 75",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908464979-0-4oDQP7Wzj9RJJABYlq4EHg5xtgqv5m.jpeg",
+    "__v": 0,
+
+    "id": "66fdca828d42172f241740df"
   },
   {
-    "_id": "66d5fbfe2ee0970dd4a5a860",
-    "name": "mobile galaxy",
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908562133-0-k5YDGVCBxCgvZSfpawSEL67CYKoph8.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908565983-0-yd9HZLAAi6BLzNFq7a2EWw1J1t4wcV.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908571247-0-NILG0qeZhrWGqFw3wnSU20C3AGDstf.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["handbags"],
+    "_id": "66fdcadf8d42172f241740fc",
+    "name": "Product 76",
+    "price": 150,
+    "shortDescription": "Short description for Product 76",
+    "stock": 18,
+    "longDescription": "Long description for Product 76. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 76",
+    "SEOdescription": "SEO description for Product 76",
+    "SEOkeywords": "keyword12, example, product, 76",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908562133-0-k5YDGVCBxCgvZSfpawSEL67CYKoph8.jpeg",
+    "__v": 0,
+
+    "id": "66fdcadf8d42172f241740fc"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908645217-0-hOgkA9u3zZh1f3YvjMgZ5v0YjnqgVw.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908648860-0-1Pyfsc36GS0g7dI1ACnmrMfLYZhXNA.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908654494-0-MFj6kQ8dhMc5VVyj7ldsJ4ijm2x4H1.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["handbags"],
+    "_id": "66fdcb338d42172f24174113",
+    "name": "Product 77",
+    "price": 85,
+    "shortDescription": "Short description for Product 77",
+    "stock": 19,
+    "longDescription": "Long description for Product 77. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 77",
+    "SEOdescription": "SEO description for Product 77",
+    "SEOkeywords": "keyword12, example, product, 77",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908645217-0-hOgkA9u3zZh1f3YvjMgZ5v0YjnqgVw.jpeg",
+    "__v": 0,
+
+    "id": "66fdcb338d42172f24174113"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908754817-0-vsryoWs8GzINOKmG0JkNcFsfTt49Tu.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908758288-0-IWobF5DT5DR6FWorzKu3hTqJdj12Sm.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908764206-0-lUx713epWMcsIyOCiQ2YX7g2xMDZrT.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["handbags", "popular"],
+    "_id": "66fdcba18d42172f24174130",
+    "name": "Product 78",
+    "price": 150,
+    "shortDescription": "Short description for Product 78",
+    "stock": 18,
+    "longDescription": "Long description for Product 78. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 78",
+    "SEOdescription": "SEO description for Product 78",
+    "SEOkeywords": "keyword12, example, product, 78",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908754817-0-vsryoWs8GzINOKmG0JkNcFsfTt49Tu.jpeg",
+    "__v": 0,
+
+    "id": "66fdcba18d42172f24174130"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908938866-0-bGPUMdjTYfQyyTYxMOuVleR7603s2w.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908943626-0-VyX316XAC1FJbtDjtmouydzvn6kT7Z.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908950671-0-RwQCdGhHMf4vqCHHj8qpzYk3RvMNAj.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["handbags"],
+    "_id": "66fdcc5a8d42172f24174156",
+    "name": "Product 79",
+    "price": 150,
+    "shortDescription": "Short description for Product 79",
+    "stock": 18,
+    "longDescription": "Long description for Product 79. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 79",
+    "SEOdescription": "SEO description for Product 79",
+    "SEOkeywords": "keyword12, example, product, 79",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727908938866-0-bGPUMdjTYfQyyTYxMOuVleR7603s2w.jpeg",
+    "__v": 0,
+
+    "id": "66fdcc5a8d42172f24174156"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909022174-0-fp8yLy3rVENHk58zd1kQiDsbruafVl.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909025591-0-z4Yh9jbKYmtvhG6LQp0Pp10rDkp7fH.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909030154-0-zD4JHJ3GJiVcdkkxPSmsaiw3N2qgim.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["handbags"],
+    "_id": "66fdcca98d42172f24174173",
+    "name": "Product 80",
+    "price": 35,
+    "shortDescription": "Short description for Product 80",
+    "stock": 18,
+    "longDescription": "Long description for Product 80. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 80",
+    "SEOdescription": "SEO description for Product 80",
+    "SEOkeywords": "keyword12, example, product, 80",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909022174-0-fp8yLy3rVENHk58zd1kQiDsbruafVl.jpeg",
+    "__v": 0,
+
+    "id": "66fdcca98d42172f24174173"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909410373-0-02IQK42ixVpNVM0OF2nX5RArRX6VyC.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909415211-0-Ok2UcTbcemPjTfIXoVJcR0MAs3qjRS.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909452882-0-cC4fPb5n9KKl6vAJFOEqmh7dqBqTfo.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["perfum", "popular"],
+    "_id": "66fdce528d42172f241741df",
+    "name": "Product 81",
+    "price": 150,
+    "shortDescription": "Short description for Product 81",
+    "stock": 18,
+    "longDescription": "Long description for Product 81. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 81",
+    "SEOdescription": "SEO description for Product 81",
+    "SEOkeywords": "keyword12, example, product, 81",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909410373-0-02IQK42ixVpNVM0OF2nX5RArRX6VyC.jpeg",
+    "__v": 0,
+
+    "id": "66fdce528d42172f241741df"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909558642-0-AZJwFqZ70U6nJhAmQPh02JOD4grlGh.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909561557-0-3X6Optp0IzE59gl4GPjqvDeaa8USXJ.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909565677-0-ECHO1rJOONdGMHo4K2sCBQtSzZjk42.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["perfum"],
+    "_id": "66fdcec28d42172f241741f7",
+    "name": "Product 82",
+    "price": 190,
+    "shortDescription": "Short description for Product 82",
+    "stock": 18,
+    "longDescription": "Long description for Product 82. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 82",
+    "SEOdescription": "SEO description for Product 82",
+    "SEOkeywords": "keyword12, example, product, 82",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909558642-0-AZJwFqZ70U6nJhAmQPh02JOD4grlGh.jpeg",
+    "__v": 0,
+
+    "id": "66fdcec28d42172f241741f7"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909701232-0-YbFpyibUb7IAsLsljvkXc2EtQTh4tc.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909705530-0-cSrjUjczApDbPUWjsbUuwvB4d3ceVh.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909707547-0-zPJ11YYATw1PqpXloSez4DHUMjhZQD.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["perfum", "popular"],
+    "_id": "66fdcf4f8d42172f2417421b",
+    "name": "Product 83",
+    "price": 150,
+    "shortDescription": "Short description for Product 83",
+    "stock": 18,
+    "longDescription": "Long description for Product 83.This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 83",
+    "SEOdescription": "SEO description for Product 83",
+    "SEOkeywords": "keyword12, example, product, 83",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909701232-0-YbFpyibUb7IAsLsljvkXc2EtQTh4tc.jpeg",
+    "__v": 0,
+
+    "id": "66fdcf4f8d42172f2417421b"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909840305-0-5QU87HaYkPksTzvJiQdrPfS4V4mf39.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909844890-0-5XEaAWVgvl1yrnO26m8wT39iNWXT1J.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909848191-0-PZY5ezkyv4wofmvJkbIhidFOkW0gEW.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["perfum", "popular"],
+    "_id": "66fdcfda8d42172f2417423d",
+    "name": "Product 84",
+    "price": 150,
+    "shortDescription": "Short description for Product 84",
+    "stock": 18,
+    "longDescription": "Long description for Product 70. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 84",
+    "SEOdescription": "SEO description for Product 84",
+    "SEOkeywords": "keyword12, example, product, 84",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909840305-0-5QU87HaYkPksTzvJiQdrPfS4V4mf39.jpeg",
+    "__v": 0,
+
+    "id": "66fdcfda8d42172f2417423d"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909911712-0-cqJK3PwpHnqtXde2xxhU5fLDlWE3Yi.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909914889-0-tKXIYln2AzpQI8UKKaHbGTKqNDCgZw.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909917467-0-pU0drJMJYdZeS1M74GjJGeSaQ9z70x.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["perfum"],
+    "_id": "66fdd0208d42172f2417425b",
+    "name": "Product 85",
+    "price": 150,
+    "shortDescription": "Short description for Product 85",
+    "stock": 18,
+    "longDescription": "Long description for Product 85. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 85",
+    "SEOdescription": "SEO description for Product 85",
+    "SEOkeywords": "keyword12, example, product, 85",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727909911712-0-cqJK3PwpHnqtXde2xxhU5fLDlWE3Yi.jpeg",
+    "__v": 0,
+
+    "id": "66fdd0208d42172f2417425b"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910104148-0-Vg4Jn4rGCBHktQgpzPWoCdNt1YpFmA.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910109801-0-kyMWTq3ed0kfGdmu5DEwh9KfmrVSbB.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910113479-0-2jzWISYQ5FbTP6iX8Rc2pazS3JAYKi.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["perfum"],
+    "_id": "66fdd0e48d42172f24174283",
+    "name": "Product 86",
+    "price": 150,
+    "shortDescription": "Short description for Product 86",
+    "stock": 18,
+    "longDescription": "Long description for Product 86. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 86",
+    "SEOdescription": "SEO description for Product 86",
+    "SEOkeywords": "keyword12, example, product, 86",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910104148-0-Vg4Jn4rGCBHktQgpzPWoCdNt1YpFmA.jpeg",
+    "__v": 0,
+
+    "id": "66fdd0e48d42172f24174283"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910168559-0-JU2IHcVJFpLMu0mMPBfYDQstkWqwvD.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910171268-0-2g0QDK7rHsfyTH3rLBeQEyzAgwPWNf.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910175036-0-2fgnwyzBQOZEs56mhPLnbQ0zZHVaRN.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["perfum"],
+    "_id": "66fdd1238d42172f2417429b",
+    "name": "Product 87",
+    "price": 645,
+    "shortDescription": "Short description for Product 87",
+    "stock": 18,
+    "longDescription": "Long description for Product 87. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 87",
+    "SEOdescription": "SEO description for Product 87",
+    "SEOkeywords": "keyword12, example, product, 87",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910168559-0-JU2IHcVJFpLMu0mMPBfYDQstkWqwvD.jpeg",
+    "__v": 0,
+
+    "id": "66fdd1238d42172f2417429b"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910254497-0-62MxvRNK8MHwVWsYysMKvbp7Km3KIG.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910256836-0-ri0mHRpGU5yFnLxMZkGjdd3S3UcoQk.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910262304-0-MSJvrDqMdKwLgPQfe1gXoRfjw3hI88.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["perfum"],
+    "_id": "66fdd17a8d42172f241742c0",
+    "name": "Product 88",
+    "price": 150,
+    "shortDescription": "Short description for Product 88",
+    "stock": 18,
+    "longDescription": "Long description for Product 88. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 88",
+    "SEOdescription": "SEO description for Product 88",
+    "SEOkeywords": "keyword12, example, product, 88",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910254497-0-62MxvRNK8MHwVWsYysMKvbp7Km3KIG.jpeg",
+    "__v": 0,
+
+    "id": "66fdd17a8d42172f241742c0"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910323020-0-zswG9dYSJhJxXBxHPr0GbFEp2YKPC0.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910327688-0-19418dhKmekHnhgqvQ89MfVF0gJNTo.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910332496-0-J6nFQfNa1bf1yLEpnUUyTZn593uL7g.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["perfum", "popular"],
+    "_id": "66fdd1c88d42172f241742de",
+    "name": "Product 89",
+    "price": 150,
+    "shortDescription": "Short description for Product 89",
+    "stock": 18,
+    "longDescription": "Long description for Product 89. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 89",
+    "SEOdescription": "SEO description for Product 89",
+    "SEOkeywords": "keyword12, example, product, 89",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910323020-0-zswG9dYSJhJxXBxHPr0GbFEp2YKPC0.jpeg",
+    "__v": 0,
+
+    "id": "66fdd1c88d42172f241742de"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910374197-0-N1NaKTE58LNOoSMpO3sUfQWNx4tODX.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910377124-0-ZS1tsEmBtqfELNwlcXhlqg5QMBh1k6.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910379814-0-MAlmKMd9tv9qk9NCpBrsuLzl6M8BXR.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:52:22.140Z",
+    "category": ["perfum"],
+    "_id": "66fdd1ef8d42172f241742f2",
+    "name": "Product 90",
+    "price": 150,
+    "shortDescription": "Short description for Product 90",
+    "stock": 18,
+    "longDescription": "Long description for Product 90. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 90",
+    "SEOdescription": "SEO description for Product 90",
+    "SEOkeywords": "keyword12, example, product, 90",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727910374197-0-N1NaKTE58LNOoSMpO3sUfQWNx4tODX.jpeg",
+    "__v": 0,
+
+    "id": "66fdd1ef8d42172f241742f2"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905718804-0-opnfsOL6Qq2Pis3WqPa3UQpA7M3znd.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905720279-0-CZhmRff33e5I2NCx5C6H2vkr8RHvvY.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905721940-0-pWf9eTexsRBFo7odS7idgIxvZnyuxR.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:42:00.044Z",
+    "category": ["watches", "popular"],
+    "_id": "66fdbfbb318fe60003ceceb2",
+    "name": "Product 61",
+    "price": 150,
+    "shortDescription": "Short description for Product 61",
+    "stock": 18,
+    "longDescription": "Long description for Product 60. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 61",
+    "SEOdescription": "SEO description for Product 61",
+    "SEOkeywords": "keyword12, example, product, 61",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905718804-0-opnfsOL6Qq2Pis3WqPa3UQpA7M3znd.jpeg",
+    "__v": 0,
+
+    "id": "66fdbfbb318fe60003ceceb2"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905835852-0-zY8nQVdtfthvxEv1WP6QJkhM72RthJ.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905837018-0-wYD07cUKHMknhwuhCwq3ft0WqutTnj.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905838389-0-ui64grU4vBVy8Mo0voo7Weh9ssYdcd.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:42:00.044Z",
+    "category": ["watches"],
+    "_id": "66fdc02f318fe60003cecec6",
+    "name": "Product 62",
+    "price": 150,
+    "shortDescription": "Short description for Product 62",
+    "stock": 18,
+    "longDescription": "Long description for Product 60. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 62",
+    "SEOdescription": "SEO description for Product 62",
+    "SEOkeywords": "keyword12, example, product, 62",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905835852-0-zY8nQVdtfthvxEv1WP6QJkhM72RthJ.jpeg",
+    "__v": 0,
+
+    "id": "66fdc02f318fe60003cecec6"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906196364-0-4dLXWgPOD15UICyGr8MjLntJv3tofa.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906197507-0-9KfZlyQgoiRbaMrzmpLzKbcHhdEeic.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906198824-0-v9AINuCpgynaER7ny1MFOkCvQFfPgy.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:42:00.044Z",
+    "category": ["watches"],
+    "_id": "66fdc198318fe60003cecee4",
+    "name": "Product 65",
+    "price": 150,
+    "shortDescription": "Short description for Product 65",
+    "stock": 18,
+    "longDescription": "Long description for Product 60. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 65",
+    "SEOdescription": "SEO description for Product 65",
+    "SEOkeywords": "keyword12, example, product, 65",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906196364-0-4dLXWgPOD15UICyGr8MjLntJv3tofa.jpeg",
+    "__v": 0,
+
+    "id": "66fdc198318fe60003cecee4"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906594011-0-mnNalMRMG6BzHjezIJB0erFvM0ZnAT.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906595085-0-9j4iQpfx3uS6G5TNT3NhPdi1efMAOZ.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906595971-0-fXyk4pdvLkupHa3RpTxhJ0hGNNzh6H.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:42:00.044Z",
+    "category": ["watches"],
+    "_id": "66fdc324318fe60003cecef8",
+    "name": "Product 67",
+    "price": 150,
+    "shortDescription": "Short description for Product 67",
+    "stock": 18,
+    "longDescription": "Long description for Product 60. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 67",
+    "SEOdescription": "SEO description for Product 67",
+    "SEOkeywords": "keyword12, example, product, 67",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906594011-0-mnNalMRMG6BzHjezIJB0erFvM0ZnAT.jpeg",
+    "__v": 0,
+
+    "id": "66fdc324318fe60003cecef8"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727907059117-0-ezEoGyHEZWUZQEO9oUHCQbMmYmbHEP.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727907060264-0-wGmdXLCsCxHxTf0yyWjyIAZQUPsSqr.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727907061604-0-pY2tyzTbq2YFqnnTGOyTCBtHCivJii.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:42:00.044Z",
+    "category": ["watches"],
+    "_id": "66fdc4f6318fe60003cecf16",
+    "name": "Product 69",
+    "price": 150,
+    "shortDescription": "Short description for Product 69",
+    "stock": 18,
+    "longDescription": "Long description for Product 60. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 69",
+    "SEOdescription": "SEO description for Product 69",
+    "SEOkeywords": "keyword12, example, product, 69",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727907059117-0-ezEoGyHEZWUZQEO9oUHCQbMmYmbHEP.jpeg",
+    "__v": 0,
+
+    "id": "66fdc4f6318fe60003cecf16"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727907140563-0-nXIaxxdZ4rnipY1cXAoL9DqicLnwUo.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727907141525-0-SH2dJrGUaaw1KUTnzojrYkg8zralzs.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727907142904-0-AyxMYCKMmQ6R2fpmw1WsaE8QhuZcdA.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:42:00.044Z",
+    "category": ["watches", "popular"],
+    "_id": "66fdc547318fe60003cecf2c",
+    "name": "Product 70",
+    "price": 150,
+    "shortDescription": "Short description for Product 70",
+    "stock": 18,
+    "longDescription": "Long description for Product 60. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 70",
+    "SEOdescription": "SEO description for Product 70",
+    "SEOkeywords": "keyword12, example, product, 70",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727907140563-0-nXIaxxdZ4rnipY1cXAoL9DqicLnwUo.jpeg",
+    "__v": 0,
+
+    "id": "66fdc547318fe60003cecf2c"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905908410-0-qoS72HJA37DS1wriCePfYTOs9ADS5X.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905909651-0-oS6fIzraskmmBaLSIxGiZPpUQaWZy0.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905910926-0-8tt2QhtvpmMsFL8J3FUlnDaq9suJpd.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:37:00.787Z",
+    "category": ["watches"],
+    "_id": "66fdc078c58b4b0003ea8f00",
+    "name": "Product 63",
+    "price": 150,
+    "shortDescription": "Short description for Product 63",
+    "stock": 18,
+    "longDescription": "Long description for Product 60. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 63",
+    "SEOdescription": "SEO description for Product 63",
+    "SEOkeywords": "keyword12, example, product, 63",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905908410-0-qoS72HJA37DS1wriCePfYTOs9ADS5X.jpeg",
+    "__v": 0,
+
+    "id": "66fdc078c58b4b0003ea8f00"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904450312-0-W94Ewlj3EoF3dJ5sEf2rnArq3Owtxm.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904451277-0-2x4q9Ok2wY2naXkR9NdEJuXG7z9DNr.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904452720-0-8gvPiGYx1gm8UFnBW7f7jN3fsI1Vkr.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:26:10.288Z",
+    "category": ["accessories"],
+    "_id": "66fdbac6d272680003c4671d",
+    "name": "Product 56",
+    "price": 250,
+    "shortDescription": "Short description for Product 56",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 56",
+    "SEOdescription": "SEO description for Product 56",
+    "SEOkeywords": "keyword12, example, product, 56",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904450312-0-W94Ewlj3EoF3dJ5sEf2rnArq3Owtxm.jpeg",
+    "__v": 0,
+
+    "id": "66fdbac6d272680003c4671d"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904585783-0-4j97jusgAJTXTuJN4gGqZo6veddKrz.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904587707-0-YNHyv1dlbAElMXniwPzEhJTuyW4bd4.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904589452-0-G8KM8tNmw7RffYnIGuPTvAl8a9gO12.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:26:10.288Z",
+    "category": ["accessories"],
+    "_id": "66fdbb4fd272680003c46732",
+    "name": "Product 57",
+    "price": 250,
+    "shortDescription": "Short description for Product 57",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 57",
+    "SEOdescription": "SEO description for Product 57",
+    "SEOkeywords": "keyword12, example, product, 57",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904585783-0-4j97jusgAJTXTuJN4gGqZo6veddKrz.jpeg",
+    "__v": 0,
+
+    "id": "66fdbb4fd272680003c46732"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905047521-0-qUERBG1QpflB5HsUG1IIV2QrnALRNj.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905049450-0-ScgDGpES2IuhvKOmTeC0hcfbNpFJWo.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905050864-0-NfM9ZhxKQ6C6QI6ZtX5DZpkizqrNqy.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:26:10.288Z",
+    "category": ["accessories"],
+    "_id": "66fdbd1cd272680003c46763",
+    "name": "Product 60",
     "price": 70,
-    "imageCover": "/images/mobile-img2.png",
-    "images": ["/images/mobile-img2.png", "/images/6.png", "/images/7.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 77,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+    "shortDescription": "Short description for Product 60",
+    "stock": 18,
+    "longDescription": "Long description for Product 60. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 60",
+    "SEOdescription": "SEO description for Product 60",
+    "SEOkeywords": "keyword12, example, product, 60",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727905047521-0-qUERBG1QpflB5HsUG1IIV2QrnALRNj.jpeg",
+    "__v": 0,
+
+    "id": "66fdbd1cd272680003c46763"
   },
   {
-    "_id": "66d5fbfe2ee0970dd4a5a861",
-    "name": "laptop-img.png",
-    "price": 90,
-    "imageCover": "/images/laptop-img.png",
-    "images": ["/images/laptop-img.png", "/images/11.png", "/images/22.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 226,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727903727634-0-rhxF1DV7uy8ULB4AwK26GkA18T6o6L.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727903728802-0-D0Yigr8R7Fx7t6q4XiQu2oPc5taQAN.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727903730014-0-Fvw7tQiiZPeIgCjsfpV3o7yoavs0Uy.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:09:14.019Z",
+    "category": ["accessories"],
+    "_id": "66fdb7f378ec980003eac02d",
+    "name": "Product 52",
+    "price": 55,
+    "shortDescription": "Short description for Product 52",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 52",
+    "SEOdescription": "SEO description for Product 52",
+    "SEOkeywords": "keyword12, example, product, 52",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727903727634-0-rhxF1DV7uy8ULB4AwK26GkA18T6o6L.jpeg",
+    "__v": 0,
+
+    "id": "66fdb7f378ec980003eac02d"
   },
   {
-    "_id": "66d5fbfe2ee0970dd4a5a862",
-    "name": "necklace",
-    "price": 90,
-    "imageCover": "/images/neklesh-img2.png",
-    "images": ["/images/neklesh-img2.png", "/images/33.png", "/images/44.png"],
-    "shortDescription": "This is a short description of the product.",
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727903872546-0-G0Htg7Wfb7fBBmHiQckQDRJPh79SQb.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727903873945-0-6462KHJhn0kjPidfFLLeC9oJMnm1SJ.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727903875222-0-6DF78WXp2IPjPeYzy0YIrZci1AP4ie.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:09:14.019Z",
+    "category": ["accessories"],
+    "_id": "66fdb88478ec980003eac054",
+    "name": "Product 53",
+    "price": 250,
+    "shortDescription": "Short description for Product 53",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 53",
+    "SEOdescription": "SEO description for Product 53",
+    "SEOkeywords": "keyword12, example, product, 53",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727903872546-0-G0Htg7Wfb7fBBmHiQckQDRJPh79SQb.jpeg",
+    "__v": 0,
+
+    "id": "66fdb88478ec980003eac054"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904237904-0-BPpiW9k7jr5OVKtzMqiUOVBHPBKk21.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904238788-0-a35tjTCyXtzQD18KU3HGFDlqx3FNHB.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904239757-0-VYT3osv2vJqm8pKv5UBGOWJuVjY8iR.jpeg"
+    ],
+    "createdAt": "2024-10-02T21:09:14.019Z",
+    "category": ["accessories"],
+    "_id": "66fdb9f078ec980003eac133",
+    "name": "Product 54",
+    "price": 250,
+    "shortDescription": "Short description for Product 54",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 54",
+    "SEOdescription": "SEO description for Product 54",
+    "SEOkeywords": "keyword12, example, product, 54",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904237904-0-BPpiW9k7jr5OVKtzMqiUOVBHPBKk21.jpeg",
+    "__v": 0,
+
+    "id": "66fdb9f078ec980003eac133"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902747924-0-AMtOvRqED0B4ktD2uvmcBVNnHcVd4Z.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902749015-0-wJtOnmKhFZjLx6Q6bHny103KUkMCrW.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902750292-0-rvqYCNL5M4ksX9JiPjFgMweFzIUsES.jpeg"
+    ],
+    "createdAt": "2024-10-02T20:49:24.469Z",
+    "category": ["bedding"],
+    "_id": "66fdb41fec45510003749075",
+    "name": "Product 49",
+    "price": 250,
+    "shortDescription": "Short description for Product 49",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 49",
+    "SEOdescription": "SEO description for Product 49",
+    "SEOkeywords": "keyword12, example, product, 49",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902747924-0-AMtOvRqED0B4ktD2uvmcBVNnHcVd4Z.jpeg",
+    "__v": 0,
+
+    "id": "66fdb41fec45510003749075"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902811627-0-DvHd3OMF4sQ6YIglA9fcOVsJqQev2B.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902812670-0-bL1SX5y1T1iPAVbP0HT33zAfVEUvAi.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902814331-0-8GP2sI3whChe6IJ5nYxrzNvYkvwdBo.jpeg"
+    ],
+    "createdAt": "2024-10-02T20:49:24.469Z",
+    "category": ["bedding"],
+    "_id": "66fdb45fec4551000374908d",
+    "name": "Product 50",
+    "price": 250,
+    "shortDescription": "Short description for Product 50",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 50",
+    "SEOdescription": "SEO description for Product50",
+    "SEOkeywords": "keyword50, example, product, 50",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902811627-0-DvHd3OMF4sQ6YIglA9fcOVsJqQev2B.jpeg",
+    "__v": 0,
+
+    "id": "66fdb45fec4551000374908d"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904683859-0-0V06attkbB4QOBkFrRehmLSKFBSG0N.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904684864-0-YJ8dJk8UPzsj5qKseRqmtVQVVVIuVh.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904685871-0-JxZ5OfMocybJuhcdd7bg8L6X7LcV3K.jpeg"
+    ],
+    "createdAt": "2024-10-02T20:49:24.469Z",
+    "category": ["accessories"],
+    "_id": "66fdbbaeec455100037490d5",
+    "name": "Product 58",
+    "price": 250,
+    "shortDescription": "Short description for Product 58",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 58",
+    "SEOdescription": "SEO description for Product 58",
+    "SEOkeywords": "keyword12, example, product, 58",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904683859-0-0V06attkbB4QOBkFrRehmLSKFBSG0N.jpeg",
+    "__v": 0,
+
+    "id": "66fdbbaeec455100037490d5"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904745789-0-3h9b0ibIlByqmld7KuYsUszvu6MgK7.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904747260-0-ezeqlRI3jjiSgVBaVPQYmSFIOKQ3bC.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904749059-0-kDSlapjTAquH04hy0uC2LZcKHAJvG4.jpeg"
+    ],
+    "createdAt": "2024-10-02T20:49:24.469Z",
+    "category": ["accessories"],
+    "_id": "66fdbbeeec455100037490ee",
+    "name": "Product 59",
+    "price": 250,
+    "shortDescription": "Short description for Product 59",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 59",
+    "SEOdescription": "SEO description for Product 59",
+    "SEOkeywords": "keyword12, example, product, 59",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904745789-0-3h9b0ibIlByqmld7KuYsUszvu6MgK7.jpeg",
+    "__v": 0,
+
+    "id": "66fdbbeeec455100037490ee"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727903397339-0-ehEDcLWigFcnPp1cFjP5MtqIN19j5B.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727903398338-0-F3fzVhNqEmyaiurDGecMb35AgGmXlH.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727903399726-0-ec7RSpIGnaCxI2EuKFCaEoYq76gSCc.jpeg"
+    ],
+    "createdAt": "2024-10-02T20:49:24.454Z",
+    "category": ["accessories"],
+    "_id": "66fdb6a8d70dce00032679b1",
+    "name": "Product 51",
+    "price": 250,
+    "shortDescription": "Short description for Product 51",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 51",
+    "SEOdescription": "SEO description for Product 51",
+    "SEOkeywords": "keyword51, example, product, 51",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727903397339-0-ehEDcLWigFcnPp1cFjP5MtqIN19j5B.jpeg",
+    "__v": 0,
+
+    "id": "66fdb6a8d70dce00032679b1"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904367884-0-BdVCeIvnWuWN24aimvjkDAPpEF9Lnj.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904369618-0-2IdbE62qBg3RGMsnDuxMt5hntYELyl.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904371100-0-0uelYli3ZumPjKTTPOROytLs2IasCI.jpeg"
+    ],
+    "createdAt": "2024-10-02T20:49:24.454Z",
+    "category": ["accessories"],
+    "_id": "66fdba74d70dce0003267ab7",
+    "name": "Product 55",
+    "price": 250,
+    "shortDescription": "Short description for Product 55",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 55",
+    "SEOdescription": "SEO description for Product 55",
+    "SEOkeywords": "keyword12, example, product, 55",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727904367884-0-BdVCeIvnWuWN24aimvjkDAPpEF9Lnj.jpeg",
+    "__v": 0,
+
+    "id": "66fdba74d70dce0003267ab7"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906100699-0-15ObThr2uTdpkvyKW1Iqt7obJqBqMZ.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906101917-0-XcW51egGOwwPpVArcuze1VeODX2hbO.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906103278-0-jHN1sWwA9dPe14ZQdiYSdZPRlDlAIA.jpeg"
+    ],
+    "createdAt": "2024-10-02T20:49:24.454Z",
+    "category": ["watches", "popular"],
+    "_id": "66fdc138d70dce0003267b22",
+    "name": "Product 64",
+    "price": 150,
+    "shortDescription": "Short description for Product 64",
+    "stock": 18,
+    "longDescription": "Long description for Product 60. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 64",
+    "SEOdescription": "SEO description for Product 64",
+    "SEOkeywords": "keyword12, example, product, 64",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906100699-0-15ObThr2uTdpkvyKW1Iqt7obJqBqMZ.jpeg",
+    "__v": 0,
+
+    "id": "66fdc138d70dce0003267b22"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906276610-0-9LnePxIK2vrQMaWf9ukLOFgHbNJopb.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906278046-0-pcWsBy9AGRbW5HNeR85FU8zwuanuRa.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906279344-0-Ew53kr4iPWhExLgvoePrsrOlWyaSbP.jpeg"
+    ],
+    "createdAt": "2024-10-02T20:49:24.454Z",
+    "category": ["watches"],
+    "_id": "66fdc1e8d70dce0003267b3a",
+    "name": "Product 66",
+    "price": 120,
+    "shortDescription": "Short description for Product 66",
+    "stock": 18,
+    "longDescription": "Long description for Product 60. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 66",
+    "SEOdescription": "SEO description for Product 66",
+    "SEOkeywords": "keyword12, example, product, 66",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906276610-0-9LnePxIK2vrQMaWf9ukLOFgHbNJopb.jpeg",
+    "__v": 0,
+
+    "id": "66fdc1e8d70dce0003267b3a"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906923577-0-pk9jdfKdAMWhpESFUokOj6OW5CjC67.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906925055-0-NnFMwCn7wbe7S37axD9lw1oXFm5tqk.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906926470-0-1a6pbgKqS3aDrleK5wPQrJ1AkJNNNQ.jpeg"
+    ],
+    "createdAt": "2024-10-02T20:49:24.454Z",
+    "category": ["watches"],
+    "_id": "66fdc470d70dce0003267b5e",
+    "name": "Product 68",
+    "price": 150,
+    "shortDescription": "Short description for Product 68",
+    "stock": 58,
+    "longDescription": "Long description for Product 60. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 68",
+    "SEOdescription": "SEO description for Product 68",
+    "SEOkeywords": "keyword12, example, product, 68",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727906923577-0-pk9jdfKdAMWhpESFUokOj6OW5CjC67.jpeg",
+    "__v": 0,
+
+    "id": "66fdc470d70dce0003267b5e"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902529477-0-fF6hiQbTX8RiJuOCKNLbCdxlmKwLy2.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902530840-0-axKoEykeyGDf6Pa6zIwARbakRm5Haq.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902532291-0-HQH0kGdHbDqelc5y1Oc7CMkHJBP3S1.jpeg"
+    ],
+    "createdAt": "2024-10-02T20:49:24.408Z",
+    "category": ["bedding", "popular"],
+    "_id": "66fdb3454066b10003084e51",
+    "name": "Product 47",
+    "price": 450,
+    "shortDescription": "Short description for Product 47",
+    "stock": 30,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 47",
+    "SEOdescription": "SEO description for Product 47",
+    "SEOkeywords": "keyword47, example, product, 47",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902529477-0-fF6hiQbTX8RiJuOCKNLbCdxlmKwLy2.jpeg",
+    "__v": 0,
+
+    "id": "66fdb3454066b10003084e51"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902599560-0-fesOEPwi9PwrOwqWELFVBoC0re8gZO.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902600693-0-hDepu5VpaIxClnWhQFMBWScYIOR8jH.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902601754-0-r2RkBMV9KnF5v5HtgpfAqqzvDMl4ns.jpeg"
+    ],
+    "createdAt": "2024-10-02T20:49:24.408Z",
+    "category": ["bedding"],
+    "_id": "66fdb38a4066b10003084e69",
+    "name": "Product 48",
+    "price": 680,
+    "shortDescription": "Short description for Product 48",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 48",
+    "SEOdescription": "SEO description for Product 48",
+    "SEOkeywords": "keyword48, example, product, 48",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727902599560-0-fesOEPwi9PwrOwqWELFVBoC0re8gZO.jpeg",
+    "__v": 0,
+
+    "id": "66fdb38a4066b10003084e69"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899988555-0-1J57hLiMBFcBtKxz7hMZ1NVAm84ZUb.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899989802-0-aLQPHMERLtJnYLYAEcHgAXdQYhGlIR.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899991221-0-lSPYlYCz9ByRv1BNGifLesyxOgoqI0.jpeg"
+    ],
+    "createdAt": "2024-10-02T20:06:32.271Z",
+    "category": ["bedding"],
+    "_id": "66fda958b044a8000351f39d",
+    "name": "Product 41",
+    "price": 250,
+    "shortDescription": "Short description for Product 41",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 41",
+    "SEOdescription": "SEO description for Product 41",
+    "SEOkeywords": "keyword12, example, product, 41",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899988555-0-1J57hLiMBFcBtKxz7hMZ1NVAm84ZUb.jpeg",
+    "__v": 0,
+
+    "id": "66fda958b044a8000351f39d"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900106639-0-RFVccqN8au1aVfpQMg9EkZ3BP3eFAt.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900107688-0-oWl68Npn7SWSYEtS7HjOZmzloX2u8O.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900108854-0-55B1yvjJu68HYBL3iJlnQm8N87QQF0.jpeg"
+    ],
+    "createdAt": "2024-10-02T20:06:32.271Z",
+    "category": ["bedding", "popular"],
+    "_id": "66fda9cdb044a8000351f3b5",
+    "name": "Product 42",
+    "price": 250,
+    "shortDescription": "Short description for Product 42",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 42",
+    "SEOdescription": "SEO description for Product 42",
+    "SEOkeywords": "keyword42, example, product, 42",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900106639-0-RFVccqN8au1aVfpQMg9EkZ3BP3eFAt.jpeg",
+    "__v": 0,
+
+    "id": "66fda9cdb044a8000351f3b5"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900184993-0-iNVw81RB01RkgGQZ5cdzcwgMmVHXT9.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900186236-0-AnyPrHbvseQO2RsZds9cWBWKH0jfTs.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900187240-0-8opeIVci0vSjMWDlJQHvbVB5MOcNJ2.jpeg"
+    ],
+    "createdAt": "2024-10-02T20:06:32.271Z",
+    "category": ["bedding"],
+    "_id": "66fdaa1cb044a8000351f3cd",
+    "name": "Product 43",
+    "price": 320,
+    "shortDescription": "Short description for Product 43",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 43",
+    "SEOdescription": "SEO description for Product 43",
+    "SEOkeywords": "keyword43, example, product, 43",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900184993-0-iNVw81RB01RkgGQZ5cdzcwgMmVHXT9.jpeg",
+    "__v": 0,
+
+    "id": "66fdaa1cb044a8000351f3cd"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900270928-0-r95ep3SmxEkbgnZLx9iJx4R1Y1HhrW.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900272221-0-7Wvy41uMAegVgH7E6ZOTUk3FYHvTkM.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900273613-0-1GaNCEBBzKCZcHHow9CMHbpRmBTDzh.jpeg"
+    ],
+    "createdAt": "2024-10-02T20:06:32.271Z",
+    "category": ["bedding", "popular"],
+    "_id": "66fdaa73b044a8000351f3e9",
+    "name": "Product 44",
+    "price": 350,
+    "shortDescription": "Short description for Product 44",
+    "stock": 18,
+    "longDescription": "Long description for Product 44. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 44",
+    "SEOdescription": "SEO description for Product 44",
+    "SEOkeywords": "keyword44, example, product, 44",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900270928-0-r95ep3SmxEkbgnZLx9iJx4R1Y1HhrW.jpeg",
+    "__v": 0,
+
+    "id": "66fdaa73b044a8000351f3e9"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897860650-0-AsSZpMSNX74QvjYed5uTUwRwKWf5Y2.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897861650-0-dfgxePtPNuYzZf1x31ZFOprfWS4SJc.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897863348-0-NpxQOB3PxbFn89UjsNU6GdNdkqjvfi.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:28:13.261Z",
+    "category": ["giftcards"],
+    "_id": "66fda108fe139700034ccf6b",
+    "name": "Product 24",
+    "price": 100,
+    "shortDescription": "Short description for Product 24",
+    "stock": 18,
+    "longDescription": "Long description for Product 24. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 24",
+    "SEOdescription": "SEO description for Product 24",
+    "SEOkeywords": "keyword24, example, product, 24",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897860650-0-AsSZpMSNX74QvjYed5uTUwRwKWf5Y2.jpeg",
+    "__v": 0,
+
+    "id": "66fda108fe139700034ccf6b"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899135428-0-AbSyJlewtLLpbPyve4013qZKsyciUC.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899136847-0-ELCcsTXSW3daFEa7mSmniaYUM2QCYg.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899138885-0-boiUOr0fvSlL10v0WivzuA3Bwep5LQ.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:28:13.261Z",
+    "category": ["decor"],
+    "_id": "66fda604fe139700034ccfa7",
+    "name": "Product 32",
+    "price": 50,
+    "shortDescription": "Short description for Product 32",
+    "stock": 18,
+    "longDescription": "Long description for Product 32. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 32",
+    "SEOdescription": "SEO description for Product 32",
+    "SEOkeywords": "keyword32, example, product, 32",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899135428-0-AbSyJlewtLLpbPyve4013qZKsyciUC.jpeg",
+    "__v": 0,
+
+    "id": "66fda604fe139700034ccfa7"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899206760-0-zADCXcolEhfSj23iDi33cdMEQeDmYJ.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899208196-0-3KYmJzUCWEw6iR8OyKBgB6OsBoS615.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899209686-0-ShRtzHR206rMIpCYjTNuq6h6abQjrP.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:28:13.261Z",
+    "category": ["decor"],
+    "_id": "66fda64bfe139700034ccfbe",
+    "name": "Product 33",
+    "price": 30,
+    "shortDescription": "Short description for Product 33",
+    "stock": 3,
+    "longDescription": "Long description for Product 33. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 33",
+    "SEOdescription": "SEO description for Product 33",
+    "SEOkeywords": "keyword33, example, product, 33",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899206760-0-zADCXcolEhfSj23iDi33cdMEQeDmYJ.jpeg",
+    "__v": 0,
+
+    "id": "66fda64bfe139700034ccfbe"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899277101-0-dxLLa6n17fIP1MKls8Lm7Iq43pd8nZ.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899278063-0-Y7W9O38IvPG2Y9Yyl5l7WMdbvk8T7T.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899279348-0-ySqu17SaWPT7kGRJPL3BVB3xrU24Xq.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:28:13.261Z",
+    "category": ["decor"],
+    "_id": "66fda690fe139700034ccfd5",
+    "name": "Product 34",
+    "price": 50,
+    "shortDescription": "Short description for Product 34",
+    "stock": 18,
+    "longDescription": "Long description for Product 34. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 34",
+    "SEOdescription": "SEO description for Product 34",
+    "SEOkeywords": "keyword34, example, product, 34",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899277101-0-dxLLa6n17fIP1MKls8Lm7Iq43pd8nZ.jpeg",
+    "__v": 0,
+
+    "id": "66fda690fe139700034ccfd5"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899504194-0-C87CASdTDVL0ZWxcDV45DXZ0OE1mye.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899505256-0-fCNZVdQFUJoKUdZKtqW5s305nSb7Z6.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899506510-0-HEPECJr4nPocXq06RCmdoXIDWuWtA6.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:28:13.261Z",
+    "category": ["decor"],
+    "_id": "66fda773fe139700034ccfee",
+    "name": "Product 37",
+    "price": 40,
+    "shortDescription": "Short description for Product 37",
+    "stock": 18,
+    "longDescription": "Long description for Product 30. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 37",
+    "SEOdescription": "SEO description for Product 37",
+    "SEOkeywords": "keyword37, example, product, 37",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899504194-0-C87CASdTDVL0ZWxcDV45DXZ0OE1mye.jpeg",
+    "__v": 0,
+
+    "id": "66fda773fe139700034ccfee"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899553188-0-Fjv94eb3B3kD5oSY20cbM1JnVCoZCY.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899554207-0-q8k4fNV7Ya0M5962Q78ZshLGdDhZGF.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899555473-0-VrzaP76idggkOuo65oI1taqIBUZGhK.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:28:13.261Z",
+    "category": ["decor", "popular"],
+    "_id": "66fda7a4fe139700034cd005",
+    "name": "Product 38",
+    "price": 50,
+    "shortDescription": "Short description for Product 38",
+    "stock": 18,
+    "longDescription": "Long description for Product 30. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 38",
+    "SEOdescription": "SEO description for Product 38",
+    "SEOkeywords": "keyword38, example, product, 38",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899553188-0-Fjv94eb3B3kD5oSY20cbM1JnVCoZCY.jpeg",
+    "__v": 0,
+
+    "id": "66fda7a4fe139700034cd005"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899644356-0-EfWFfMcCLoq96aDkmEQIySRUM71Xj5.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899645579-0-Uo5Dvrd8OAckAwyk9ccEaVIWfqIGgg.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899646675-0-jCerWbSElYa6lXrDWSpt5p93cHfp0X.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:28:13.261Z",
+    "category": ["decor"],
+    "_id": "66fda7fffe139700034cd01f",
+    "name": "Product 39",
+    "price": 124,
+    "shortDescription": "Short description for Product 39",
+    "stock": 30,
+    "longDescription": "Long description for Product 30. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 39",
+    "SEOdescription": "SEO description for Product 39",
+    "SEOkeywords": "keyword39, example, product, 39",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899644356-0-EfWFfMcCLoq96aDkmEQIySRUM71Xj5.jpeg",
+    "__v": 0,
+
+    "id": "66fda7fffe139700034cd01f"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899724074-0-Ejo4Gnf9QRnTAMbeWcNIRUJEADiXZu.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899725447-0-ZZQHARumPstZWptGw2EVwhBCK4I258.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899726427-0-OUrpGX9qJhpdWmPllHfhmNUJRi71Tc.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:28:13.261Z",
+    "category": ["decor"],
+    "_id": "66fda850fe139700034cd036",
+    "name": "Product 40",
+    "price": 50,
+    "shortDescription": "Short description for Product 40",
+    "stock": 18,
+    "longDescription": "Long description for Product 30. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 40",
+    "SEOdescription": "SEO description for Product 40",
+    "SEOkeywords": "keyword40, example, product, 40",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899724074-0-Ejo4Gnf9QRnTAMbeWcNIRUJEADiXZu.jpeg",
+    "__v": 0,
+
+    "id": "66fda850fe139700034cd036"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897106841-0-RBbPt5LcEZjkZK7BqqbnvgT5YRc8p7.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897107841-0-FMz6eroac8oTgoX5dOtjPsdVAHdRhs.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897109062-0-S39jkohwlkxqjRpRLCc0eX4PNnjPVn.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:09:36.143Z",
+    "category": ["giftcards"],
+    "_id": "66fd9e169f4dfd00033375f3",
+    "name": "Product 21",
+    "price": 200,
+    "shortDescription": "Short description for Product 21",
+    "stock": 18,
+    "longDescription": "Long description for Product 21. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 21",
+    "SEOdescription": "SEO description for Product 21",
+    "SEOkeywords": "keyword21, example, product, 21",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897106841-0-RBbPt5LcEZjkZK7BqqbnvgT5YRc8p7.jpeg",
+    "__v": 0,
+
+    "id": "66fd9e169f4dfd00033375f3"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897503355-0-JCJpbtIh3qEFecOrdfnyB4O6DxXie6.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897504250-0-duHLNop2NhdVgYtlXSKmqvobBTMlCK.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897505184-0-j6JIL3cfqrQz9dLEW32o0c1R57bgkr.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:09:36.143Z",
+    "category": ["giftcards"],
+    "_id": "66fd9fa29f4dfd000333760b",
+    "name": "Product 22",
+    "price": 50,
+    "shortDescription": "Short description for Product 22",
+    "stock": 18,
+    "longDescription": "Long description for Product 22. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 22",
+    "SEOdescription": "SEO description for Product 22",
+    "SEOkeywords": "keyword12, example, product, 22",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897503355-0-JCJpbtIh3qEFecOrdfnyB4O6DxXie6.jpeg",
+    "__v": 0,
+
+    "id": "66fd9fa29f4dfd000333760b"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897696696-0-duLTlsZCRw4xJuC3zpoTK9LwzRrG4V.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897697499-0-NhJS5fmRcQ4wgpGz7desev5t3z8tEf.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897698686-0-C33EEXIeHl0rIYT2CWTjtSEJBXUxs4.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:09:36.143Z",
+    "category": ["giftcards"],
+    "_id": "66fda0639f4dfd0003337626",
+    "name": "Product 23",
+    "price": 50,
+    "shortDescription": "Short description for Product 23",
+    "stock": 18,
+    "longDescription": "Long description for Product 23. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 23",
+    "SEOdescription": "SEO description for Product 23",
+    "SEOkeywords": "keyword23, example, product, 23",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897696696-0-duLTlsZCRw4xJuC3zpoTK9LwzRrG4V.jpeg",
+    "__v": 0,
+
+    "id": "66fda0639f4dfd0003337626"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898533691-0-bFktmZoHQLUcdEtJUeXqTCMxOYfoqJ.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898535145-0-CG6tZ62no60tpyKPnsS24M7smd5LdE.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898536904-0-JGVnVFWyMa2cehTTFchZUifkE189Vb.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:09:36.143Z",
+    "category": ["giftcards"],
+    "_id": "66fda3ab9f4dfd000333764e",
+    "name": "Product 29",
+    "price": 100,
+    "shortDescription": "Short description for Product 29",
+    "stock": 20,
+    "longDescription": "Long description for Product 29. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 29",
+    "SEOdescription": "SEO description for Product 29",
+    "SEOkeywords": "keyword29, example, product, 29",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898533691-0-bFktmZoHQLUcdEtJUeXqTCMxOYfoqJ.jpeg",
+    "__v": 0,
+
+    "id": "66fda3ab9f4dfd000333764e"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898686959-0-bXyb7cPcPAbKOtde0IYiyjxFB5KLkW.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898688825-0-FJDYPu0OfNj9r9xE1DxImwqyw5uerT.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898689962-0-AzdQT2WYv0qnJgIk3JBFX5WgqLKMJx.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:09:36.143Z",
+    "category": ["giftcards", "popular"],
+    "_id": "66fda4439f4dfd0003337664",
+    "name": "Product 30",
+    "price": 40,
+    "shortDescription": "Short description for Product 30",
+    "stock": 25,
+    "longDescription": "Long description for Product 30. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 30",
+    "SEOdescription": "SEO description for Product 30",
+    "SEOkeywords": "keyword30, example, product, 30",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898686959-0-bXyb7cPcPAbKOtde0IYiyjxFB5KLkW.jpeg",
+    "__v": 0,
+
+    "id": "66fda4439f4dfd0003337664"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897952885-0-MMmATs2Ad3kfArHyX9b9kGbO2xqFkv.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897953971-0-3w42lfPmHDfx5oGBSOkzGMjW6oP38m.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897955010-0-kINCRxSuyzZe3vDcTSYUueJu4sUMrW.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:09:35.436Z",
+    "category": ["giftcards"],
+    "_id": "66fda164a64e3a0003cb62af",
+    "name": "Product 25",
+    "price": 200,
+    "shortDescription": "Short description for Product 25",
+    "stock": 25,
+    "longDescription": "Long description for Product 25. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 25",
+    "SEOdescription": "SEO description for Product 12",
+    "SEOkeywords": "keyword12, example, product, 12",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727897952885-0-MMmATs2Ad3kfArHyX9b9kGbO2xqFkv.jpeg",
+    "__v": 0,
+
+    "id": "66fda164a64e3a0003cb62af"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898079920-0-fNwuTnNXpBHI6BwMBJzct05FTP3WRd.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898080865-0-bpQK0GNVIDtC23NMwSTmmL3Q3L1tJQ.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898081802-0-R4Z7xZ26wXI2Kya5ZQzxttc1ENTdU2.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:09:35.436Z",
+    "category": ["giftcards"],
+    "_id": "66fda1e2a64e3a0003cb62c5",
+    "name": "Product 26",
+    "price": 150,
+    "shortDescription": "Short description for Product 26",
+    "stock": 25,
+    "longDescription": "Long description for Product 26. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 26",
+    "SEOdescription": "SEO description for Product 26",
+    "SEOkeywords": "keyword26, example, product, 26",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898079920-0-fNwuTnNXpBHI6BwMBJzct05FTP3WRd.jpeg",
+    "__v": 0,
+
+    "id": "66fda1e2a64e3a0003cb62c5"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898231277-0-rJCAEF4mH45r8SdmPVoouangLwSrO4.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898232806-0-L7dpCTfNiRo53OkvRFL0lL2eVhAW3i.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898233957-0-X0zaxIkDqNsr3i4WYWJciS7JRJXcfq.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:09:35.436Z",
+    "category": ["giftcards"],
+    "_id": "66fda27aa64e3a0003cb62df",
+    "name": "Product 27",
+    "price": 60,
+    "shortDescription": "Short description for Product 27",
+    "stock": 18,
+    "longDescription": "Long description for Product 27. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 27",
+    "SEOdescription": "SEO description for Product 27",
+    "SEOkeywords": "keyword27, example, product, 27",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898231277-0-rJCAEF4mH45r8SdmPVoouangLwSrO4.jpeg",
+    "__v": 0,
+
+    "id": "66fda27aa64e3a0003cb62df"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898396523-0-is1RaviFY6ejUMBDGQBZUk4CZdxsA0.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898397462-0-M9lRrUSI1hnfyj9lAVxyjTdkK6vTDG.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898398516-0-Uq0VJ4uFUtlq94q4MkKweBwdQkzRBn.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:09:35.436Z",
+    "category": ["giftcards", "popular"],
+    "_id": "66fda31fa64e3a0003cb62f8",
+    "name": "Product 28",
+    "price": 50,
+    "shortDescription": "Short description for Product 28",
+    "stock": 18,
+    "longDescription": "Long description for Product 28. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 28",
+    "SEOdescription": "SEO description for Product 28",
+    "SEOkeywords": "keyword28, example, product, 28",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727898396523-0-is1RaviFY6ejUMBDGQBZUk4CZdxsA0.jpeg",
+    "__v": 0,
+
+    "id": "66fda31fa64e3a0003cb62f8"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899074230-0-PnzzegbKUqMyUav3mdgolQ3fGQ4MMG.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899075119-0-wTAXPN7OhbP3TOH7tl5REnxjggtMWv.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899076729-0-GE9ZVA83lcBq12FhNuGYY9RVrYfo3d.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:09:35.436Z",
+    "category": ["decor"],
+    "_id": "66fda5c5a64e3a0003cb6317",
+    "name": "Product 31",
+    "price": 50,
+    "shortDescription": "Short description for Product 31",
+    "stock": 18,
+    "longDescription": "Long description for Product 31. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 31",
+    "SEOdescription": "SEO description for Product 31",
+    "SEOkeywords": "keyword12, example, product, 31",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899074230-0-PnzzegbKUqMyUav3mdgolQ3fGQ4MMG.jpeg",
+    "__v": 0,
+
+    "id": "66fda5c5a64e3a0003cb6317"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899350251-0-8CrXKUuYKQVW1vAPTgfz2REnlgYeB1.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899351556-0-lHqQK5BBTXuic4k2cU03FKSYhm6Vdw.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899352878-0-23ii2w7ZIzkZkvWMjJ1OibYU1ojgeW.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:09:35.436Z",
+    "category": ["decor"],
+    "_id": "66fda6daa64e3a0003cb632c",
+    "name": "Product 35",
+    "price": 50,
+    "shortDescription": "Short description for Product 35",
+    "stock": 50,
+    "longDescription": "Long description for Product 30. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 35",
+    "SEOdescription": "SEO description for Product 35",
+    "SEOkeywords": "keyword35, example, product, 35",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899350251-0-8CrXKUuYKQVW1vAPTgfz2REnlgYeB1.jpeg",
+    "__v": 0,
+
+    "id": "66fda6daa64e3a0003cb632c"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899410609-0-Vv0yHhTFiOwGkvVvnCyWVw0I0tQl5E.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899411935-0-TTePSrGluRSw2erujFPLMpWXPLOOJF.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899413625-0-YnFeD0z6ZqM4KsvVeBXqIxLzRIa4oR.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:09:35.436Z",
+    "category": ["decor"],
+    "_id": "66fda717a64e3a0003cb6341",
+    "name": "Product 36",
+    "price": 50,
+    "shortDescription": "Short description for Product 36",
+    "stock": 18,
+    "longDescription": "Long description for Product 36. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 36",
+    "SEOdescription": "SEO description for Product 36",
+    "SEOkeywords": "keyword36, example, product, 36",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727899410609-0-Vv0yHhTFiOwGkvVvnCyWVw0I0tQl5E.jpeg",
+    "__v": 0,
+
+    "id": "66fda717a64e3a0003cb6341"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900403112-0-yawhUWGj98lt31ZtFQQRgYbECzNiGj.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900404327-0-8N2r6KE1aMlZ36v1Cm4P5uDjR3qtX4.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900405430-0-2n7lvLIr20WWmuw3XR4YrlnhElV4Ri.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:09:35.436Z",
+    "category": ["bedding"],
+    "_id": "66fdaaf6a64e3a0003cb636b",
+    "name": "Product 45",
+    "price": 250,
+    "shortDescription": "Short description for Product 45",
     "stock": 55,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 45",
+    "SEOdescription": "SEO description for Product 45",
+    "SEOkeywords": "keyword45, example, product, 45",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900403112-0-yawhUWGj98lt31ZtFQQRgYbECzNiGj.jpeg",
+    "__v": 0,
+
+    "id": "66fdaaf6a64e3a0003cb636b"
   },
   {
-    "_id": "66d5fbfe2ee0970dd4a5a863",
-    "name": "kangan",
-    "price": 90,
-    "imageCover": "/images/kangan-img2.png",
-    "images": ["/images/kangan-img2.png", "/images/88.png", "/images/99.png"],
-    "shortDescription": "This is a short description of the product.",
-    "stock": 56,
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolorum voluptatum quasi consequuntur, omnis libero laudantium ipsam adipisci, eligendi recusandae earum sapiente. Necessitatibus eaque cum provident fugit nostrum accusamus laudantium, fuga ab, suscipit optio, iure minima non molestiae veritatis nam fugiat eos officia. Quisquam ratione, dolores doloribus modi explicabo voluptatum asperiores unde ab doloremque cupiditate impedit, distinctio, nobis aperiam illo perferendis a? Praesentium voluptatum voluptates facilis vitae. Ab maxime recusandae fuga impedit reprehenderit ullam magni doloremque dolorem suscipit. Blanditiis reiciendis animi, illo, dolores sint necessitatibus nihil architecto deserunt quasi cupiditate consequuntur. Repellat cumque minima deleniti culpa ipsum beatae obcaecati consectetur suscipit magni dolore distinctio quis officia vel sed modi ipsa tenetur quisquam commodi, eligendi minus? Aut nobis quaerat ratione."
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900480196-0-lhgcEZLdvQZ70Qp2vOfo9iNnQF6wsH.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900481452-0-Qc68zWIgV1KWuqsB2JO7V90KBdvAaA.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900482764-0-yO729nKWHqRrROAD6ZXgYLw63TfPvN.jpeg"
+    ],
+    "createdAt": "2024-10-02T19:09:35.436Z",
+    "category": ["bedding"],
+    "_id": "66fdab43a64e3a0003cb6383",
+    "name": "Product 46",
+    "price": 350,
+    "shortDescription": "Short description for Product 46",
+    "stock": 18,
+    "longDescription": "Long description for Product 41. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 46",
+    "SEOdescription": "SEO description for Product 46",
+    "SEOkeywords": "keyword46, example, product, 46",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727900480196-0-lhgcEZLdvQZ70Qp2vOfo9iNnQF6wsH.jpeg",
+    "__v": 0,
+
+    "id": "66fdab43a64e3a0003cb6383"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823320348-0-h9W0VjXNYIfxvVfBoP0Z4Isp84poGD.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823321304-0-0dvctqaf8ArxM2KLrU9Y1O86o6QZsq.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823322711-0-uuBOa2EKrXf9cTlY2ROvySQ8L5ylyu.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:54:42.292Z",
+    "category": ["mens"],
+    "_id": "66fc7ddb93845a0003a97a6e",
+    "name": "Product 12",
+    "price": 340,
+    "shortDescription": "Short description for Product 12",
+    "stock": 18,
+    "longDescription": "Long description for Product 12. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 12",
+    "SEOdescription": "SEO description for Product 12",
+    "SEOkeywords": "keyword12, example, product, 12",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823320348-0-h9W0VjXNYIfxvVfBoP0Z4Isp84poGD.jpeg",
+    "__v": 0,
+
+    "id": "66fc7ddb93845a0003a97a6e"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823381944-0-085nZmJw9QllqYM4o7CvXnFkFnJxzK.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823383014-0-M6VpKFgsWqY4QqZN0rnuzd2vYb34Is.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823383923-0-eFt5v2HY1zv1TmUOuYvMRzttdEKQeb.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:54:42.292Z",
+    "category": ["mens", "popular"],
+    "_id": "66fc7e1893845a0003a97a83",
+    "name": "Product 13",
+    "price": 300,
+    "shortDescription": "Short description for Product 13",
+    "stock": 36,
+    "longDescription": "Long description for Product 13. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 13",
+    "SEOdescription": "SEO description for Product 13",
+    "SEOkeywords": "keyword13, example, product, 13",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823381944-0-085nZmJw9QllqYM4o7CvXnFkFnJxzK.jpeg",
+    "__v": 0,
+
+    "id": "66fc7e1893845a0003a97a83"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823789015-0-Y2o0mxyx1nfUcBfPr1WVGpKIproifX.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823790156-0-Ei5L2lTd4qcF8faNG6aA2EuNmyFyae.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823791589-0-zaa0JzmxguUdMJJaPUHPUeOoDRIVao.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:54:42.292Z",
+    "category": ["mens"],
+    "_id": "66fc7fb093845a0003a97aac",
+    "name": "Product 17",
+    "price": 200,
+    "shortDescription": "Short description for Product 17",
+    "stock": 77,
+    "longDescription": "Long description for Product 17. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 17",
+    "SEOdescription": "SEO description for Product 17",
+    "SEOkeywords": "keyword17, example, product, 17",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823789015-0-Y2o0mxyx1nfUcBfPr1WVGpKIproifX.jpeg",
+    "__v": 0,
+
+    "id": "66fc7fb093845a0003a97aac"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823847949-0-K6njQiVgX15gQuQGZDMBCvOBbXL55D.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823848960-0-jG1KMq8Yr2ahdwvoM74Z0EoK1NzPIk.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823850028-0-U3IPS4P1PLSIGLC59SjUU5t9S2licu.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:54:42.292Z",
+    "category": ["mens"],
+    "_id": "66fc7feb93845a0003a97ac1",
+    "name": "Product 18",
+    "price": 250,
+    "shortDescription": "Short description for Product 18",
+    "stock": 88,
+    "longDescription": "Long description for Product 18. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 18",
+    "SEOdescription": "SEO description for Product 18",
+    "SEOkeywords": "keyword18, example, product, 18",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823847949-0-K6njQiVgX15gQuQGZDMBCvOBbXL55D.jpeg",
+    "__v": 0,
+
+    "id": "66fc7feb93845a0003a97ac1"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823930665-0-o4r5c1ofTnzX9nZ46treHIu0HpC03P.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823931961-0-N0lY6Y5uKMmHIVIO60ZuiMHMOB8anl.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823932878-0-P7SaNe5G2SstkJF4m4gOdjQqD4I41j.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:54:42.292Z",
+    "category": ["mens"],
+    "_id": "66fc803d93845a0003a97ad6",
+    "name": "Product 19",
+    "price": 95,
+    "shortDescription": "Short description for Product 19",
+    "stock": 97,
+    "longDescription": "Long description for Product 19. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 19",
+    "SEOdescription": "SEO description for Product 19",
+    "SEOkeywords": "keyword19, example, product, 19",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823930665-0-o4r5c1ofTnzX9nZ46treHIu0HpC03P.jpeg",
+    "__v": 0,
+
+    "id": "66fc803d93845a0003a97ad6"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823988424-0-VOtNaPUA3PhP01RDOO2WOeXlEpLKaI.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823989672-0-8wdyAqn4VslEVjxTciT6fOzPC9xNwt.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823990586-0-XBvmBMbzOTw8Phl7coCvg56XPYXRyR.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:54:42.292Z",
+    "category": ["mens"],
+    "_id": "66fc807793845a0003a97aeb",
+    "name": "Product 20",
+    "price": 58,
+    "shortDescription": "Short description for Product 20",
+    "stock": 20,
+    "longDescription": "Long description for Product 20. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 20",
+    "SEOdescription": "SEO description for Product 20",
+    "SEOkeywords": "keyword20, example, product, 20",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823988424-0-VOtNaPUA3PhP01RDOO2WOeXlEpLKaI.jpeg",
+    "__v": 0,
+
+    "id": "66fc807793845a0003a97aeb"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-66fc7748cdb0d9000377c65e-1727821747066-0-AeeB533iLHRIoY5eswtcNlJlL3LdAQ.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-66fc7748cdb0d9000377c65e-1727821766993-0-oyfYNqw3rLNlmba7F0xlLRepD04doP.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-66fc7748cdb0d9000377c65e-1727821768307-0-qMDNAkKnHv4CP3TwNsaztMywtoT3KL.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:21:34.449Z",
+    "category": ["gaming"],
+    "_id": "66fc7748cdb0d9000377c65e",
+    "name": "Product 1",
+    "price": 355,
+    "shortDescription": "Short description for Product 1.",
+    "stock": 30,
+    "longDescription": "Long description for Product 1. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 1",
+    "SEOdescription": "SEO description for Product 1",
+    "SEOkeywords": "keyword1, example, product, 1",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-66fc7748cdb0d9000377c65e-1727821747066-0-AeeB533iLHRIoY5eswtcNlJlL3LdAQ.jpeg",
+    "__v": 0,
+
+    "id": "66fc7748cdb0d9000377c65e"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822168545-0-A97LP5aBzo9Un70tKhEZqALVAP97rE.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822169356-0-1T31oDU03N6pc6dHCJO4hDczqMD7nr.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822170194-0-tNmcaxLz10zZRtIqKCtCDI4Syxo7ll.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:21:34.449Z",
+    "category": ["gaming"],
+    "_id": "66fc795acdb0d9000377c67b",
+    "name": "Product 5",
+    "price": 485,
+    "shortDescription": "Short description for Product 5.",
+    "stock": 57,
+    "longDescription": "Long description for Product 5. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 5",
+    "SEOdescription": "SEO description for Product 5",
+    "SEOkeywords": "keyword5, example, product, 5",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822168545-0-A97LP5aBzo9Un70tKhEZqALVAP97rE.jpeg",
+    "__v": 0,
+
+    "id": "66fc795acdb0d9000377c67b"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822306313-0-OUSNP2NNvnopqtzaDwD3LwfyoqK5CX.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822307366-0-3hgK06QFlAf4KqjuwgOhqmupWT8Ys4.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822308407-0-VNXaTEFoGDrZWzJJhb0FSMaMkqysIl.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:21:34.449Z",
+    "category": ["gaming"],
+    "_id": "66fc79e5cdb0d9000377c699",
+    "name": "Product 7",
+    "price": 368,
+    "shortDescription": "Short description for Product 7.",
+    "stock": 54,
+    "longDescription": "Long description for Product 7. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 7",
+    "SEOdescription": "SEO description for Product 7",
+    "SEOkeywords": "keyword7, example, product, 7",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822306313-0-OUSNP2NNvnopqtzaDwD3LwfyoqK5CX.jpeg",
+    "__v": 0,
+
+    "id": "66fc79e5cdb0d9000377c699"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822464084-0-YcCaqQ2S1mjtjKKBS7eflCkRKpbIX4.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822465488-0-cudT6cZtRjgIJHa5PctpxnWJJhFNEy.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822466741-0-kkitFQg8ZBHZ4BJo9XJ0OZEwRAPTBL.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:21:34.449Z",
+    "category": ["gaming", "popular"],
+    "_id": "66fc7a84cdb0d9000377c6b5",
+    "name": "Product 8",
+    "price": 130,
+    "shortDescription": "Short description for Product 8.",
+    "stock": 83,
+    "longDescription": "Long description for Product 3. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 8",
+    "SEOdescription": "SEO description for Product 8",
+    "SEOkeywords": "keyword8, example, product, 8",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822464084-0-YcCaqQ2S1mjtjKKBS7eflCkRKpbIX4.jpeg",
+    "__v": 0,
+
+    "id": "66fc7a84cdb0d9000377c6b5"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822619765-0-0y3neT3CyMuY5PDyHG5nzBKEURybou.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822620968-0-pWRK9grRwhlaJqC2s2nULgr83UaDgl.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822622199-0-cBpZ9a2Qe4FX3itOyCv71QdKNq9R8D.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:21:34.449Z",
+    "category": ["gaming"],
+    "_id": "66fc7b1fcdb0d9000377c6d3",
+    "name": "Product 9",
+    "price": 485,
+    "shortDescription": "Short description for Product 9",
+    "stock": 35,
+    "longDescription": "Long description for Product 3. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 9",
+    "SEOdescription": "SEO description for Product 9",
+    "SEOkeywords": "keyword9, example, product, 9",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822619765-0-0y3neT3CyMuY5PDyHG5nzBKEURybou.jpeg",
+    "__v": 0,
+
+    "id": "66fc7b1fcdb0d9000377c6d3"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823462538-0-3mJj7PhYRaEnivbFQSKkl51MGjhiA4.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823464222-0-tip3Ch7wOkMtUiGJs1GjFUut351rsm.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823465535-0-tvBVN2OLZWOFNj6Z2tLbEY7wJNOU2r.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:21:34.449Z",
+    "category": ["mens"],
+    "_id": "66fc7e6acdb0d9000377c6f4",
+    "name": "Product 14",
+    "price": 250,
+    "shortDescription": "Short description for Product 14",
+    "stock": 45,
+    "longDescription": "Long description for Product 14. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 14",
+    "SEOdescription": "SEO description for Product 14",
+    "SEOkeywords": "keyword14, example, product, 14",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823462538-0-3mJj7PhYRaEnivbFQSKkl51MGjhiA4.jpeg",
+    "__v": 0,
+
+    "id": "66fc7e6acdb0d9000377c6f4"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823526058-0-HMvXYd3i65xhQT9iR6lwVGzMY8Ywap.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823527172-0-6HvWKRqLhS7DyXHNsvN9Z5HVpAFfLr.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823528088-0-azcFd88RW20NdZUOVy5G9uRxGmKWl2.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:21:34.449Z",
+    "category": ["mens"],
+    "_id": "66fc7ea9cdb0d9000377c709",
+    "name": "Product 15",
+    "price": 260,
+    "shortDescription": "Short description for Product 15",
+    "stock": 58,
+    "longDescription": "Long description for Product 15. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 15",
+    "SEOdescription": "SEO description for Product 15",
+    "SEOkeywords": "keyword15, example, product, 15",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823526058-0-HMvXYd3i65xhQT9iR6lwVGzMY8Ywap.jpeg",
+    "__v": 0,
+
+    "id": "66fc7ea9cdb0d9000377c709"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823703662-0-LS9fhnn7jo0R8vcGJkzbEhNduYbTab.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823704923-0-Vqp05ClQG5epLxga6yVKLuBl2e4chd.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823706121-0-aoUc7owKplUW5QPvfuSQWTK8n0cEx1.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:21:34.449Z",
+    "category": ["mens"],
+    "_id": "66fc7f5bcdb0d9000377c72f",
+    "name": "Product 16",
+    "price": 240,
+    "shortDescription": "Short description for Product 16",
+    "stock": 66,
+    "longDescription": "Long description for Product 16. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 16",
+    "SEOdescription": "SEO description for Product 16",
+    "SEOkeywords": "keyword16, example, product, 16",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823703662-0-LS9fhnn7jo0R8vcGJkzbEhNduYbTab.jpeg",
+    "__v": 0,
+
+    "id": "66fc7f5bcdb0d9000377c72f"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822098160-0-kxXkBErbbn6av1vUFPBpaqQMvEH6uR.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822099196-0-wQiWMWGVMvlhe4cluK68U1f3XbGWPi.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822100154-0-VaeRtgtlWbFKlU2hW0XetBkG8Xvhq1.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:21:34.400Z",
+    "category": ["gaming"],
+    "_id": "66fc79158b928d0003e57df3",
+    "name": "Product 4",
+    "price": 326,
+    "shortDescription": "Short description for Product 4.",
+    "stock": 46,
+    "longDescription": "Long description for Product 4. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 4",
+    "SEOdescription": "SEO description for Product 4",
+    "SEOkeywords": "keyword4, example, product, 4",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822098160-0-kxXkBErbbn6av1vUFPBpaqQMvEH6uR.jpeg",
+    "__v": 0,
+
+    "id": "66fc79158b928d0003e57df3"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727821857400-0-tTjyawdFdzHKxb6q7CBJZaBTMvTuPG.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727821858274-0-mdX90tiuOKrlYJKllKhE7AkkX4CUw8.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727821859176-0-7QTqPo1WOWBblRu3jzcctGT2JDNdAh.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:21:34.370Z",
+    "category": ["gaming"],
+    "_id": "66fc7824a5c1980003caeafc",
+    "name": "Product 2",
+    "price": 145,
+    "shortDescription": "Short description for Product 2.",
+    "stock": 23,
+    "longDescription": "Long description for Product 2. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 2",
+    "SEOdescription": "SEO description for Product 2",
+    "SEOkeywords": "keyword2, example, product, 2",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727821857400-0-tTjyawdFdzHKxb6q7CBJZaBTMvTuPG.jpeg",
+    "__v": 0,
+
+    "id": "66fc7824a5c1980003caeafc"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822033204-0-JXze9LHUmZiXq4Ih0wJwazBQRvyzxp.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822034234-0-jlf1QNL2sYNVfSdEfzGBPnOSZKQExv.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822035977-0-oDir3FP97nAFQVFgBs0Fgt3mDnwLdl.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:21:34.370Z",
+    "category": ["gaming"],
+    "_id": "66fc78d5a5c1980003caeb19",
+    "name": "Product 3",
+    "price": 500,
+    "shortDescription": "Short description for Product 3.",
+    "stock": 13,
+    "longDescription": "Long description for Product 3. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 3",
+    "SEOdescription": "SEO description for Product 3",
+    "SEOkeywords": "keyword3, example, product, 3",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822033204-0-JXze9LHUmZiXq4Ih0wJwazBQRvyzxp.jpeg",
+    "__v": 0,
+
+    "id": "66fc78d5a5c1980003caeb19"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822242230-0-weCiRdTxb4e5k9hdLTIOFSSqxNvuAk.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822243483-0-j0ImKl8rerIEZ7IMM9PWKEM3PcYHIT.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822244754-0-BgWpZxX6Ef3LZHtWgV3nfo71PWVJyI.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:21:34.370Z",
+    "category": ["gaming"],
+    "_id": "66fc79a6a5c1980003caeb38",
+    "name": "Product 6",
+    "price": 500,
+    "shortDescription": "Short description for Product 6",
+    "stock": 69,
+    "longDescription": "Long description for Product 6. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 6",
+    "SEOdescription": "SEO description for Product 6",
+    "SEOkeywords": "keyword6, example, product, 6",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822242230-0-weCiRdTxb4e5k9hdLTIOFSSqxNvuAk.jpeg",
+    "__v": 0,
+
+    "id": "66fc79a6a5c1980003caeb38"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822706605-0-2B98wCzfMkspYlVKAYlQCgBxjWXteR.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822708250-0-vEroRz4nhraASpJmpzxRPhCyKZ2wIY.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822709640-0-SHjZuJJNUW14N4HB9RiLAHKlko4zgY.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:21:34.370Z",
+    "category": ["gaming"],
+    "_id": "66fc7b77a5c1980003caeb56",
+    "name": "Product 10",
+    "price": 244,
+    "shortDescription": "Short description for Product 10.",
+    "stock": 15,
+    "longDescription": "Long description for Product 10. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 10",
+    "SEOdescription": "SEO description for Product 10",
+    "SEOkeywords": "keyword10, example, product, 10",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727822706605-0-2B98wCzfMkspYlVKAYlQCgBxjWXteR.jpeg",
+    "__v": 0,
+
+    "id": "66fc7b77a5c1980003caeb56"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823120737-0-1wAn6dc3UL9JUgMUJ32smrZ5L4scL7.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823121587-0-0EqGrPPzT0iiwoUk1M8HAIz9B9naMf.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823122742-0-tneGU28EoR60Jrzk55gJoCKtwYeYJS.jpeg"
+    ],
+    "createdAt": "2024-10-01T22:21:34.370Z",
+    "category": ["mens"],
+    "_id": "66fc7d13a5c1980003caeb76",
+    "name": "Product 11",
+    "price": 350,
+    "shortDescription": "Short description for Product 11",
+    "stock": 50,
+    "longDescription": "Long description for Product 11. This is a more detailed explanation of the product.",
+    "SEOtitle": "SEO Title for Product 11",
+    "SEOdescription": "SEO description for Product 11",
+    "SEOkeywords": "keyword11, example, product, 11",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727823120737-0-1wAn6dc3UL9JUgMUJ32smrZ5L4scL7.jpeg",
+    "__v": 0,
+
+    "id": "66fc7d13a5c1980003caeb76"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727819097842-0-BapEPjIUfHRMwcIzjFKKzumhzIC78c.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727819099082-0-OLW5U5SvHvKmp3lvcwGHBIMMiMUGS3.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727819100333-0-5oYcmTvklDHS3MX27x5Yi7VTHmWv5t.jpeg"
+    ],
+    "createdAt": "2024-10-01T21:40:47.387Z",
+    "category": ["electronics"],
+    "_id": "66fc6d5d2ac4370003d72047",
+    "name": "SAMSUNG Galaxy S24 Ultra Cell Phone",
+    "price": 49,
+    "shortDescription": "Long Battery Life",
+    "stock": 40,
+    "longDescription": "CIRCLE & SEARCH¹ IN A SNAP: What’s your favorite influencer wearing? Where’d they go on vacation? What’s that word mean? Don’t try to describe it — use Circle to Search1 with Google to get the answer; With S24 Series, circle it on your screen and learn more",
+    "SEOtitle": "CIRCLE & SEARCH¹ IN A SNAP",
+    "SEOdescription": " SAMSUNG Galaxy S24 Ultra Cell Phone",
+    "SEOkeywords": " SAMSUNG Galaxy S24 Ultra Cell Phone",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727819097842-0-BapEPjIUfHRMwcIzjFKKzumhzIC78c.jpeg",
+    "__v": 0,
+
+    "id": "66fc6d5d2ac4370003d72047"
+  },
+  {
+    "properties": { "colorsAndSize": [], "sizes": [], "colors": [] },
+
+    "images": [
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727814580242-0-HVHCOlZbQsAL2lEj0xNAkhpNlbeCYA.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727814581711-0-V1nZUqgjAIY1J87SrntufcZHgUTDDE.jpeg",
+      "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727814583266-0-RnP8Z4QRJARox4MoAVibiF7a9myXqU.jpeg"
+    ],
+    "createdAt": "2024-10-01T20:12:53.526Z",
+    "category": ["Electronics", "popular"],
+    "_id": "66fc5bb895ad63000350deb9",
+    "name": "14 inch Laptop Win 11 PC 6GB",
+    "price": 289,
+    "shortDescription": "Hp Laptop",
+    "stock": 50,
+    "longDescription": "Powerful Productivity: This 14-inch Win laptop is equipped with Celeron N4020 DUAL-CORE processor performance Up to 2.8Ghz. Run multiple apps and browser tabs and videos smoothly, ensuring faster multitasking and enjoying immersive entertainment, work and study",
+    "SEOtitle": "14 inch Laptop Win 11 PC 6GB DDR4 256GB SSD",
+    "SEOdescription": "Laptop",
+    "SEOkeywords": "Laptop ecommerce hp",
+    "imageCover": "https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/item-undefined-1727814580242-0-HVHCOlZbQsAL2lEj0xNAkhpNlbeCYA.jpeg",
+    "__v": 0,
+
+    "id": "66fc5bb895ad63000350deb9"
   }
 ]

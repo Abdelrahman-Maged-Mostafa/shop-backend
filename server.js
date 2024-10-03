@@ -21,6 +21,7 @@ mongoose
 // .catch(() => console.log('Error'));
 const app = require('./app');
 // console.log(process.env);
+
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => console.log(`app running on port ${port}`));
 //handel all error when you devolep like wrongf password from mongoDB

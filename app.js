@@ -19,6 +19,7 @@ const viewRouter = require('./routes/viewRouters');
 const orderRouter = require('./routes/orderRouter');
 const optionRouter = require('./routes/optionRouter');
 const ticketRouter = require('./routes/ticketRouter');
+const { deleteData, importData } = require('./dev-data/data/import-Dev-Data');
 
 const app = express();
 /////
@@ -121,5 +122,11 @@ app.all('*', (req, res, next) => {
 });
 
 app.use(middlewareError);
+//Function Set data
+const refreshData = async () => {
+  await deleteData();
+  await importData();
+};
+setInterval(refreshData, 3 * 60 * 1000); // 3 minutes in milliseconds
 
 module.exports = app;
