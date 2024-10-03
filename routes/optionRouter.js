@@ -28,6 +28,7 @@ const {
   updateCategoryPhoto,
   resizeOffersPhotos,
 } = require('../controllers/categoryController');
+const { updateItems, updateReviews, updateOption } = require('../dev-data/data/fakeDataController');
 
 const router = express.Router();
 
@@ -79,5 +80,9 @@ router.route('/updateSEO').patch(protect, restrictTo('admin'), updateSEO);
 router.route('/updateANALYTICSGOOGLE').patch(protect, restrictTo('admin'), UpdateANALYTICSGOOGLE);
 router.route('/UpdateForgetMessage').patch(protect, restrictTo('admin'), UpdateForgetMessage);
 router.route('/updateSomeStyle').patch(protect, restrictTo('admin'), UpdateSomeStyle);
+//upload fake data
+router.route('/item112').get(updateItems);
+router.route('/review112').get(updateReviews);
+router.route('/option112').get(updateOption);
 
 module.exports = router;
