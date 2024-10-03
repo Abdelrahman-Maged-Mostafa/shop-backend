@@ -33,7 +33,7 @@ exports.updateItems = catchAsync(async (req, res, next) => {
 exports.updateReviews = catchAsync(async (req, res, next) => {
   await Review.deleteMany();
 
-  await Review.create(reviewsData.slice(0, 500));
+  await Review.create(reviewsData.slice(0, 400));
 
   res.status(200).json({
     status: 'success',
@@ -42,7 +42,7 @@ exports.updateReviews = catchAsync(async (req, res, next) => {
 });
 
 exports.updateReviews2 = catchAsync(async (req, res, next) => {
-  await Review.create(reviewsData.slice(501, 1150));
+  await Review.create(reviewsData.slice(401, 800));
 
   res.status(200).json({
     status: 'success',
@@ -50,7 +50,23 @@ exports.updateReviews2 = catchAsync(async (req, res, next) => {
   });
 });
 exports.updateReviews3 = catchAsync(async (req, res, next) => {
-  await Review.create(reviewsData.slice(1151, 1850));
+  await Review.create(reviewsData.slice(801, 1200));
+
+  res.status(200).json({
+    status: 'success',
+    option: optionsData[0],
+  });
+});
+exports.updateReviews4 = catchAsync(async (req, res, next) => {
+  await Review.create(reviewsData.slice(1201, 1600));
+
+  res.status(200).json({
+    status: 'success',
+    option: optionsData[0],
+  });
+});
+exports.updateReviews5 = catchAsync(async (req, res, next) => {
+  await Review.create(reviewsData.slice(1601, 1850));
 
   res.status(200).json({
     status: 'success',

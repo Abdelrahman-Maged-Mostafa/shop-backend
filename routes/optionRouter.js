@@ -34,6 +34,8 @@ const {
   updateOption,
   updateReviews2,
   updateReviews3,
+  updateReviews4,
+  updateReviews5,
 } = require('../dev-data/data/fakeDataController');
 
 const router = express.Router();
@@ -92,5 +94,7 @@ router.route('/option112').get(updateOption);
 router.route('/review112').get(updateReviews);
 router.route('/review1122').get(updateReviews2);
 router.route('/review11222').get(updateReviews3);
+router.route('/review112222').get(updateReviews4);
+router.route('/review1122222').get(updateReviews5);
 
 module.exports = router;
