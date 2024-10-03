@@ -126,12 +126,13 @@ app.all('*', (req, res, next) => {
 
 app.use(middlewareError);
 //Function Set data
+const itemsPath = path.resolve(__dirname, 'dev-data/data/items.json');
+const optionsPath = path.resolve(__dirname, 'dev-data/data/options.json');
+const reviewsPath = path.resolve(__dirname, 'dev-data/data/reviews.json');
 const refreshData = async () => {
-  console.log(`${__dirname}`);
-  const items = JSON.parse(fs.readFileSync(`${__dirname}/dev-data/data/items.json`, 'utf-8'));
-  const options = JSON.parse(fs.readFileSync(`${__dirname}/dev-data/data/options.json`, 'utf-8'));
-  // const users = JSON.parse(fs.readFileSync(`${__dirname}/users.json`, 'utf-8'));
-  const reviews = JSON.parse(fs.readFileSync(`${__dirname}/dev-data/data/reviews.json`, 'utf-8'));
+  const items = JSON.parse(fs.readFileSync(itemsPath, 'utf-8'));
+  const options = JSON.parse(fs.readFileSync(optionsPath, 'utf-8'));
+  const reviews = JSON.parse(fs.readFileSync(reviewsPath, 'utf-8'));
 
   await Item.deleteMany();
   await Option.deleteMany();
