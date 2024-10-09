@@ -164,4 +164,5 @@ exports.defaultOption = {
   forgetMessage: { address: 'Shop Inc, elsa3d coffe, Alamyrya CA 99999', shopName: 'Easy shop' },
   headerStyle: 'style2',
   dashboardStyle: 'style4',
+  icon: 'https://mmf6dud764kfnihq.public.blob.vercel-storage.com/public/img/items/logo-0.5269059865973298-1727689933666-HewAmVgE0YkgF494L5E4x9m4VBTwwS.png',
 };
